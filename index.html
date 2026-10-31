@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Who Lives Like This? 📐</title><link rel="icon" href="data:,">
+<meta name="description" content="Real measured floor plans. Read the rooms. Guess who lived there.">
+<meta property="og:title" content="Who Lives Like This? 📐"><meta property="og:description" content="Real floor plans, names redacted. Read the rooms, guess the occupant.">
+<style>
+:root{--bp:#163a6e;--bp2:#0e2a52;--ln:#eef4fc;--cy:#7fd3ff;--ylw:#ffd84a;--grn:#3ee08f;--red:#ff5a6e}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{background:var(--bp2);background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:24px 24px;color:var(--ln);font-family:"Courier New",ui-monospace,Menlo,monospace;display:flex;justify-content:center;overflow-x:hidden}
+.app{width:100%;max-width:560px;min-height:100%;display:flex;flex-direction:column;padding:12px 14px calc(14px + env(safe-area-inset-bottom));gap:12px}
+.top{display:flex;justify-content:space-between;align-items:center;font-weight:900;letter-spacing:1px}
+.logo{font-size:17px;border:2px solid var(--ln);padding:3px 8px}.logo b{color:var(--cy)}
+.pill{border:2px solid #ffffff55;border-radius:3px;padding:5px 10px;font-weight:900;font-size:14px}
+.bar{height:4px;background:#ffffff22;overflow:hidden}.bar>div{height:100%;background:var(--cy);width:0;transition:width .3s}
+.shot{position:relative;overflow:hidden;background:var(--bp);border:2px solid var(--ln);box-shadow:6px 6px 0 #0006;flex:none}
+.vp{position:relative;overflow:hidden;background:var(--bp);aspect-ratio:1/1;touch-action:pan-y;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.vp.zoomed{touch-action:none}
+.vp img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:contain;object-position:center;display:block;transform-origin:0 0;will-change:transform;-webkit-user-drag:none;cursor:zoom-in}
+.stamp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-10deg) scale(3);opacity:0;border:5px double currentColor;padding:4px 16px;font-size:clamp(28px,8vw,56px);font-weight:900;letter-spacing:3px;background:#0e2a52e6;white-space:nowrap;pointer-events:none}
+.stamp.on{animation:slam .35s cubic-bezier(.2,1.6,.4,1) forwards}
+@keyframes slam{to{transform:translate(-50%,-50%) rotate(-10deg) scale(1);opacity:1}}
+.btns{display:grid;grid-template-columns:1fr;gap:9px}
+button{font-family:inherit;font-weight:900;border:2px solid var(--ln);cursor:pointer;color:var(--ln);background:var(--bp);border-radius:4px;font-size:16px;padding:12px 10px;letter-spacing:.3px;box-shadow:4px 4px 0 #0008;transition:transform .08s;text-align:left;display:flex;align-items:center;gap:10px;line-height:1.15}
+button .k{flex:none;width:28px;height:28px;border:2px solid var(--cy);color:var(--cy);display:flex;align-items:center;justify-content:center;font-size:15px}
+button:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #0008}
+button[disabled]{opacity:.45}
+button.right{opacity:1;border-color:var(--grn);background:#13492f}button.right .k{border-color:var(--grn);color:var(--grn)}
+button.wrong{opacity:1;border-color:var(--red);background:#4a1622}
+.rev{display:none;text-align:center;gap:6px;flex-direction:column;align-items:center}
+.rev.on{display:flex}
+.verdict{font-size:clamp(30px,9vw,52px);font-weight:900;line-height:1;letter-spacing:2px}
+.verdict.ok{color:var(--grn)}.verdict.no{color:var(--red)}
+.ans{font-size:17px;font-weight:900;color:var(--cy)}
+.fact{font-family:system-ui,sans-serif;font-weight:600;font-size:15px;color:#dbe7f7;max-width:460px;line-height:1.35}
+.src{font-family:system-ui;font-size:11px;color:#9fb3cf;max-width:460px}.src a{color:#b9cbe4}
+.next{background:var(--ln);color:var(--bp2);width:100%;margin-top:6px;font-size:22px;padding:14px;justify-content:center;text-align:center}
+.toast{font-size:16px;font-weight:900;color:var(--ylw);min-height:20px;text-align:center}
+.screen{display:none;flex-direction:column;gap:16px;align-items:center;text-align:center;justify-content:center;flex:1}
+.screen.on{display:flex}
+.big{font-size:clamp(46px,14vw,90px);font-weight:900;line-height:.95;letter-spacing:1px}.big b{color:var(--cy)}
+.sub{font-family:system-ui;font-weight:600;color:#b9cbe4;font-size:15px;max-width:400px}
+.go{background:var(--ylw);color:#000;border-color:#000;font-size:30px;padding:14px 44px;justify-content:center}
+.score{font-size:88px;font-weight:900;line-height:1}.rank{font-size:26px;font-weight:900;color:var(--ylw)}
+.grid{font-size:24px;letter-spacing:2px}
+.row{display:flex;gap:10px;width:100%}.row button{flex:1;font-size:20px;padding:14px;justify-content:center}
+.share{background:var(--cy);color:#000;border-color:#000}
+.shake{animation:sh .35s}@keyframes sh{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+#game{display:none;flex-direction:column;gap:12px}#game.on{display:flex}
+.foot{font-family:system-ui;font-size:10px;color:#8ea4c4;text-align:center;margin-top:auto}.foot a{color:#b9cbe4}
+.zoom{position:fixed;inset:0;background:#0e2a52;z-index:99;display:none;overscroll-behavior:contain}
+.zoom.on{display:block}
+.zvp{position:absolute;inset:0;overflow:hidden;touch-action:none;-webkit-user-select:none;user-select:none}
+.zvp img{position:absolute;left:0;top:0;max-width:none;height:auto;transform-origin:0 0;will-change:transform;-webkit-user-drag:none;cursor:grab}
+.zoom .x{position:absolute;width:44px;height:44px;padding:0;border-radius:50%;background:#fff;color:#000;display:flex;align-items:center;justify-content:center;line-height:1;box-shadow:0 2px 10px #0008;z-index:2;transition:none;border:0}
+.zoom .x svg{display:block;width:18px;height:18px}
+.ms{display:none}@media (hover:hover) and (pointer:fine){.ms{display:inline}.tch{display:none}}
+.zhint{position:absolute;left:50%;bottom:calc(14px + env(safe-area-inset-bottom));transform:translateX(-50%);color:#fff9;font:700 12px system-ui;pointer-events:none;white-space:nowrap}
+.toast:empty{display:none}
+.hint{position:absolute;bottom:8px;right:8px;z-index:1;background:#0e2a52cc;border:1px solid #ffffff55;color:#fff;font:700 12px system-ui;padding:4px 8px;pointer-events:none}
+@media(max-width:699px){
+.app{min-height:100vh;min-height:100dvh;padding-top:calc(10px + env(safe-area-inset-top));padding-left:calc(14px + env(safe-area-inset-left));padding-right:calc(14px + env(safe-area-inset-right))}
+#game.on{flex:1}
+#game .shot{margin:auto 0}
+#game .vp{width:100%}
+#game .btns{gap:8px}
+#game .btns button{min-height:clamp(50px,8.4dvh,72px);padding:6px 10px;font-size:clamp(14px,4.1vw,17px)}
+#game.done .btns{display:none}
+#game .rev{gap:4px}
+#game .fact{font-size:14px}
+#game .next{margin-top:8px;padding:16px}
+#game .toast{font-size:15px;min-height:0}
+.foot{padding-top:2px}
+}
+@media(min-width:700px){.app{padding-top:28px;gap:16px}}
+@media(min-width:1000px){
+.app{max-width:1300px;padding-left:32px;padding-right:32px}
+#game.on{display:grid;grid-template-columns:minmax(0,1fr) 380px;grid-template-rows:auto auto 1fr;column-gap:28px;row-gap:14px;align-items:start}
+#game .shot{grid-column:1;grid-row:1/4;width:min(100%,calc(100vh - 140px));margin:0 auto}
+#game .btns{grid-column:2;grid-row:1;gap:12px}
+#game .btns button{padding:18px 14px;font-size:19px}
+#game .toast{grid-column:2;grid-row:2}
+#game .rev{grid-column:2;grid-row:3}
+.fact{font-size:17px}
+}
+@media (hover:none),(pointer:coarse){.hk{display:none}}
+.logo,.pill{white-space:nowrap}@media(max-width:420px){.logo{font-size:14px;padding:3px 6px}.pill{font-size:12px;padding:4px 7px}}
+</style></head><body><div class="app">
+<div class="top"><div class="logo">WHO LIVES <b>LIKE THIS?</b></div><div class="pill" id="hud">0/10 · 🔥0</div></div>
+<div class="bar"><div id="prog"></div></div>
+<div class="screen on" id="start">
+ <div class="big">WHO<br>LIVES<br><b>LIKE<br>THIS?</b></div>
+ <div class="sub">Real measured floor plans. Read the rooms, guess the occupant. 10 plans, 3 suspects each.</div>
+ <button class="go" id="goBtn">PLAY</button>
+</div>
+<div id="game">
+ <div class="shot" id="shot"><div class="vp" id="vp"><img id="img" alt="A floor plan" draggable="false"></div><div class="stamp" id="stamp"></div><div class="hint" id="hint"><span class="tch">🔍 tap · pinch</span><span class="ms">🔍 click to zoom</span></div></div>
+ <div class="btns" id="btns">
+  <button id="b0"><span class="k">1</span><span class="t"></span></button>
+  <button id="b1"><span class="k">2</span><span class="t"></span></button>
+  <button id="b2"><span class="k">3</span><span class="t"></span></button>
+ </div>
+ <div class="toast" id="toast"></div>
+ <div class="rev" id="rev">
+  <div class="verdict" id="verdict"></div>
+  <div class="ans" id="ans"></div>
+  <div class="fact" id="fact"></div>
+  <div class="src" id="src"></div>
+  <button class="next" id="next">NEXT →</button>
+ </div>
+</div>
+<div class="screen" id="end">
+ <div class="score" id="fscore"></div>
+ <div class="rank" id="frank"></div>
+ <div class="sub" id="fsub"></div>
+ <div class="grid" id="fgrid"></div>
+ <div class="row"><button class="share" id="shareBtn">SHARE 📐</button><button id="againBtn">AGAIN</button></div>
+</div>
+<div class="zoom" id="zoom"><div class="zvp" id="zvp"><img id="zimg" alt="Zoomed floor plan" draggable="false"></div><button class="x" id="zx" aria-label="Close"><svg viewBox="0 0 18 18"><path d="M2 2L16 16M16 2L2 16" stroke="#000" stroke-width="2.6" stroke-linecap="round"/></svg></button><div class="zhint"><span class="tch">pinch · double-tap · tap outside to close</span><span class="ms">scroll to zoom · drag · Esc to close</span></div></div>
+<div class="foot">Drawings: Historic American Buildings Survey (NPS), public domain · names &amp; labels redacted · <a href="credits.html">credits &amp; sources</a></div>
+</div>
+<script>
+const R=[{"id": "r01", "options": ["Self-taught furniture maker", "Avocado rancher who hosts a lot", "Retired film-set designer"], "answer": 0, "stamp": "SAWDUST", "fact": "Sam Maloof, self-taught woodworker, built this compound of house, shops and guesthouse around his work. MacArthur 'genius' grant, 1985.", "sources": ["https://commons.wikimedia.org/wiki/File:Sam_and_Alfreda_Maloof_Compound,_9553_Highland_Avenue,_Rancho_Cucamonga,_San_Bernardino_County,_CA_HABS_CAL,36-RANCU,3-_(sheet_2_of_6).png"], "img": "img/r01.jpg", "page": "https://commons.wikimedia.org/wiki/File:Sam_and_Alfreda_Maloof_Compound,_9553_Highland_Avenue,_Rancho_Cucamonga,_San_Bernardino_County,_CA_HABS_CAL,36-RANCU,3-_(sheet_2_of_6).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r02", "options": ["Railroad section boss and his crew", "Silver-mine superintendent's family", "Shopkeepers who also run the hotel"], "answer": 2, "stamp": "HUSTLE", "fact": "The Stark family's store and Home Comfort Hotel, St. Elmo, Colorado: store, hotel, post office, telegraph office and boarding house in one. The Starks kept the town going.", "sources": ["https://commons.wikimedia.org/wiki/File:Stark_Brothers_Mercantile_Company_and_Home_Comfort_Hotel,_North_side,_West_Main_Street,_Saint_Elmo_(historical),_Chaffee_County,_CO_HABS_COLO,8-STEL,16-_(sheet_1_of_1).png"], "img": "img/r02.jpg", "page": "https://commons.wikimedia.org/wiki/File:Stark_Brothers_Mercantile_Company_and_Home_Comfort_Hotel,_North_side,_West_Main_Street,_Saint_Elmo_(historical),_Chaffee_County,_CO_HABS_COLO,8-STEL,16-_(sheet_1_of_1).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r03", "options": ["Colonial innkeeper", "Colonial grist-mill owner", "Colonial village doctor"], "answer": 0, "stamp": "ROOMS", "fact": "William Shannon, innkeeper. The Shannon Hotel was standing by 1766.", "sources": ["https://commons.wikimedia.org/wiki/File:Shannon_Hotel,_1_East_Main_Street,_Christiana,_New_Castle_County,_DE_HABS_DEL,2-CHRIS,1-_(sheet_2_of_4).png"], "img": "img/r03.jpg", "page": "https://commons.wikimedia.org/wiki/File:Shannon_Hotel,_1_East_Main_Street,_Christiana,_New_Castle_County,_DE_HABS_DEL,2-CHRIS,1-_(sheet_2_of_4).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r04", "options": ["Small-college dean and faculty", "Orange-grove baron with guests", "Artist running his own colony"], "answer": 2, "stamp": "CULT-ISH", "fact": "André Smith's artists' village, 1937: studios, pottery rooms, a gallery and a chapel, all for working artists.", "sources": ["https://commons.wikimedia.org/wiki/File:Maitland_Art_Center,_231_West_Packwood_Avenue,_Maitland,_Orange_County,_FL_HABS_FLA,48-MAIT,1-_(sheet_2_of_26).png"], "img": "img/r04.jpg", "page": "https://commons.wikimedia.org/wiki/File:Maitland_Art_Center,_231_West_Packwood_Avenue,_Maitland,_Orange_County,_FL_HABS_FLA,48-MAIT,1-_(sheet_2_of_26).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r05", "options": ["Railroad station agent", "Cabinetmaker working from home", "Citrus grower with a packing shed"], "answer": 1, "stamp": "CHISELED", "fact": "Captain Pierce's house was prefabricated in New England in the 1870s, shipped south by barge and bolted together. It started life as a cabinet shop.", "sources": ["https://commons.wikimedia.org/wiki/File:Captain_Pierce_House,_Boston_Avenue,_Altamonte_Springs,_Seminole_County,_FL_HABS_FLA,59-ALTSP,1-_(sheet_2_of_7).png"], "img": "img/r05.jpg", "page": "https://commons.wikimedia.org/wiki/File:Captain_Pierce_House,_Boston_Avenue,_Altamonte_Springs,_Seminole_County,_FL_HABS_FLA,59-ALTSP,1-_(sheet_2_of_7).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r06", "options": ["Meatpacking heir who entertains", "Banker with an art habit", "Department-store magnate"], "answer": 1, "stamp": "LOADED", "fact": "Samuel M. Nickerson, banker. His 1883 house was nicknamed the 'Marble Palace'. Note the vault.", "sources": ["https://commons.wikimedia.org/wiki/File:Samuel_M._Nickerson_House,_40_East_Erie_Street,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,54-_(sheet_4_of_6).tif"], "img": "img/r06.jpg", "page": "https://commons.wikimedia.org/wiki/File:Samuel_M._Nickerson_House,_40_East_Erie_Street,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,54-_(sheet_4_of_6).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r07", "options": ["Plaza trader, store out front", "Army post surgeon and family", "Stagecoach line agent"], "answer": 0, "stamp": "TRADING", "fact": "Barela-Reynolds House: a store with attached residence, about 1850, one of the few local buildings with a metal-front facade.", "sources": ["https://commons.wikimedia.org/wiki/File:First_and_Second_Floor_Plans_-_Barela-Reynolds_House,_Calle_Principal,_Mesilla,_Dona_Ana_County,_NM_HABS_NM-205_(sheet_3_of_8).png"], "img": "img/r07.jpg", "page": "https://commons.wikimedia.org/wiki/File:First_and_Second_Floor_Plans_-_Barela-Reynolds_House,_Calle_Principal,_Mesilla,_Dona_Ana_County,_NM_HABS_NM-205_(sheet_3_of_8).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r08", "options": ["Landscape painter", "Railroad lawyer with a big library", "Commuting stockbroker"], "answer": 0, "stamp": "BRUSHED", "fact": "Jasper Cropsey, Hudson River School painter. This was his last home and studio.", "sources": ["https://commons.wikimedia.org/wiki/File:Cropsey_House_and_Studio,_49_Washington_Avenue,_Hastings-on-Hudson,_Westchester_County,_NY_HABS_NY,60-HAST,2-_(sheet_3_of_11).png"], "img": "img/r08.jpg", "page": "https://commons.wikimedia.org/wiki/File:Cropsey_House_and_Studio,_49_Washington_Avenue,_Hastings-on-Hudson,_Westchester_County,_NY_HABS_NY,60-HAST,2-_(sheet_3_of_11).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r09", "options": ["Town blacksmith", "Tavern keeper", "Ship chandler"], "answer": 1, "stamp": "CHEERS", "fact": "The Pidge house became a tavern in 1783. Tap room right next to the parlor.", "sources": ["https://commons.wikimedia.org/wiki/File:Pidge_Tavern,_586_Pawtucket_Avenue,_Pawtucket,_Providence_County,_RI_HABS_RI,4-PAWT,1-_(sheet_2_of_14).tif"], "img": "img/r09.jpg", "page": "https://commons.wikimedia.org/wiki/File:Pidge_Tavern,_586_Pawtucket_Avenue,_Pawtucket,_Providence_County,_RI_HABS_RI,4-PAWT,1-_(sheet_2_of_14).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r10", "options": ["Rum distiller", "Merchant sea captain", "Printer and postmaster"], "answer": 2, "stamp": "PRESSED", "fact": "John Carter's house held the printing office of the Providence Gazette, 'at the sign of Shakespeare's Head', plus the post office.", "sources": ["https://commons.wikimedia.org/wiki/File:John_Carter_House,_21_Meeting_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,17-_(sheet_2_of_15).png"], "img": "img/r10.jpg", "page": "https://commons.wikimedia.org/wiki/File:John_Carter_House,_21_Meeting_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,17-_(sheet_2_of_15).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r11", "options": ["Painter who built studios", "Piano teacher with pupils", "Jewelry manufacturer"], "answer": 0, "stamp": "ARTSY", "fact": "Fleur de Lys Studio, built 1885 as artists' studios by painter Sydney Burleigh. Studios on every floor.", "sources": ["https://commons.wikimedia.org/wiki/File:Fleur_De_Lys_Studio,_7_Thomas_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,190-_(sheet_2_of_5).png"], "img": "img/r11.jpg", "page": "https://commons.wikimedia.org/wiki/File:Fleur_De_Lys_Studio,_7_Thomas_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,190-_(sheet_2_of_5).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r12", "options": ["Chuck-wagon cook and helper", "Ranch bosses doing paperwork", "Line-camp cowhands in winter"], "answer": 1, "stamp": "LEDGERS", "fact": "Matador Ranch guest house and office, nicknamed the 'Scotsman's Dive': offices for the ranch manager and bookkeeper, about 1925.", "sources": ["https://commons.wikimedia.org/wiki/File:Matador_Guest_House_and_Office,_National_Ranching_Heritage_Center_(moved_from_TX_Route_70_vicinity,_Matador,_Motley_County,_TX),_Lubbock,_Lubbock_County,_TX_HABS_TEX,152-LUBBO,7-_(sheet_2_of_4).tif"], "img": "img/r12.jpg", "page": "https://commons.wikimedia.org/wiki/File:Matador_Guest_House_and_Office,_National_Ranching_Heritage_Center_(moved_from_TX_Route_70_vicinity,_Matador,_Motley_County,_TX),_Lubbock,_Lubbock_County,_TX_HABS_TEX,152-LUBBO,7-_(sheet_2_of_4).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r13", "options": ["Retired general with a war museum", "Bachelor scientist, rarely home", "Society couple built for parties"], "answer": 2, "stamp": "FANCY", "fact": "Albert and Electra Wharton's house, 1906. Electra was the daughter of cattle baron W.T. Waggoner. Music room, morning room and drawing room all on one floor.", "sources": ["https://commons.wikimedia.org/wiki/File:Wharton-Scott_House,_1509_Pennsylvania_Street,_Fort_Worth,_Tarrant_County,_TX_HABS_TEX,220-FOWOR,2-_(sheet_3_of_19).tif"], "img": "img/r13.jpg", "page": "https://commons.wikimedia.org/wiki/File:Wharton-Scott_House,_1509_Pennsylvania_Street,_Fort_Worth,_Tarrant_County,_TX_HABS_TEX,220-FOWOR,2-_(sheet_3_of_19).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r14", "options": ["Customs inspector and clerk", "Steamboat pilot ashore", "Border-town merchant"], "answer": 2, "stamp": "STOCKED", "fact": "Field-Pacheco complex: used as a store and residence after 1894. Stock room downstairs, loft above.", "sources": ["https://commons.wikimedia.org/wiki/File:Field-Pacheco_Complex,_1049_East_Monroe_Street,_Brownsville,_Cameron_County,_TX_HABS_TEX,31-BROWN,9-_(sheet_3_of_7).png"], "img": "img/r14.jpg", "page": "https://commons.wikimedia.org/wiki/File:Field-Pacheco_Complex,_1049_East_Monroe_Street,_Brownsville,_Cameron_County,_TX_HABS_TEX,31-BROWN,9-_(sheet_3_of_7).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r15", "options": ["Town pharmacist mixing remedies", "German schoolmaster and boarders", "Botanist printing the local paper"], "answer": 2, "stamp": "INKED", "fact": "Ferdinand Lindheimer, botanist. His home, about 1852, also held the office and print shop of Die Neue Braunfelser Zeitung.", "sources": ["https://commons.wikimedia.org/wiki/File:Ferdinand_Lindheimer_House,_491_South_Comal_Avenue,_New_Braunfels,_Comal_County,_TX_HABS_TEX,46-NEBRA,5-_(sheet_2_of_5).png"], "img": "img/r15.jpg", "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_Lindheimer_House,_491_South_Comal_Avenue,_New_Braunfels,_Comal_County,_TX_HABS_TEX,46-NEBRA,5-_(sheet_2_of_5).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r16", "options": ["Mogul with big family and staff", "Wealthy widow living alone", "Bachelor mine owner, lives at club"], "answer": 0, "stamp": "STAFFED", "fact": "Alfred W. McCune, railroad and mining magnate. 21 rooms, servants' stair, butler's pantry and a family breakfast room.", "sources": ["https://commons.wikimedia.org/wiki/File:Alfred_W._McCune_House,_200_North_Main_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,27-_(sheet_2_of_8).png"], "img": "img/r16.jpg", "page": "https://commons.wikimedia.org/wiki/File:Alfred_W._McCune_House,_200_North_Main_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,27-_(sheet_2_of_8).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r17", "options": ["Seasonal park ranger couple", "Painter who ended up a grocer", "Dude-ranch wrangler and cook"], "answer": 1, "stamp": "PIVOT", "fact": "Harrison Crandall, painter and photographer, built his studio cabin in 1925-26, then added a bedroom and a grocery store.", "sources": ["https://commons.wikimedia.org/wiki/File:Floor_Plan_-_Harrison_Crandall_Studio,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS.V,4-_(sheet_1_of_3).png"], "img": "img/r17.jpg", "page": "https://commons.wikimedia.org/wiki/File:Floor_Plan_-_Harrison_Crandall_Studio,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS.V,4-_(sheet_1_of_3).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r18", "options": ["Landscape designer", "Retired schoolteacher", "Suburban banker"], "answer": 0, "stamp": "GREEN", "fact": "Jens Jensen, 'dean of the Prairie style' of landscape architecture. The kitchen used to be his drafting studio.", "sources": ["https://www.loc.gov/pictures/item/il0741/"], "img": "img/r18.jpg", "page": "https://www.loc.gov/pictures/item/il0741/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r19", "options": ["Suburban dentist", "Modernist architect", "Advertising executive"], "answer": 1, "stamp": "ZEN", "fact": "Paul Schweikher, Modernist architect, built it as his own home and architecture studio, 1938-53. Zen garden and solar dressing room included.", "sources": ["https://www.loc.gov/pictures/item/il1023/"], "img": "img/r19.jpg", "page": "https://www.loc.gov/pictures/item/il1023/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r20", "options": ["River pilot with a cellar", "Printer who added a winery", "Barrel-making cooper"], "answer": 1, "stamp": "VINTAGE", "fact": "C.P. Strehly's basement was the print shop of Licht-Freund, the town's first newspaper. A tavern and winery opened next door in 1857.", "sources": ["https://www.loc.gov/pictures/item/mo0340/"], "img": "img/r20.jpg", "page": "https://www.loc.gov/pictures/item/mo0340/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r21", "options": ["Grocer with a lunch counter", "Tobacco farmer and big family", "One-room schoolteacher"], "answer": 0, "stamp": "LUNCH", "fact": "Isaac Stamm house, about 1855: Pennsylvania German three-room plan with separate entries to parlor and kitchen. The drawing labels a grocery store and luncheonette.", "sources": ["https://www.loc.gov/pictures/item/pa0171/"], "img": "img/r21.jpg", "page": "https://www.loc.gov/pictures/item/pa0171/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r22", "options": ["Army quartermaster's depot", "Mission caretaker and family", "Shopkeeper, gaming room upstairs"], "answer": 2, "stamp": "ALL-IN", "fact": "Francis Louis des Mazieres store building and house, 1853. Store below, 'Gaming Room' above. The Library of Congress files it under saloons.", "sources": ["https://www.loc.gov/pictures/item/tx0160/"], "img": "img/r22.jpg", "page": "https://www.loc.gov/pictures/item/tx0160/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r23", "options": ["Port-town storekeeper", "Sea captain between voyages", "Customs collector"], "answer": 0, "stamp": "SHOPPED", "fact": "Conrad Meuly house and store, about 1854. The drawings note its exterior walls are concrete brick.", "sources": ["https://www.loc.gov/pictures/item/tx0242/"], "img": "img/r23.jpg", "page": "https://www.loc.gov/pictures/item/tx0242/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r24", "options": ["County judge with a farm", "Railroad surveyor's family", "Rancher who founded a town"], "answer": 2, "stamp": "YEEHAW", "fact": "Joseph J. Barton founded the T.L. Ranch and a town he named Bartonsite, then built this house in 1909. Meat and milk cooler off the kitchen.", "sources": ["https://www.loc.gov/pictures/item/tx0446/"], "img": "img/r24.jpg", "page": "https://www.loc.gov/pictures/item/tx0446/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r25", "options": ["Yacht broker with a lookout", "Citrus heir's guest cottage", "Artist with a seaside studio"], "answer": 2, "stamp": "DRAMATIC", "fact": "Frederic Clay Bartlett, a Chicago artist, designed and built Bonnet House after he married in 1919. Art studio with a tower.", "sources": ["https://commons.wikimedia.org/wiki/File:Bonnet_House,_Art_Studio_and_Tower,_900_North_Birch_Road,_Fort_Lauderdale,_Broward_County,_FL_HABS_FLA,6-FOLAU,1A-_(sheet_1_of_3).png", "https://www.bonnethouse.org/history/"], "img": "img/r25.jpg", "page": "https://commons.wikimedia.org/wiki/File:Bonnet_House,_Art_Studio_and_Tower,_900_North_Birch_Road,_Fort_Lauderdale,_Broward_County,_FL_HABS_FLA,6-FOLAU,1A-_(sheet_1_of_3).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r26", "options": ["Town druggist and family", "Frontier photographer", "Gold-rush assayer"], "answer": 1, "stamp": "SNAP", "fact": "Peter Britt, Swiss-born photographer. A north-slope skylight lit his studio. He took the first successful photograph of Crater Lake and started Oregon's first winery.", "sources": ["https://commons.wikimedia.org/wiki/File:Britt_House,_201_South_First_Street,_Jacksonville,_Jackson_County,_OR_HABS_ORE,15,JACVI,3-_(sheet_2_of_5).png", "https://www.historicjacksonville.org/stop26/"], "img": "img/r26.jpg", "page": "https://commons.wikimedia.org/wiki/File:Britt_House,_201_South_First_Street,_Jacksonville,_Jackson_County,_OR_HABS_ORE,15,JACVI,3-_(sheet_2_of_5).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r27", "options": ["Lake freighter captain ashore", "Commercial fisherman's family", "Lighthouse keeper couple"], "answer": 2, "stamp": "BEAMING", "fact": "William Jackson became the first keeper in November 1869; his wife Caroline was appointed assistant keeper. Combined pay: $1,000 a year.", "sources": ["https://commons.wikimedia.org/wiki/File:Keeper%27s_Residence_and_Light_Tower_Floor_Plans_-_Cana_island_Light_Station,_Keeper%27s_Residence_and_Light_Tower,_Cana_Island_Road,_Baileys_Harbor,_Door_County,_WI_HABS_WI-376-A_(sheet_1_of_4)_(cropped).tif", "https://www.lighthousefriends.com/light.asp?ID=259"], "img": "img/r27.jpg", "page": "https://commons.wikimedia.org/wiki/File:Keeper%27s_Residence_and_Light_Tower_Floor_Plans_-_Cana_island_Light_Station,_Keeper%27s_Residence_and_Light_Tower,_Cana_Island_Road,_Baileys_Harbor,_Door_County,_WI_HABS_WI-376-A_(sheet_1_of_4)_(cropped).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r28", "options": ["Island lighthouse keeper", "Fishing-camp boss", "Island farmer and family"], "answer": 0, "stamp": "ISOLATED", "fact": "Emmanuel Luick kept this light 1892-1920. The house was built in 1881 from sandstone quarried right at the site.", "sources": ["https://www.loc.gov/pictures/item/wi0311/", "https://www.nps.gov/apis/learn/historyculture/sand-light.htm"], "img": "img/r28.jpg", "page": "https://www.loc.gov/pictures/item/wi0311/", "credit": "HABS, National Park Service · via Library of Congress", "license": "Public domain (U.S. government work)", "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"}, {"id": "r29", "options": ["Brewery foreman and boarders", "Ex-chef turned corner grocer", "Railroad brakeman's family"], "answer": 1, "stamp": "SEASONED", "fact": "Jacob Wohlfarth, a former Menger Hotel chef, opened a general merchandise store here about 1890 and lived on site with his family.", "sources": ["https://commons.wikimedia.org/wiki/File:Jacob_Wohlfarth_Store_and_Residence,_823_West_Laurel,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,43-_(sheet_2_of_5).png"], "img": "img/r29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Jacob_Wohlfarth_Store_and_Residence,_823_West_Laurel,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,43-_(sheet_2_of_5).png", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}, {"id": "r30", "options": ["Fur trapper wintering in", "Homesteader with a store", "Forest ranger and wife"], "answer": 1, "stamp": "SCRAPPY", "fact": "Bill Menor homesteaded here in 1892, ran a ferry across the Snake River for income, and attached a store to the east end of his log cabin.", "sources": ["https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif"], "img": "img/r30.jpg", "page": "https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif", "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons", "license": "Public domain (U.S. government work)", "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"}];
+const N=10;
+const RIGHT=["NAILED IT","SNOOP","CORRECT","CLOCKED","SHARP"],WRONG=["NOPE","OOF","WRONG HOUSE","EVICTED","MISREAD"];
+const HYPE={3:"🔥 3 STREAK",5:"🔥🔥 BUILDING INSPECTOR",7:"📐 NOSY NEIGHBOR ENERGY",10:"👑 FLAWLESS"};
+const COPE={2:"read the room labels",3:"zoom in. seriously.",4:"the rooms are talking",5:"pinch. read. guess."};
+const RANKS=[[10,"MASTER ARCHITECT"],[9,"SNOOP-IN-CHIEF"],[7,"BUILDING INSPECTOR"],[5,"NOSY NEIGHBOR"],[3,"OPEN-HOUSE TOURIST"],[1,"WRONG ADDRESS"],[0,"LOCKED OUT"]];
+const $=s=>document.getElementById(s);
+let deck=[],i=0,score=0,streak=0,best=0,miss=0,locked=false,log=[];
+const shuf=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const KEY="wllt_seen";
+function getSeen(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){return []}}
+function addSeen(id){try{const s=getSeen();if(!s.includes(id)){s.push(id);localStorage.setItem(KEY,JSON.stringify(s))}}catch(e){}}
+function build(){const ids=new Set(R.map(r=>r.id));let seen=getSeen().filter(x=>ids.has(x));const sn=new Set(seen);
+ let d=shuf(R.filter(r=>!sn.has(r.id))).slice(0,N);
+ if(d.length<N){const recent=new Set(seen.slice(-N));const old=shuf(R.filter(r=>sn.has(r.id)&&!recent.has(r.id)));while(d.length<N&&old.length)d.push(old.shift());
+  const rest=shuf(R.filter(r=>!d.includes(r)));while(d.length<N&&rest.length)d.push(rest.shift());try{localStorage.setItem(KEY,"[]")}catch(e){}}
+ return shuf(d)}
+function start(){deck=build();i=0;score=0;streak=0;best=0;miss=0;log=[];$("start").classList.remove("on");$("end").classList.remove("on");$("game").classList.add("on");show();if(window.fitGame)fitGame()}
+function hud(){$("hud").textContent=`${score}/${N} · 🔥${streak}`;$("prog").style.width=(i/N*100)+"%"}
+function show(){const r=deck[i];if(window.pzGame)pzGame.reset();if(window.zoomClose)zoomClose();$("game").classList.remove("done");addSeen(r.id);locked=false;$("img").src=r.img;$("stamp").className="stamp";$("stamp").textContent="";$("rev").classList.remove("on");$("toast").textContent="";
+ [0,1,2].forEach(b=>{const e=$("b"+b);e.disabled=false;e.className="";e.querySelector(".t").textContent=r.options[b]});hud();
+ if(deck[i+1]){const p=new Image();p.src=deck[i+1].img}}
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function guess(g){if(locked)return;locked=true;const r=deck[i];const ok=r.answer===g;
+ if(ok){score++;streak++;best=Math.max(best,streak);miss=0}else{streak=0;miss++;$("shot").classList.remove("shake");void $("shot").offsetWidth;$("shot").classList.add("shake")}
+ log.push(ok?"🟦":"🟥");
+ [0,1,2].forEach(b=>{const e=$("b"+b);e.disabled=true;if(b===r.answer)e.classList.add("right");else if(b===g)e.classList.add("wrong")});
+ const st=$("stamp");st.textContent=r.stamp;st.style.color=ok?"var(--grn)":"var(--red)";void st.offsetWidth;st.classList.add("on");
+ $("verdict").textContent=ok?pick(RIGHT):pick(WRONG);$("verdict").className="verdict "+(ok?"ok":"no");
+ $("ans").textContent="→ "+r.options[r.answer];
+ $("fact").textContent=r.fact;
+ const fs=r.sources.slice(1).map(u=>` · <a href="${u}" target="_blank" rel="noopener">fact source</a>`).join("");
+ $("src").innerHTML=`📐 <a href="${r.page}" target="_blank" rel="noopener">${esc(r.credit)}</a> · <a href="${r.license_url}" target="_blank" rel="noopener">${esc(r.license)}</a> · recolored, labels redacted${fs}`;
+ $("toast").textContent=ok?(HYPE[streak]||""):(COPE[Math.min(miss,5)]||"");
+ $("rev").classList.add("on");$("game").classList.add("done");hud();$("next").textContent=i===N-1?"RESULTS →":"NEXT →";$("next").focus({preventScroll:true});
+ $("rev").scrollIntoView({behavior:"smooth",block:"nearest"})}
+function next(){if(!locked)return;i++;if(i>=N)return end();show();window.scrollTo({top:0,behavior:"smooth"})}
+function end(){$("game").classList.remove("on");$("end").classList.add("on");$("prog").style.width="100%";
+ $("fscore").textContent=`${score}/${N}`;$("frank").textContent=RANKS.find(x=>score>=x[0])[1];
+ $("fsub").textContent=`best streak ${best}`;$("fgrid").textContent=log.join("")}
+async function share(){const txt=`I scored ${score}/${N} on Who Lives Like This? 📐\n${RANKS.find(x=>score>=x[0])[1]}\n${log.join("")}\n${location.href.startsWith("http")?location.href:""}`.trim();
+ try{if(navigator.share&&/Mobi/i.test(navigator.userAgent)){await navigator.share({text:txt});return}await navigator.clipboard.writeText(txt);$("shareBtn").textContent="COPIED ✅"}catch(e){$("shareBtn").textContent="COPY FAILED"}
+ setTimeout(()=>$("shareBtn").textContent="SHARE 📐",1800)}
+$("goBtn").onclick=start;$("againBtn").onclick=start;[0,1,2].forEach(b=>$("b"+b).onclick=()=>guess(b));$("next").onclick=next;$("shareBtn").onclick=share;
+document.addEventListener("keydown",e=>{if($("zoom").classList.contains("on"))return;const k=e.key.toLowerCase();
+ if($("start").classList.contains("on")||$("end").classList.contains("on")){if(k==="enter"){e.preventDefault();start()}return}
+ if(!locked){if(k==="1"||k==="2"||k==="3")guess(+k-1)}
+ else if(k==="enter"||k===" "||k==="n"||k==="arrowright"){e.preventDefault();next()}});
+</script><script>
+(function(){
+const MAX=5;
+function PZ(vp,el,o){const st={s:1,x:0,y:0};let pts=new Map(),g=null,tap=null,lastTap=null,tapT=null,moved=false,multi=false;
+ const W=()=>el.offsetWidth,H=()=>el.offsetHeight,VW=()=>vp.clientWidth,VH=()=>vp.clientHeight,over=()=>W()*st.s>VW()+1||H()*st.s>VH()+1;
+ function clamp(){const cw=W()*st.s,ch=H()*st.s,vw=VW(),vh=VH();
+  st.x=cw<=vw?(vw-cw)/2:Math.min(0,Math.max(vw-cw,st.x));st.y=ch<=vh?(vh-ch)/2:Math.min(0,Math.max(vh-ch,st.y))}
+ function apply(anim){clamp();el.style.transition=anim?"transform .22s ease-out":"none";el.style.transform=`translate(${st.x}px,${st.y}px) scale(${st.s})`;vp.classList.toggle("zoomed",st.s>1.01);o.onChange&&o.onChange(st.s)}
+ function zoomAt(ns,px,py,anim){ns=Math.min(MAX,Math.max(1,ns));const cx=(px-st.x)/st.s,cy=(py-st.y)/st.s;st.s=ns;st.x=px-cx*ns;st.y=py-cy*ns;apply(anim)}
+ function reset(){st.s=1;st.x=0;st.y=0;pts.clear();g=null;clearTimeout(tapT);lastTap=null;apply(false)}
+ const loc=t=>{const r=vp.getBoundingClientRect();return[t.clientX-r.left,t.clientY-r.top]};
+ function begin(){const a=[...pts.values()];if(a.length>=2){const[p,q]=a;multi=true;g={d:Math.hypot(p[0]-q[0],p[1]-q[1])||1,mx:(p[0]+q[0])/2,my:(p[1]+q[1])/2,s:st.s,x:st.x,y:st.y}}else if(a.length===1){g={px:a[0][0],py:a[0][1],x:st.x,y:st.y,one:true}}else g=null}
+ vp.addEventListener("touchstart",e=>{for(const t of e.changedTouches)pts.set(t.identifier,loc(t));
+  if(pts.size===1){moved=false;multi=false;const[p]=[...pts.values()];tap={x:p[0],y:p[1],t:Date.now()}}
+  if(pts.size>=2||st.s>1.01)e.preventDefault();begin()},{passive:false});
+ vp.addEventListener("touchmove",e=>{for(const t of e.changedTouches)if(pts.has(t.identifier))pts.set(t.identifier,loc(t));if(!g)return;
+  const a=[...pts.values()];
+  if(a.length>=2&&g.d){e.preventDefault();const[p,q]=a;const d=Math.hypot(p[0]-q[0],p[1]-q[1]),mx=(p[0]+q[0])/2,my=(p[1]+q[1])/2;
+   const ns=Math.min(MAX,Math.max(1,g.s*d/g.d));const cx=(g.mx-g.x)/g.s,cy=(g.my-g.y)/g.s;st.s=ns;st.x=mx-cx*ns;st.y=my-cy*ns;moved=true;apply(false)}
+  else if(a.length===1&&g.one){const dx=a[0][0]-g.px,dy=a[0][1]-g.py;if(Math.hypot(dx,dy)>8)moved=true;if(st.s>1.01){e.preventDefault();st.x=g.x+dx;st.y=g.y+dy;apply(false)}else if(over()&&(g.h||Math.abs(dx)>Math.abs(dy))){g.h=true;if(e.cancelable)e.preventDefault();st.x=g.x+dx;apply(false)}}},{passive:false});
+ const end=e=>{for(const t of e.changedTouches)pts.delete(t.identifier);
+  if(pts.size===0){if(e.type==="touchend"&&!moved&&!multi&&tap&&Date.now()-tap.t<350){e.preventDefault();const now=Date.now();
+    if(lastTap&&now-lastTap.t<320&&Math.hypot(tap.x-lastTap.x,tap.y-lastTap.y)<40){clearTimeout(tapT);lastTap=null;dbl(tap.x,tap.y)}
+    else{lastTap={x:tap.x,y:tap.y,t:now};const tp=tap;tapT=setTimeout(()=>{lastTap=null;o.onTap&&o.onTap(tp.x,tp.y,st.s)},300)}}
+   g=null;tap=null}else begin()};
+ vp.addEventListener("touchend",end,{passive:false});vp.addEventListener("touchcancel",end);
+ ["gesturestart","gesturechange"].forEach(n=>vp.addEventListener(n,e=>e.preventDefault()));
+ function dbl(x,y){if(st.s>1.01){st.s=1;st.x=0;st.y=0;apply(true)}else zoomAt(2.5,x,y,true)}
+ // mouse / trackpad
+ let lt=0;vp.addEventListener("touchstart",()=>lt=Date.now(),{passive:true});
+ vp.addEventListener("click",e=>{if(Date.now()-lt<800)return;if(o.mouseClick)o.mouseClick(e)});
+ vp.addEventListener("dblclick",e=>{if(Date.now()-lt<800)return;if(o.mouseDbl){const[x,y]=loc(e);dbl(x,y)}});
+ vp.addEventListener("wheel",e=>{if(!(e.ctrlKey||o.wheel))return;e.preventDefault();const[x,y]=loc(e);zoomAt(st.s*Math.exp(-e.deltaY*(e.ctrlKey?.01:.0015)),x,y,false)},{passive:false});
+ let drag=null;vp.addEventListener("mousedown",e=>{if(!over()||e.button)return;drag={px:e.clientX,py:e.clientY,x:st.x,y:st.y};e.preventDefault()});
+ addEventListener("mousemove",e=>{if(!drag)return;if(Math.hypot(e.clientX-drag.px,e.clientY-drag.py)>4)drag.m=true;st.x=drag.x+e.clientX-drag.px;st.y=drag.y+e.clientY-drag.py;apply(false)});
+ addEventListener("mouseup",()=>{if(drag){setTimeout(()=>drag=null,0)}});
+ return{st,reset,apply,zoomAt,get dragging(){return !!(drag&&drag.m)}}}
+const z=document.getElementById("zoom"),zvp=document.getElementById("zvp"),zi=document.getElementById("zimg"),zx=document.getElementById("zx"),img=document.getElementById("img"),hint=document.getElementById("hint");
+function layout(){if(!z.classList.contains("on"))return;const vw=zvp.clientWidth,vh=zvp.clientHeight;const ar=(zi.naturalHeight||1000)/(zi.naturalWidth||1000);
+ const w=Math.min(vw-20,(vh-140)/ar,1000);zi.style.width=w+"px";zi.style.height=w*ar+"px";zp.apply(false);
+ const top=(vh-w*ar)/2,left=(vw-w)/2;
+ zx.style.top=`max(calc(10px + env(safe-area-inset-top)),${Math.round(top-54)}px)`;zx.style.right=`max(calc(10px + env(safe-area-inset-right)),${Math.round(left)}px)`}
+const zp=PZ(zvp,zi,{wheel:true,mouseDbl:true,onTap:(x,y,s)=>{if(s>1.01)return;const r=zi.getBoundingClientRect(),v=zvp.getBoundingClientRect(),X=x+v.left,Y=y+v.top;if(X<r.left||X>r.right||Y<r.top||Y>r.bottom)close()},mouseClick:e=>{if(e.target===zvp)close()}});
+function open(){zi.src=img.src;z.classList.add("on");zp.reset();layout();if(!zi.complete)zi.onload=layout}
+function close(){z.classList.remove("on");zp.reset()}
+const gp=PZ(document.getElementById("vp"),img,{onTap:(x,y,s)=>{if(s<=1.01)open()},mouseClick:e=>{if(!gp.dragging&&gp.st.s<=1.01)open()},onChange:s=>{hint.style.opacity=s>1.01?0:1}});
+const vpEl=document.getElementById("vp"),game=document.getElementById("game");
+function fitGame(){const mob=innerWidth<700;if(!mob){vpEl.style.height="";vpEl.style.aspectRatio="";gp.apply(false);return}
+ const w=vpEl.clientWidth,btns=document.getElementById("btns"),foot=document.querySelector(".foot"),app=document.querySelector(".app");
+ const vh=window.visualViewport?visualViewport.height:innerHeight,pb=parseFloat(getComputedStyle(app).paddingBottom)||0;
+ const used=game.getBoundingClientRect().top+scrollY+(btns.offsetHeight||110)+12+foot.offsetHeight+12+pb+18+6+24;
+ const h=Math.round(Math.min(w,Math.max(w*.72,vh-used)));vpEl.style.aspectRatio="auto";vpEl.style.height=h+"px";gp.apply(false)}
+window.fitGame=fitGame;
+window.pzGame=gp;window.pzZoom=zp;window.zoomClose=close;
+zx.addEventListener("click",e=>{e.stopPropagation();close()});
+addEventListener("resize",()=>{layout();fitGame()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&z.classList.contains("on"))close()},true);
+img.addEventListener("load",()=>gp.reset());
+})();
+</script></body></html>
