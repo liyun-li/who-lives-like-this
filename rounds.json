@@ -3,11 +3,11 @@
   "id": "r01",
   "key": "CAL_36_RANCU_3_2",
   "options": [
+   "Retired film-set designer",
    "Self-taught furniture maker",
-   "Avocado rancher who hosts a lot",
-   "Retired film-set designer"
+   "Avocado rancher who hosts a lot"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "SAWDUST",
   "fact": "Sam Maloof, self-taught woodworker, built this compound of house, shops and guesthouse around his work. MacArthur 'genius' grant, 1985.",
   "sources": [
@@ -23,11 +23,11 @@
   "id": "r02",
   "key": "COLO_8_STEL_16_i1",
   "options": [
-   "Railroad section boss and his crew",
+   "Shopkeepers who also run the hotel",
    "Silver-mine superintendent's family",
-   "Shopkeepers who also run the hotel"
+   "Railroad section boss and his crew"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "HUSTLE",
   "fact": "The Stark family's store and Home Comfort Hotel, St. Elmo, Colorado: store, hotel, post office, telegraph office and boarding house in one. The Starks kept the town going.",
   "sources": [
@@ -43,11 +43,11 @@
   "id": "r03",
   "key": "DEL_2_CHRIS_1_2",
   "options": [
-   "Colonial innkeeper",
    "Colonial grist-mill owner",
+   "Colonial innkeeper",
    "Colonial village doctor"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "ROOMS",
   "fact": "William Shannon, innkeeper. The Shannon Hotel was standing by 1766.",
   "sources": [
@@ -63,8 +63,8 @@
   "id": "r04",
   "key": "FLA_48_MAIT_1_2",
   "options": [
-   "Small-college dean and faculty",
    "Orange-grove baron with guests",
+   "Commune leader and followers",
    "Artist running his own colony"
   ],
   "answer": 2,
@@ -83,11 +83,11 @@
   "id": "r05",
   "key": "FLA_59_ALTSP_1_2",
   "options": [
+   "Citrus grower with a packing shed",
    "Railroad station agent",
-   "Cabinetmaker working from home",
-   "Citrus grower with a packing shed"
+   "Cabinetmaker working from home"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "CHISELED",
   "fact": "Captain Pierce's house was prefabricated in New England in the 1870s, shipped south by barge and bolted together. It started life as a cabinet shop.",
   "sources": [
@@ -103,11 +103,11 @@
   "id": "r06",
   "key": "ILL_16_CHIG_54_4",
   "options": [
-   "Meatpacking heir who entertains",
    "Banker with an art habit",
-   "Department-store magnate"
+   "Paranoid recluse with a strongroom",
+   "Meatpacking heir who entertains"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "LOADED",
   "fact": "Samuel M. Nickerson, banker. His 1883 house was nicknamed the 'Marble Palace'. Note the vault.",
   "sources": [
@@ -123,11 +123,11 @@
   "id": "r07",
   "key": "NM_205_3",
   "options": [
-   "Plaza trader, store out front",
    "Army post surgeon and family",
-   "Stagecoach line agent"
+   "Stagecoach line agent",
+   "Plaza trader, store out front"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "TRADING",
   "fact": "Barela-Reynolds House: a store with attached residence, about 1850, one of the few local buildings with a metal-front facade.",
   "sources": [
@@ -143,11 +143,11 @@
   "id": "r08",
   "key": "NY_60_HAST_2_3",
   "options": [
-   "Landscape painter",
+   "Commuting stockbroker",
    "Railroad lawyer with a big library",
-   "Commuting stockbroker"
+   "Landscape painter"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "BRUSHED",
   "fact": "Jasper Cropsey, Hudson River School painter. This was his last home and studio.",
   "sources": [
@@ -163,11 +163,11 @@
   "id": "r09",
   "key": "RI_4_PAWT_1_i3",
   "options": [
-   "Town blacksmith",
-   "Tavern keeper",
-   "Ship chandler"
+   "Ship chandler",
+   "Rum smuggler",
+   "Tavern keeper"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "CHEERS",
   "fact": "The Pidge house became a tavern in 1783. Tap room right next to the parlor.",
   "sources": [
@@ -183,11 +183,11 @@
   "id": "r10",
   "key": "RI_4_PROV_17_i3",
   "options": [
-   "Rum distiller",
+   "Printer and postmaster",
    "Merchant sea captain",
-   "Printer and postmaster"
+   "Rum distiller"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "PRESSED",
   "fact": "John Carter's house held the printing office of the Providence Gazette, 'at the sign of Shakespeare's Head', plus the post office.",
   "sources": [
@@ -203,11 +203,11 @@
   "id": "r11",
   "key": "RI_4_PROV_190_i2",
   "options": [
+   "Jewelry manufacturer",
    "Painter who built studios",
-   "Piano teacher with pupils",
-   "Jewelry manufacturer"
+   "Piano teacher with pupils"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "ARTSY",
   "fact": "Fleur de Lys Studio, built 1885 as artists' studios by painter Sydney Burleigh. Studios on every floor.",
   "sources": [
@@ -244,10 +244,10 @@
   "key": "TEX_220_FOWOR_2_3",
   "options": [
    "Retired general with a war museum",
-   "Bachelor scientist, rarely home",
-   "Society couple built for parties"
+   "Society couple built for parties",
+   "Bachelor scientist, rarely home"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "FANCY",
   "fact": "Albert and Electra Wharton's house, 1906. Electra was the daughter of cattle baron W.T. Waggoner. Music room, morning room and drawing room all on one floor.",
   "sources": [
@@ -263,11 +263,11 @@
   "id": "r14",
   "key": "TEX_31_BROWN_9_i3",
   "options": [
+   "Border-town merchant",
    "Customs inspector and clerk",
-   "Steamboat pilot ashore",
-   "Border-town merchant"
+   "Border smuggler"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "STOCKED",
   "fact": "Field-Pacheco complex: used as a store and residence after 1894. Stock room downstairs, loft above.",
   "sources": [
@@ -283,11 +283,11 @@
   "id": "r15",
   "key": "TEX_46_NEBRA_5_2",
   "options": [
-   "Town pharmacist mixing remedies",
-   "German schoolmaster and boarders",
-   "Botanist printing the local paper"
+   "Botanist printing the local paper",
+   "Quack with a cure-all",
+   "German schoolmaster and boarders"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "INKED",
   "fact": "Ferdinand Lindheimer, botanist. His home, about 1852, also held the office and print shop of Die Neue Braunfelser Zeitung.",
   "sources": [
@@ -303,11 +303,11 @@
   "id": "r16",
   "key": "UTAH_18_SALCI_27_2",
   "options": [
-   "Mogul with big family and staff",
    "Wealthy widow living alone",
+   "Mogul with big family and staff",
    "Bachelor mine owner, lives at club"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "STAFFED",
   "fact": "Alfred W. McCune, railroad and mining magnate. 21 rooms, servants' stair, butler's pantry and a family breakfast room.",
   "sources": [
@@ -323,11 +323,11 @@
   "id": "r17",
   "key": "WYO_20_MOOS_V_4_1",
   "options": [
-   "Seasonal park ranger couple",
    "Painter who ended up a grocer",
+   "Seasonal park ranger couple",
    "Dude-ranch wrangler and cook"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "PIVOT",
   "fact": "Harrison Crandall, painter and photographer, built his studio cabin in 1925-26, then added a bedroom and a grocery store.",
   "sources": [
@@ -343,11 +343,11 @@
   "id": "r18",
   "key": "loc_il0741_03",
   "options": [
-   "Landscape designer",
    "Retired schoolteacher",
+   "Landscape designer",
    "Suburban banker"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "GREEN",
   "fact": "Jens Jensen, 'dean of the Prairie style' of landscape architecture. The kitchen used to be his drafting studio.",
   "sources": [
@@ -363,11 +363,11 @@
   "id": "r19",
   "key": "loc_il1023_03",
   "options": [
-   "Suburban dentist",
    "Modernist architect",
-   "Advertising executive"
+   "Advertising executive",
+   "Suburban dentist"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "ZEN",
   "fact": "Paul Schweikher, Modernist architect, built it as his own home and architecture studio, 1938-53. Zen garden and solar dressing room included.",
   "sources": [
@@ -383,11 +383,11 @@
   "id": "r20",
   "key": "loc_mo0340_02",
   "options": [
-   "River pilot with a cellar",
-   "Printer who added a winery",
-   "Barrel-making cooper"
+   "Barrel-making cooper",
+   "Counterfeiter with a press",
+   "Printer who added a winery"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "VINTAGE",
   "fact": "C.P. Strehly's basement was the print shop of Licht-Freund, the town's first newspaper. A tavern and winery opened next door in 1857.",
   "sources": [
@@ -403,11 +403,11 @@
   "id": "r21",
   "key": "loc_pa0171_02",
   "options": [
+   "One-room schoolteacher",
    "Grocer with a lunch counter",
-   "Tobacco farmer and big family",
-   "One-room schoolteacher"
+   "Tobacco farmer and big family"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "LUNCH",
   "fact": "Isaac Stamm house, about 1855: Pennsylvania German three-room plan with separate entries to parlor and kitchen. The drawing labels a grocery store and luncheonette.",
   "sources": [
@@ -423,8 +423,8 @@
   "id": "r22",
   "key": "loc_tx0160_01",
   "options": [
-   "Army quartermaster's depot",
    "Mission caretaker and family",
+   "Army quartermaster's depot",
    "Shopkeeper, gaming room upstairs"
   ],
   "answer": 2,
@@ -463,11 +463,11 @@
   "id": "r24",
   "key": "loc_tx0446_02",
   "options": [
+   "Rancher who founded a town",
    "County judge with a farm",
-   "Railroad surveyor's family",
-   "Rancher who founded a town"
+   "Railroad surveyor's family"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "YEEHAW",
   "fact": "Joseph J. Barton founded the T.L. Ranch and a town he named Bartonsite, then built this house in 1909. Meat and milk cooler off the kitchen.",
   "sources": [
@@ -484,10 +484,10 @@
   "key": "FLA_6_FOLAU_1A_i1",
   "options": [
    "Yacht broker with a lookout",
-   "Citrus heir's guest cottage",
-   "Artist with a seaside studio"
+   "Artist with a seaside studio",
+   "Citrus heir's guest cottage"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "DRAMATIC",
   "fact": "Frederic Clay Bartlett, a Chicago artist, designed and built Bonnet House after he married in 1919. Art studio with a tower.",
   "sources": [
@@ -504,7 +504,7 @@
   "id": "r26",
   "key": "ORE_15_JACVI_3_2",
   "options": [
-   "Town druggist and family",
+   "Séance-holding medium",
    "Frontier photographer",
    "Gold-rush assayer"
   ],
@@ -525,11 +525,11 @@
   "id": "r27",
   "key": "WI_376_A_i1",
   "options": [
+   "Lighthouse keeper couple",
    "Lake freighter captain ashore",
-   "Commercial fisherman's family",
-   "Lighthouse keeper couple"
+   "Commercial fisherman's family"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "BEAMING",
   "fact": "William Jackson became the first keeper in November 1869; his wife Caroline was appointed assistant keeper. Combined pay: $1,000 a year.",
   "sources": [
@@ -546,11 +546,11 @@
   "id": "r28",
   "key": "loc_wi0311_01",
   "options": [
-   "Island lighthouse keeper",
+   "Island farmer and family",
    "Fishing-camp boss",
-   "Island farmer and family"
+   "Island lighthouse keeper"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "ISOLATED",
   "fact": "Emmanuel Luick kept this light 1892-1920. The house was built in 1881 from sandstone quarried right at the site.",
   "sources": [
@@ -567,11 +567,11 @@
   "id": "r29",
   "key": "x_TEX_15_SANT_43_2",
   "options": [
+   "Railroad brakeman's family",
    "Brewery foreman and boarders",
-   "Ex-chef turned corner grocer",
-   "Railroad brakeman's family"
+   "Ex-chef turned corner grocer"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "SEASONED",
   "fact": "Jacob Wohlfarth, a former Menger Hotel chef, opened a general merchandise store here about 1890 and lived on site with his family.",
   "sources": [
@@ -588,10 +588,10 @@
   "key": "x_WYO_20_MOOS_2_fp",
   "options": [
    "Fur trapper wintering in",
-   "Homesteader with a store",
-   "Forest ranger and wife"
+   "Forest ranger and wife",
+   "Homesteader with a store"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "SCRAPPY",
   "fact": "Bill Menor homesteaded here in 1892, ran a ferry across the Snake River for income, and attached a store to the east end of his log cabin.",
   "sources": [
@@ -599,6 +599,132 @@
   ],
   "img": "img/r30.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+ },
+ {
+  "id": "r31",
+  "key": "n_eph2",
+  "options": [
+   "Colonial orphanage matron",
+   "Poorhouse keeper and paupers",
+   "Celibate cloister sisters"
+  ],
+  "answer": 2,
+  "stamp": "CLOISTERED",
+  "fact": "Ephrata Cloister, founded 1732 by Conrad Beissel. Members slept on 15-inch wooden benches with wooden blocks for pillows, rose at midnight for a two-hour watch, and ate one small meal a day. This is the Saron, the sisters' house.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:The_Cloisters,_Ephrata,_Lancaster_County,_PA_HABS_PA,36-EPH,1-_(sheet_2_of_60).tif",
+   "https://en.wikipedia.org/wiki/Ephrata_Cloister"
+  ],
+  "img": "img/r31.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Cloisters,_Ephrata,_Lancaster_County,_PA_HABS_PA,36-EPH,1-_(sheet_2_of_60).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+ },
+ {
+  "id": "r32",
+  "key": "n_shk2",
+  "options": [
+   "Séance-holding medium",
+   "Celibate Shaker family",
+   "Boarding-school headmaster"
+  ],
+  "answer": 1,
+  "stamp": "MIRRORED",
+  "fact": "Watervliet, New York: the first Shaker community (1776). Brothers and sisters got their own halves and staircases, shared the meeting room but sat on opposite sides, and slept two to six per room. They were also the first to sell seeds in little paper envelopes.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Shaker_South_Family_Dwelling_House,_Watervliet_Shaker_Road,_Colonie_Township,_Watervliet,_Albany_County,_NY_HABS_NY,1-COL,14-_(sheet_2_of_13).tif",
+   "https://en.wikipedia.org/wiki/Watervliet_Shaker_Historic_District"
+  ],
+  "img": "img/r32.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shaker_South_Family_Dwelling_House,_Watervliet_Shaker_Road,_Colonie_Township,_Watervliet,_Albany_County,_NY_HABS_NY,1-COL,14-_(sheet_2_of_13).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+ },
+ {
+  "id": "r33",
+  "key": "n_milf2",
+  "options": [
+   "County jailer",
+   "Quack running a sanitarium",
+   "Poorhouse keeper"
+  ],
+  "answer": 0,
+  "stamp": "LOCKED",
+  "fact": "Milford, Pennsylvania: the stone courthouse finished in 1815 later served as the jail. Before the town had a bell, the sheriff climbed the cupola and blew a huge tin horn to call court.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Milford_Jail,_Broad_and_High_Streets,_Milford,_Pike_County,_PA_HABS_PA,52-MILF,1-_(sheet_2_of_7).tif",
+   "https://livingplaces.com/PA/Pike_County.html"
+  ],
+  "img": "img/r33.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Milford_Jail,_Broad_and_High_Streets,_Milford,_Pike_County,_PA_HABS_PA,52-MILF,1-_(sheet_2_of_7).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "q": "WHO RUNS THIS PLACE?"
+ },
+ {
+  "id": "r34",
+  "key": "n_swj1",
+  "options": [
+   "Assay-office clerk",
+   "Gold-camp jailer",
+   "Stage-line strongbox agent"
+  ],
+  "answer": 1,
+  "stamp": "BOOKED",
+  "fact": "Sweetwater County Jail, South Pass City, Wyoming, accepted April 1, 1870. After the town's first schoolhouse burned in the 1880s, the front room served as the school for a while.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:West_and_South_Elevations_and_Plan_-_Sweetwater_County_Jail,_Grant_Street,_South_Pass_City,_Fremont_County,_WY_HABS_WYO,7-SOPAC,23-_(sheet_1_of_2).tif"
+  ],
+  "img": "img/r34.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:West_and_South_Elevations_and_Plan_-_Sweetwater_County_Jail,_Grant_Street,_South_Pass_City,_Fremont_County,_WY_HABS_WYO,7-SOPAC,23-_(sheet_1_of_2).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "q": "WHO RUNS THIS PLACE?"
+ },
+ {
+  "id": "r35",
+  "key": "n_sqd",
+  "options": [
+   "Gold Rush convicts",
+   "Gunpowder-magazine guards",
+   "Bank-vault night watchmen"
+  ],
+  "answer": 0,
+  "stamp": "HARD TIME",
+  "fact": "San Quentin's Dungeon, built 1854: 14 tiny cells off one corridor. HABS says it may be the oldest surviving building ever built by the State of California.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Building_A-_Dungeon_and_Road_Level_Plans_-_San_Quentin_State_Prison,_Building_22,_Point_San_Quentin,_San_Quentin,_Marin_County,_CA_HABS_CA-2804-A_(sheet_9_of_55).tif"
+  ],
+  "img": "img/r35.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Building_A-_Dungeon_and_Road_Level_Plans_-_San_Quentin_State_Prison,_Building_22,_Point_San_Quentin,_San_Quentin,_Marin_County,_CA_HABS_CA-2804-A_(sheet_9_of_55).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "q": "WHO DID TIME HERE?"
+ },
+ {
+  "id": "r36",
+  "key": "n_fug1",
+  "options": [
+   "Chaplain's boarders by the chapel",
+   "Bakers sleeping by the ovens",
+   "Laundresses next to the lockup"
+  ],
+  "answer": 2,
+  "stamp": "SCRUBBED",
+  "fact": "Fort Union, New Mexico, 1867-68. Eleven rooms, each with a fireplace, housed the post's laundresses, right next to the guardhouse where the corporal of the guard held prisoners.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Fort_Union,_Guardhouse,_Bakery_and_Laundresses%27_Quarters,_State_Highway_No._161,_Watrous,_Mora_County,_NM_HABS_NM-164-O_(sheet_1_of_2).tif"
+  ],
+  "img": "img/r36.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fort_Union,_Guardhouse,_Bakery_and_Laundresses%27_Quarters,_State_Highway_No._161,_Watrous,_Mora_County,_NM_HABS_NM-164-O_(sheet_1_of_2).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
