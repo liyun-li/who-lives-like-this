@@ -18,7 +18,44 @@
   "page": "https://commons.wikimedia.org/wiki/File:Sam_and_Alfreda_Maloof_Compound,_9553_Highland_Avenue,_Rancho_Cucamonga,_San_Bernardino_County,_CA_HABS_CAL,36-RANCU,3-_(sheet_2_of_6).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "GARAGE MAIN STORAGE",
+    "x": 0.1157,
+    "y": 0.2362
+   },
+   {
+    "t": "WOOD SHOP DISPLAY",
+    "x": 0.5751,
+    "y": 0.76
+   },
+   {
+    "t": "WOOD STORAGE",
+    "x": 0.3904,
+    "y": 0.2631
+   },
+   {
+    "t": "GUEST HOUSE",
+    "x": 0.3028,
+    "y": 0.625
+   },
+   {
+    "t": "MAIN HOUSE",
+    "x": 0.9711,
+    "y": 0.4181
+   },
+   {
+    "t": "WOOD SHOP",
+    "x": 0.8032,
+    "y": 0.6831
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.6096,
+    "y": 0.9406
+   }
+  ]
  },
  {
   "id": "r02",
@@ -40,7 +77,44 @@
   "page": "https://commons.wikimedia.org/wiki/File:Stark_Brothers_Mercantile_Company_and_Home_Comfort_Hotel,_North_side,_West_Main_Street,_Saint_Elmo_(historical),_Chaffee_County,_CO_HABS_COLO,8-STEL,16-_(sheet_1_of_1).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "HOTEL DINING ROOM",
+    "x": 0.4072,
+    "y": 0.0912
+   },
+   {
+    "t": "HOTEL KITCHEN",
+    "x": 0.4072,
+    "y": 0.2037
+   },
+   {
+    "t": "GENERAL STORE",
+    "x": 0.6651,
+    "y": 0.1976
+   },
+   {
+    "t": "PRIVY",
+    "x": 0.3052,
+    "y": 0.4019
+   },
+   {
+    "t": "PORCH",
+    "x": 0.2867,
+    "y": 0.2081
+   },
+   {
+    "t": "DESK",
+    "x": 0.6215,
+    "y": 0.1777
+   },
+   {
+    "t": "DESK",
+    "x": 0.7095,
+    "y": 0.2172
+   }
+  ]
  },
  {
   "id": "r03",
@@ -61,7 +135,64 @@
   "page": "https://commons.wikimedia.org/wiki/File:Maitland_Art_Center,_231_West_Packwood_Avenue,_Maitland,_Orange_County,_FL_HABS_FLA,48-MAIT,1-_(sheet_2_of_26).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "DIRECTOR'S RESIDENCE",
+    "x": 0.1671,
+    "y": 0.3856
+   },
+   {
+    "t": "CHAPEL COURTYARD",
+    "x": 0.5454,
+    "y": 0.7712
+   },
+   {
+    "t": "POTTERY STUDIOS",
+    "x": 0.3711,
+    "y": 0.3119
+   },
+   {
+    "t": "SMALL APARTMENT",
+    "x": 0.3831,
+    "y": 0.4919
+   },
+   {
+    "t": "SERVICE AREAS",
+    "x": 0.8819,
+    "y": 0.3881
+   },
+   {
+    "t": "STUDIOS",
+    "x": 0.5687,
+    "y": 0.2
+   },
+   {
+    "t": "GALLERY",
+    "x": 0.4892,
+    "y": 0.4331
+   },
+   {
+    "t": "STUDIOS",
+    "x": 0.1775,
+    "y": 0.4919
+   },
+   {
+    "t": "CARPORT",
+    "x": 0.7422,
+    "y": 0.6888
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.8056,
+    "y": 0.3881
+   },
+   {
+    "t": "CHAPEL",
+    "x": 0.6562,
+    "y": 0.77
+   }
+  ]
  },
  {
   "id": "r04",
@@ -82,7 +213,44 @@
   "page": "https://commons.wikimedia.org/wiki/File:Captain_Pierce_House,_Boston_Avenue,_Altamonte_Springs,_Seminole_County,_FL_HABS_FLA,59-ALTSP,1-_(sheet_2_of_7).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "CABINET SHOP",
+    "x": 0.6112,
+    "y": 0.3681
+   },
+   {
+    "t": "WEST ROOM",
+    "x": 0.6273,
+    "y": 0.5669
+   },
+   {
+    "t": "WOOD BOX",
+    "x": 0.5373,
+    "y": 0.4081
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.3631,
+    "y": 0.6281
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.6112,
+    "y": 0.8181
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.7004,
+    "y": 0.5038
+   },
+   {
+    "t": "PORCH",
+    "x": 0.6273,
+    "y": 0.2031
+   }
+  ]
  },
  {
   "id": "r05",
@@ -103,7 +271,64 @@
   "page": "https://commons.wikimedia.org/wiki/File:Samuel_M._Nickerson_House,_40_East_Erie_Street,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,54-_(sheet_4_of_6).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "PICTURE GALLERY",
+    "x": 0.7349,
+    "y": 0.7681
+   },
+   {
+    "t": "RECEPTION ROOM",
+    "x": 0.408,
+    "y": 0.4331
+   },
+   {
+    "t": "SMOKING ROOM",
+    "x": 0.4056,
+    "y": 0.245
+   },
+   {
+    "t": "DRAWING ROOM",
+    "x": 0.7317,
+    "y": 0.4731
+   },
+   {
+    "t": "DRAWING ROOM",
+    "x": 0.7309,
+    "y": 0.325
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.3984,
+    "y": 0.6262
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3992,
+    "y": 0.8238
+   },
+   {
+    "t": "LIBRARY",
+    "x": 0.7341,
+    "y": 0.64
+   },
+   {
+    "t": "VAULT",
+    "x": 0.5092,
+    "y": 0.6906
+   },
+   {
+    "t": "VAULT",
+    "x": 0.6233,
+    "y": 0.6869
+   },
+   {
+    "t": "HALL",
+    "x": 0.5663,
+    "y": 0.4419
+   }
+  ]
  },
  {
   "id": "r06",
@@ -124,7 +349,109 @@
   "page": "https://commons.wikimedia.org/wiki/File:First_and_Second_Floor_Plans_-_Barela-Reynolds_House,_Calle_Principal,_Mesilla,_Dona_Ana_County,_NM_HABS_NM-205_(sheet_3_of_8).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "SITTING ROOM",
+    "x": 0.3052,
+    "y": 0.5462
+   },
+   {
+    "t": "FORMER STORE",
+    "x": 0.7984,
+    "y": 0.3681
+   },
+   {
+    "t": "FORMER STORE",
+    "x": 0.8418,
+    "y": 0.1338
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.2627,
+    "y": 0.1419
+   },
+   {
+    "t": "MUSIC ROOM",
+    "x": 0.3703,
+    "y": 0.1362
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.6876,
+    "y": 0.1025
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.6932,
+    "y": 0.1481
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.7494,
+    "y": 0.49
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2851,
+    "y": 0.435
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.6281,
+    "y": 0.6912
+   },
+   {
+    "t": "BALCONY",
+    "x": 0.8402,
+    "y": 0.9062
+   },
+   {
+    "t": "BALCONY",
+    "x": 0.853,
+    "y": 0.7738
+   },
+   {
+    "t": "PORTAL",
+    "x": 0.2707,
+    "y": 0.3113
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.5598,
+    "y": 0.125
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.6667,
+    "y": 0.4869
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.743,
+    "y": 0.095
+   },
+   {
+    "t": "ZAGUAN",
+    "x": 0.7952,
+    "y": 0.245
+   },
+   {
+    "t": "PATIO",
+    "x": 0.4707,
+    "y": 0.3531
+   },
+   {
+    "t": "HALL",
+    "x": 0.3976,
+    "y": 0.2075
+   },
+   {
+    "t": "SAFE",
+    "x": 0.5687,
+    "y": 0.4819
+   }
+  ]
  },
  {
   "id": "r07",
@@ -145,7 +472,104 @@
   "page": "https://commons.wikimedia.org/wiki/File:Cropsey_House_and_Studio,_49_Washington_Avenue,_Hastings-on-Hudson,_Westchester_County,_NY_HABS_NY,60-HAST,2-_(sheet_3_of_11).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "DINING ROOM",
+    "x": 0.5566,
+    "y": 0.615
+   },
+   {
+    "t": "OLD STUDIO",
+    "x": 0.8394,
+    "y": 0.14
+   },
+   {
+    "t": "INGLENOOK",
+    "x": 0.3863,
+    "y": 0.7731
+   },
+   {
+    "t": "WOOD DECK",
+    "x": 0.8378,
+    "y": 0.7331
+   },
+   {
+    "t": "BOOKCASE",
+    "x": 0.2827,
+    "y": 0.5899
+   },
+   {
+    "t": "ANTEROOM",
+    "x": 0.4201,
+    "y": 0.5831
+   },
+   {
+    "t": "ANTEROOM",
+    "x": 0.8474,
+    "y": 0.2688
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2827,
+    "y": 0.5501
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.6747,
+    "y": 0.4288
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.6771,
+    "y": 0.2319
+   },
+   {
+    "t": "TERRACE",
+    "x": 0.902,
+    "y": 0.4381
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.1727,
+    "y": 0.7669
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.6506,
+    "y": 0.5081
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.8369,
+    "y": 0.6138
+   },
+   {
+    "t": "PORCH",
+    "x": 0.7068,
+    "y": 0.77
+   },
+   {
+    "t": "ENTRY",
+    "x": 0.7173,
+    "y": 0.6094
+   },
+   {
+    "t": "ENTRY",
+    "x": 0.841,
+    "y": 0.33
+   },
+   {
+    "t": "HALL",
+    "x": 0.71,
+    "y": 0.3362
+   },
+   {
+    "t": "HALL",
+    "x": 0.7823,
+    "y": 0.4288
+   }
+  ]
  },
  {
   "id": "r08",
@@ -166,7 +590,24 @@
   "page": "https://commons.wikimedia.org/wiki/File:John_Carter_House,_21_Meeting_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,17-_(sheet_2_of_15).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "ROOMS ON FIRST FLOOR PROBABLY USED AS PRINTING OFFICE AND POST OFFICE",
+    "x": 0.4233,
+    "y": 0.355
+   },
+   {
+    "t": "FIREPLACE",
+    "x": 0.539,
+    "y": 0.425
+   },
+   {
+    "t": "LANDING",
+    "x": 0.5133,
+    "y": 0.8088
+   }
+  ]
  },
  {
   "id": "r09",
@@ -187,7 +628,69 @@
   "page": "https://commons.wikimedia.org/wiki/File:Fleur_De_Lys_Studio,_7_Thomas_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,190-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "UPPER PART OF STUDIO",
+    "x": 0.3454,
+    "y": 0.3181
+   },
+   {
+    "t": "RECEPTION ROOM",
+    "x": 0.2257,
+    "y": 0.8619
+   },
+   {
+    "t": "MAIN STUDIO",
+    "x": 0.2602,
+    "y": 0.675
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.151,
+    "y": 0.9
+   },
+   {
+    "t": "FURNACE",
+    "x": 0.6851,
+    "y": 0.1713
+   },
+   {
+    "t": "FURNACE",
+    "x": 0.7172,
+    "y": 0.6728
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.3141,
+    "y": 0.1488
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.1823,
+    "y": 0.3588
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.7631,
+    "y": 0.6903
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.3317,
+    "y": 0.8569
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.8321,
+    "y": 0.8588
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.6763,
+    "y": 0.8962
+   }
+  ]
  },
  {
   "id": "r10",
@@ -208,7 +711,34 @@
   "page": "https://commons.wikimedia.org/wiki/File:Matador_Guest_House_and_Office,_National_Ranching_Heritage_Center_(moved_from_TX_Route_70_vicinity,_Matador,_Motley_County,_TX),_Lubbock,_Lubbock_County,_TX_HABS_TEX,152-LUBBO,7-_(sheet_2_of_4).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BATHROOM",
+    "x": 0.5639,
+    "y": 0.8931
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3478,
+    "y": 0.67
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3478,
+    "y": 0.3862
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.5333,
+    "y": 0.2469
+   },
+   {
+    "t": "PORCH",
+    "x": 0.6964,
+    "y": 0.5281
+   }
+  ]
  },
  {
   "id": "r11",
@@ -230,7 +760,44 @@
   "page": "https://commons.wikimedia.org/wiki/File:Wharton-Scott_House,_1509_Pennsylvania_Street,_Fort_Worth,_Tarrant_County,_TX_HABS_TEX,220-FOWOR,2-_(sheet_3_of_19).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "MORNING ROOM",
+    "x": 0.2343,
+    "y": 0.6181
+   },
+   {
+    "t": "DRAWING ROOM",
+    "x": 0.6019,
+    "y": 0.5512
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.427,
+    "y": 0.5769
+   },
+   {
+    "t": "MUSIC ROOM",
+    "x": 0.4149,
+    "y": 0.285
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.1942,
+    "y": 0.5031
+   },
+   {
+    "t": "LIBRARY",
+    "x": 0.6019,
+    "y": 0.32
+   },
+   {
+    "t": "FOYER",
+    "x": 0.6019,
+    "y": 0.44
+   }
+  ]
  },
  {
   "id": "r12",
@@ -251,7 +818,29 @@
   "page": "https://commons.wikimedia.org/wiki/File:Field-Pacheco_Complex,_1049_East_Monroe_Street,_Brownsville,_Cameron_County,_TX_HABS_TEX,31-BROWN,9-_(sheet_3_of_7).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "STAIR HALL",
+    "x": 0.4037,
+    "y": 0.2388
+   },
+   {
+    "t": "STOCK ROOM",
+    "x": 0.5907,
+    "y": 0.6681
+   },
+   {
+    "t": "LOFT ABOVE",
+    "x": 0.6581,
+    "y": 0.4569
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5899,
+    "y": 0.3038
+   }
+  ]
  },
  {
   "id": "r13",
@@ -272,7 +861,44 @@
   "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_Lindheimer_House,_491_South_Comal_Avenue,_New_Braunfels,_Comal_County,_TX_HABS_TEX,46-NEBRA,5-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "NEWSPAPER OFFICE",
+    "x": 0.6217,
+    "y": 0.595
+   },
+   {
+    "t": "PRINTING ROOM",
+    "x": 0.4522,
+    "y": 0.6038
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.2289,
+    "y": 0.785
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.4498,
+    "y": 0.9119
+   },
+   {
+    "t": "DINING",
+    "x": 0.2289,
+    "y": 0.615
+   },
+   {
+    "t": "CELLAR",
+    "x": 0.6586,
+    "y": 0.2019
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.6827,
+    "y": 0.9119
+   }
+  ]
  },
  {
   "id": "r14",
@@ -293,7 +919,89 @@
   "page": "https://commons.wikimedia.org/wiki/File:Alfred_W._McCune_House,_200_North_Main_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,27-_(sheet_2_of_8).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "FAMILY BREAKFAST ROOM",
+    "x": 0.7173,
+    "y": 0.3525
+   },
+   {
+    "t": "BUTLER'S PANTRY",
+    "x": 0.747,
+    "y": 0.2144
+   },
+   {
+    "t": "SERVANTS' STAIR",
+    "x": 0.5687,
+    "y": 0.3306
+   },
+   {
+    "t": "RECEPTION ROOM",
+    "x": 0.4394,
+    "y": 0.665
+   },
+   {
+    "t": "CONSERVATORY",
+    "x": 0.8562,
+    "y": 0.3619
+   },
+   {
+    "t": "DRAWING ROOM",
+    "x": 0.253,
+    "y": 0.5419
+   },
+   {
+    "t": "SITTING ROOM",
+    "x": 0.7133,
+    "y": 0.5981
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.7414,
+    "y": 0.4519
+   },
+   {
+    "t": "MAIN HALL",
+    "x": 0.4884,
+    "y": 0.5438
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.5647,
+    "y": 0.6612
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.5904,
+    "y": 0.2138
+   },
+   {
+    "t": "LIBRARY",
+    "x": 0.2691,
+    "y": 0.4131
+   },
+   {
+    "t": "VERANDA",
+    "x": 0.343,
+    "y": 0.7712
+   },
+   {
+    "t": "VERANDA",
+    "x": 0.8779,
+    "y": 0.7738
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.5679,
+    "y": 0.1556
+   },
+   {
+    "t": "ALCOVE",
+    "x": 0.4819,
+    "y": 0.3838
+   }
+  ]
  },
  {
   "id": "r15",
@@ -314,7 +1022,34 @@
   "page": "https://commons.wikimedia.org/wiki/File:Floor_Plan_-_Harrison_Crandall_Studio,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS.V,4-_(sheet_1_of_3).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "FOOD SALES (ORIGINAL BEDROOM)",
+    "x": 0.635,
+    "y": 0.279
+   },
+   {
+    "t": "REFRIGERATION UNIT",
+    "x": 0.63,
+    "y": 0.1162
+   },
+   {
+    "t": "GIFT SHOP (ORIGINAL STUDIO)",
+    "x": 0.556,
+    "y": 0.585
+   },
+   {
+    "t": "STORAGE (ORIGINAL GROCERY STORE)",
+    "x": 0.573,
+    "y": 0.174
+   },
+   {
+    "t": "FREEZER",
+    "x": 0.4904,
+    "y": 0.2688
+   }
+  ]
  },
  {
   "id": "r16",
@@ -335,7 +1070,54 @@
   "page": "https://www.loc.gov/pictures/item/il0741/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "KITCHEN (FORMERLY DRAFTING STUDIO)",
+    "x": 0.5847,
+    "y": 0.3069
+   },
+   {
+    "t": "LIVING ROOM (FORMERLY OFFICE)",
+    "x": 0.6434,
+    "y": 0.6288
+   },
+   {
+    "t": "BEDROOM (FORMERLY GARAGE)",
+    "x": 0.3382,
+    "y": 0.5588
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.3213,
+    "y": 0.3575
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.2843,
+    "y": 0.4212
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.571,
+    "y": 0.096
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.5012,
+    "y": 0.5331
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.3309,
+    "y": 0.6956
+   },
+   {
+    "t": "FOYER",
+    "x": 0.5012,
+    "y": 0.6269
+   }
+  ]
  },
  {
   "id": "r17",
@@ -356,7 +1138,49 @@
   "page": "https://www.loc.gov/pictures/item/il1023/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "SOLAR DRESSING ROOM",
+    "x": 0.5918,
+    "y": 0.3988
+   },
+   {
+    "t": "COVERED WALKWAY",
+    "x": 0.4451,
+    "y": 0.4119
+   },
+   {
+    "t": "MAIN HOUSE",
+    "x": 0.8172,
+    "y": 0.0831
+   },
+   {
+    "t": "ZEN GARDEN",
+    "x": 0.8492,
+    "y": 0.4069
+   },
+   {
+    "t": "BREEZEWAY",
+    "x": 0.405,
+    "y": 0.0388
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.753,
+    "y": 0.7269
+   },
+   {
+    "t": "STUDIO",
+    "x": 0.0842,
+    "y": 0.0419
+   },
+   {
+    "t": "PATIO",
+    "x": 0.7314,
+    "y": 0.4088
+   }
+  ]
  },
  {
   "id": "r18",
@@ -377,7 +1201,39 @@
   "page": "https://www.loc.gov/pictures/item/mo0340/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "WINE BARREL RACKS",
+    "x": 0.4743,
+    "y": 0.1538
+   },
+   {
+    "t": "PRINT SHOP",
+    "x": 0.66,
+    "y": 0.6281
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.6608,
+    "y": 0.8488
+   },
+   {
+    "t": "WINERY",
+    "x": 0.2436,
+    "y": 0.2112
+   },
+   {
+    "t": "PORCH",
+    "x": 0.2693,
+    "y": 0.6631
+   },
+   {
+    "t": "PUMP",
+    "x": 0.1929,
+    "y": 0.4881
+   }
+  ]
  },
  {
   "id": "r19",
@@ -398,7 +1254,59 @@
   "page": "https://www.loc.gov/pictures/item/pa0171/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "GROCERY STORE AND LUNCHEONETTE",
+    "x": 0.5647,
+    "y": 0.2269
+   },
+   {
+    "t": "OLD LUNCH COUNTER",
+    "x": 0.3912,
+    "y": 0.2537
+   },
+   {
+    "t": "PARENTS' BEDROOM",
+    "x": 0.2096,
+    "y": 0.77
+   },
+   {
+    "t": "TOOL SHED",
+    "x": 0.4112,
+    "y": 0.365
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3108,
+    "y": 0.51
+   },
+   {
+    "t": "CELLAR",
+    "x": 0.2233,
+    "y": 0.1151
+   },
+   {
+    "t": "FRONT",
+    "x": 0.2361,
+    "y": 0.9077
+   },
+   {
+    "t": "PORCH",
+    "x": 0.2361,
+    "y": 0.8679
+   },
+   {
+    "t": "PORCH",
+    "x": 0.4104,
+    "y": 0.5288
+   },
+   {
+    "t": "ROOT",
+    "x": 0.2233,
+    "y": 0.1549
+   }
+  ]
  },
  {
   "id": "r20",
@@ -419,7 +1327,69 @@
   "page": "https://www.loc.gov/pictures/item/tx0242/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "LIVING ROOM",
+    "x": 0.6851,
+    "y": 0.1981
+   },
+   {
+    "t": "STORE ROOM",
+    "x": 0.6522,
+    "y": 0.7631
+   },
+   {
+    "t": "WAREHOUSE",
+    "x": 0.653,
+    "y": 0.6269
+   },
+   {
+    "t": "BED ROOM",
+    "x": 0.4329,
+    "y": 0.775
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.4402,
+    "y": 0.1519
+   },
+   {
+    "t": "STAIRS",
+    "x": 0.0779,
+    "y": 0.7394
+   },
+   {
+    "t": "PORCH",
+    "x": 0.2578,
+    "y": 0.165
+   },
+   {
+    "t": "PORCH",
+    "x": 0.8972,
+    "y": 0.225
+   },
+   {
+    "t": "BACK",
+    "x": 0.2554,
+    "y": 0.2531
+   },
+   {
+    "t": "ROOM",
+    "x": 0.4321,
+    "y": 0.615
+   },
+   {
+    "t": "HALL",
+    "x": 0.4394,
+    "y": 0.3212
+   },
+   {
+    "t": "BED",
+    "x": 0.4313,
+    "y": 0.2719
+   }
+  ]
  },
  {
   "id": "r21",
@@ -440,7 +1410,74 @@
   "page": "https://www.loc.gov/pictures/item/tx0446/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "MEAT AND MILK COOLER",
+    "x": 0.1622,
+    "y": 0.8131
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.1438,
+    "y": 0.6288
+   },
+   {
+    "t": "MAIN ENTRY",
+    "x": 0.5108,
+    "y": 0.3531
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.2691,
+    "y": 0.7938
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.6691,
+    "y": 0.6288
+   },
+   {
+    "t": "TROUGH",
+    "x": 0.1157,
+    "y": 0.7837
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.188,
+    "y": 0.3938
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.5775,
+    "y": 0.5238
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.6394,
+    "y": 0.5219
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.6691,
+    "y": 0.3962
+   },
+   {
+    "t": "PORCH",
+    "x": 0.8683,
+    "y": 0.2438
+   },
+   {
+    "t": "HALL",
+    "x": 0.4353,
+    "y": 0.445
+   },
+   {
+    "t": "BATH",
+    "x": 0.6056,
+    "y": 0.7981
+   }
+  ]
  },
  {
   "id": "r22",
@@ -462,7 +1499,29 @@
   "page": "https://commons.wikimedia.org/wiki/File:Bonnet_House,_Art_Studio_and_Tower,_900_North_Birch_Road,_Fort_Lauderdale,_Broward_County,_FL_HABS_FLA,6-FOLAU,1A-_(sheet_1_of_3).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "2ND FLOOR TOWER",
+    "x": 0.4771,
+    "y": 0.3619
+   },
+   {
+    "t": "TOP OF TOWER",
+    "x": 0.4771,
+    "y": 0.1338
+   },
+   {
+    "t": "ART STUDIO",
+    "x": 0.3382,
+    "y": 0.8481
+   },
+   {
+    "t": "TOWER",
+    "x": 0.339,
+    "y": 0.6819
+   }
+  ]
  },
  {
   "id": "r23",
@@ -484,7 +1543,124 @@
   "page": "https://commons.wikimedia.org/wiki/File:Britt_House,_201_South_First_Street,_Jacksonville,_Jackson_County,_OR_HABS_ORE,15,JACVI,3-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "MASTER BEDROOM",
+    "x": 0.7327,
+    "y": 0.75
+   },
+   {
+    "t": "SKYLIGHT WELL",
+    "x": 0.0409,
+    "y": 0.4581
+   },
+   {
+    "t": "CONSERVATORY",
+    "x": 0.4799,
+    "y": 0.8719
+   },
+   {
+    "t": "PHOTO STUDIO",
+    "x": 0.4904,
+    "y": 0.1762
+   },
+   {
+    "t": "DARK ROOM",
+    "x": 0.7006,
+    "y": 0.3331
+   },
+   {
+    "t": "FINISHING",
+    "x": 0.7683,
+    "y": 0.3477
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.1567,
+    "y": 0.7512
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.1599,
+    "y": 0.2619
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2109,
+    "y": 0.2612
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5353,
+    "y": 0.8812
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.6645,
+    "y": 0.88
+   },
+   {
+    "t": "BALCONY",
+    "x": 0.691,
+    "y": 0.1081
+   },
+   {
+    "t": "DINING",
+    "x": 0.2068,
+    "y": 0.7588
+   },
+   {
+    "t": "LIVING",
+    "x": 0.3451,
+    "y": 0.7238
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.3451,
+    "y": 0.6188
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5425,
+    "y": 0.32
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.622,
+    "y": 0.7456
+   },
+   {
+    "t": "ATTIC",
+    "x": 0.1669,
+    "y": 0.545
+   },
+   {
+    "t": "PORCH",
+    "x": 0.8732,
+    "y": 0.8512
+   },
+   {
+    "t": "BATH",
+    "x": 0.1453,
+    "y": 0.79
+   },
+   {
+    "t": "HALL",
+    "x": 0.6814,
+    "y": 0.68
+   },
+   {
+    "t": "ROOM",
+    "x": 0.7702,
+    "y": 0.3079
+   },
+   {
+    "t": "DEN",
+    "x": 0.5409,
+    "y": 0.7269
+   }
+  ]
  },
  {
   "id": "r24",
@@ -506,7 +1682,74 @@
   "page": "https://commons.wikimedia.org/wiki/File:Keeper%27s_Residence_and_Light_Tower_Floor_Plans_-_Cana_island_Light_Station,_Keeper%27s_Residence_and_Light_Tower,_Cana_Island_Road,_Baileys_Harbor,_Door_County,_WI_HABS_WI-376-A_(sheet_1_of_4)_(cropped).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "CONNECTOR HALL",
+    "x": 0.4857,
+    "y": 0.3206
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.412,
+    "y": 0.592
+   },
+   {
+    "t": "LIVING ROOM",
+    "x": 0.577,
+    "y": 0.593
+   },
+   {
+    "t": "LIGHT TOWER",
+    "x": 0.6602,
+    "y": 0.11
+   },
+   {
+    "t": "STAIR HALL",
+    "x": 0.4795,
+    "y": 0.4338
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.392,
+    "y": 0.85
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.5368,
+    "y": 0.3206
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.434,
+    "y": 0.758
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.597,
+    "y": 0.447
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.392,
+    "y": 0.426
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.4546,
+    "y": 0.4894
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.58,
+    "y": 0.758
+   },
+   {
+    "t": "DESK",
+    "x": 0.3004,
+    "y": 0.4331
+   }
+  ]
  },
  {
   "id": "r25",
@@ -528,7 +1771,54 @@
   "page": "https://www.loc.gov/pictures/item/wi0311/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
+  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "labels": [
+   {
+    "t": "SUMMER KITCHEN",
+    "x": 0.2717,
+    "y": 0.2825
+   },
+   {
+    "t": "WOOD CELLAR",
+    "x": 0.549,
+    "y": 0.8969
+   },
+   {
+    "t": "OIL ROOM",
+    "x": 0.623,
+    "y": 0.7631
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.4686,
+    "y": 0.3462
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5804,
+    "y": 0.1931
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.6777,
+    "y": 0.3438
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.4373,
+    "y": 0.2188
+   },
+   {
+    "t": "CELLAR",
+    "x": 0.4453,
+    "y": 0.765
+   },
+   {
+    "t": "ENTRY",
+    "x": 0.6897,
+    "y": 0.255
+   }
+  ]
  },
  {
   "id": "r26",
@@ -549,7 +1839,124 @@
   "page": "https://commons.wikimedia.org/wiki/File:Jacob_Wohlfarth_Store_and_Residence,_823_West_Laurel,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,43-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "STORAGE",
+    "x": 0.2257,
+    "y": 0.8838
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.2643,
+    "y": 0.3981
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.3116,
+    "y": 0.7288
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3454,
+    "y": 0.1705
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.4618,
+    "y": 0.8969
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.4667,
+    "y": 0.1612
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.5438,
+    "y": 0.2619
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5446,
+    "y": 0.3969
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.7839,
+    "y": 0.4112
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.7839,
+    "y": 0.2769
+   },
+   {
+    "t": "RETAIL",
+    "x": 0.3116,
+    "y": 0.63
+   },
+   {
+    "t": "DINING",
+    "x": 0.3454,
+    "y": 0.1307
+   },
+   {
+    "t": "RETAIL",
+    "x": 0.4627,
+    "y": 0.7288
+   },
+   {
+    "t": "LIVING",
+    "x": 0.4667,
+    "y": 0.4
+   },
+   {
+    "t": "DINING",
+    "x": 0.5438,
+    "y": 0.1762
+   },
+   {
+    "t": "LIVING",
+    "x": 0.6659,
+    "y": 0.26
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.71,
+    "y": 0.4038
+   },
+   {
+    "t": "COOLER",
+    "x": 0.7687,
+    "y": 0.7731
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.7855,
+    "y": 0.3262
+   },
+   {
+    "t": "BATH",
+    "x": 0.2056,
+    "y": 0.3394
+   },
+   {
+    "t": "BATH",
+    "x": 0.3454,
+    "y": 0.2238
+   },
+   {
+    "t": "HALL",
+    "x": 0.4683,
+    "y": 0.29
+   },
+   {
+    "t": "BATH",
+    "x": 0.4827,
+    "y": 0.2369
+   }
+  ]
  },
  {
   "id": "r27",
@@ -570,7 +1977,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "ORIGINAL CABIN",
+    "x": 0.5189,
+    "y": 0.6888
+   },
+   {
+    "t": "STORE",
+    "x": 0.5189,
+    "y": 0.2519
+   }
+  ]
  },
  {
   "id": "r28",
@@ -591,7 +2010,54 @@
   "page": "https://commons.wikimedia.org/wiki/File:The_Cloisters,_Ephrata,_Lancaster_County,_PA_HABS_PA,36-EPH,1-_(sheet_2_of_60).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "COMMON ROOM",
+    "x": 0.3269,
+    "y": 0.3031
+   },
+   {
+    "t": "COMMON ROOM",
+    "x": 0.3912,
+    "y": 0.7319
+   },
+   {
+    "t": "COMMON ROOM",
+    "x": 0.592,
+    "y": 0.7887
+   },
+   {
+    "t": "FIREPLACE",
+    "x": 0.4434,
+    "y": 0.5875
+   },
+   {
+    "t": "CAULDRON",
+    "x": 0.5237,
+    "y": 0.4731
+   },
+   {
+    "t": "CELL",
+    "x": 0.3333,
+    "y": 0.8862
+   },
+   {
+    "t": "CELL",
+    "x": 0.4209,
+    "y": 0.8838
+   },
+   {
+    "t": "CELL",
+    "x": 0.6321,
+    "y": 0.1788
+   },
+   {
+    "t": "CELL",
+    "x": 0.6353,
+    "y": 0.4288
+   }
+  ]
  },
  {
   "id": "r29",
@@ -612,7 +2078,34 @@
   "page": "https://commons.wikimedia.org/wiki/File:Shaker_South_Family_Dwelling_House,_Watervliet_Shaker_Road,_Colonie_Township,_Watervliet,_Albany_County,_NY_HABS_NY,1-COL,14-_(sheet_2_of_13).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "MEETING ROOM",
+    "x": 0.3226,
+    "y": 0.4112
+   },
+   {
+    "t": "CUPBOARD",
+    "x": 0.4567,
+    "y": 0.0988
+   },
+   {
+    "t": "CLOSETS",
+    "x": 0.5498,
+    "y": 0.5488
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.5514,
+    "y": 0.275
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.5522,
+    "y": 0.1362
+   }
+  ]
  },
  {
   "id": "r30",
@@ -634,7 +2127,59 @@
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
-  "q": "WHO RUNS THIS PLACE?"
+  "q": "WHO RUNS THIS PLACE?",
+  "labels": [
+   {
+    "t": "CORRIDOR GATE",
+    "x": 0.4827,
+    "y": 0.4381
+   },
+   {
+    "t": "BATH ROOM",
+    "x": 0.5823,
+    "y": 0.64
+   },
+   {
+    "t": "BED ROOM",
+    "x": 0.2787,
+    "y": 0.605
+   },
+   {
+    "t": "BED ROOM",
+    "x": 0.3181,
+    "y": 0.83
+   },
+   {
+    "t": "PASSAGE",
+    "x": 0.4972,
+    "y": 0.155
+   },
+   {
+    "t": "LANDING",
+    "x": 0.4731,
+    "y": 0.545
+   },
+   {
+    "t": "CELL",
+    "x": 0.6972,
+    "y": 0.2688
+   },
+   {
+    "t": "CELL",
+    "x": 0.4884,
+    "y": 0.2662
+   },
+   {
+    "t": "ROOM",
+    "x": 0.7221,
+    "y": 0.775
+   },
+   {
+    "t": "BED",
+    "x": 0.6321,
+    "y": 0.7781
+   }
+  ]
  },
  {
   "id": "r31",
@@ -655,7 +2200,39 @@
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
-  "q": "WHO RUNS THIS PLACE?"
+  "q": "WHO RUNS THIS PLACE?",
+  "labels": [
+   {
+    "t": "IRON RING CELL",
+    "x": 0.638,
+    "y": 0.2562
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5281,
+    "y": 0.8
+   },
+   {
+    "t": "CELL",
+    "x": 0.3234,
+    "y": 0.2662
+   },
+   {
+    "t": "CELL",
+    "x": 0.7673,
+    "y": 0.2712
+   },
+   {
+    "t": "CELL",
+    "x": 0.4791,
+    "y": 0.2688
+   },
+   {
+    "t": "ROOM",
+    "x": 0.6124,
+    "y": 0.5062
+   }
+  ]
  },
  {
   "id": "r32",
@@ -676,7 +2253,34 @@
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
-  "q": "WHO DID TIME HERE?"
+  "q": "WHO DID TIME HERE?",
+  "labels": [
+   {
+    "t": "DUNGEON",
+    "x": 0.5438,
+    "y": 0.5913
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.2088,
+    "y": 0.6169
+   },
+   {
+    "t": "ROAD",
+    "x": 0.5414,
+    "y": 0.0381
+   },
+   {
+    "t": "ROAD",
+    "x": 0.9149,
+    "y": 0.2312
+   },
+   {
+    "t": "YARD",
+    "x": 0.0257,
+    "y": 0.4281
+   }
+  ]
  },
  {
   "id": "r33",
@@ -697,7 +2301,39 @@
   "page": "https://commons.wikimedia.org/wiki/File:Fort_Union,_Guardhouse,_Bakery_and_Laundresses%27_Quarters,_State_Highway_No._161,_Watrous,_Mora_County,_NM_HABS_NM-164-O_(sheet_1_of_2).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LAUNDRESSES QUARTERS",
+    "x": 0.7247,
+    "y": 0.52
+   },
+   {
+    "t": "LAUNDRESSES QUARTERS",
+    "x": 0.7247,
+    "y": 0.3212
+   },
+   {
+    "t": "GUARDHOUSE",
+    "x": 0.7368,
+    "y": 0.1162
+   },
+   {
+    "t": "CHAPEL",
+    "x": 0.5008,
+    "y": 0.0662
+   },
+   {
+    "t": "BAKERY",
+    "x": 0.7183,
+    "y": 0.9431
+   },
+   {
+    "t": "OVEN",
+    "x": 0.7368,
+    "y": 0.8531
+   }
+  ]
  },
  {
   "id": "r34",
@@ -718,7 +2354,59 @@
   "page": "https://commons.wikimedia.org/wiki/File:House-diagram.jpg",
   "credit": "Wichita City Eagle, 1873 · via Wikimedia Commons (newspaper diagram)",
   "license": "Public domain (published before 1930)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+  "labels": [
+   {
+    "t": "CLOTH PARTITION",
+    "x": 0.5012,
+    "y": 0.545
+   },
+   {
+    "t": "PASSAGE",
+    "x": 0.0329,
+    "y": 0.5238
+   },
+   {
+    "t": "PASSAGE",
+    "x": 0.9663,
+    "y": 0.525
+   },
+   {
+    "t": "COUNTER",
+    "x": 0.061,
+    "y": 0.7312
+   },
+   {
+    "t": "WINDOW",
+    "x": 0.1582,
+    "y": 0.3888
+   },
+   {
+    "t": "WINDOW",
+    "x": 0.2394,
+    "y": 0.8838
+   },
+   {
+    "t": "DOOR",
+    "x": 0.8562,
+    "y": 0.1669
+   },
+   {
+    "t": "TRAP",
+    "x": 0.3904,
+    "y": 0.3137
+   },
+   {
+    "t": "DOOR",
+    "x": 0.453,
+    "y": 0.9112
+   },
+   {
+    "t": "BED",
+    "x": 0.1012,
+    "y": 0.1688
+   }
+  ]
  },
  {
   "id": "r35",
@@ -739,6 +2427,73 @@
   "page": "https://commons.wikimedia.org/wiki/File:World_newspaper.jpg",
   "credit": "New York World, 1895 · via Wikimedia Commons (newspaper diagram; sensational labels and shading removed)",
   "license": "Public domain (published before 1930)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired"
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+  "labels": [
+   {
+    "t": "ROOM OF THE THREE CHAMBERS",
+    "x": 0.3068,
+    "y": 0.4162
+   },
+   {
+    "t": "MYSTERIOUS CLOSED ROOM",
+    "x": 0.5502,
+    "y": 0.2962
+   },
+   {
+    "t": "RECEPTION ROOM",
+    "x": 0.3349,
+    "y": 0.0962
+   },
+   {
+    "t": "WRITING ROOM",
+    "x": 0.6361,
+    "y": 0.0962
+   },
+   {
+    "t": "BACK ROOM",
+    "x": 0.4972,
+    "y": 0.9588
+   },
+   {
+    "t": "5-DOOR",
+    "x": 0.3582,
+    "y": 0.2795
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.3108,
+    "y": 0.3462
+   },
+   {
+    "t": "HALL",
+    "x": 0.506,
+    "y": 0.2431
+   },
+   {
+    "t": "HALL",
+    "x": 0.6643,
+    "y": 0.2988
+   },
+   {
+    "t": "ROOM",
+    "x": 0.3582,
+    "y": 0.3193
+   },
+   {
+    "t": "HALL",
+    "x": 0.5751,
+    "y": 0.6556
+   },
+   {
+    "t": "HALL",
+    "x": 0.4643,
+    "y": 0.705
+   },
+   {
+    "t": "HALL",
+    "x": 0.494,
+    "y": 0.8412
+   }
+  ]
  }
 ]
