@@ -3,11 +3,11 @@
   "id": "r01",
   "key": "CAL_36_RANCU_3_2",
   "options": [
-   "Avocado rancher who hosts a lot",
    "Retired film-set designer",
-   "Self-taught furniture maker"
+   "Self-taught furniture maker",
+   "Avocado rancher who hosts a lot"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "SAWDUST",
   "fact": "Self-taught woodworker Sam Maloof, the first craftsman to win a MacArthur 'genius' grant, kept adding rooms, shops and studio included, until his 6-room house had 16 more. Then a new freeway was routed right through it, so in 2000 the whole house was moved about 3 miles.",
   "sources": [
@@ -24,11 +24,11 @@
   "id": "r02",
   "key": "COLO_8_STEL_16_i1",
   "options": [
-   "Killer posing as a hotelier",
    "Shopkeepers who also run the hotel",
+   "Killer posing as a hotelier",
    "Silver-mine superintendent's family"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "HUSTLE",
   "fact": "As St. Elmo's mines died, the Stark family bought up the empty buildings to save them, a big reason this ghost town still stands. Annabelle, the last Stark, kept this place going as a 16-room boarding house, store, post office and telegraph desk into the 1950s.",
   "sources": [
@@ -44,27 +44,6 @@
  },
  {
   "id": "r03",
-  "key": "DEL_2_CHRIS_1_2",
-  "options": [
-   "Colonial grist-mill owner",
-   "Colonial innkeeper",
-   "Colonial village doctor"
-  ],
-  "answer": 1,
-  "stamp": "ROOMS",
-  "fact": "This brick house at a colonial crossroads linking Philadelphia and Maryland was already standing by 1766. Innkeeper William Shannon bought it in 1800, and his widow Mary sold it in 1816.",
-  "sources": [
-   "https://commons.wikimedia.org/wiki/File:Shannon_Hotel,_1_East_Main_Street,_Christiana,_New_Castle_County,_DE_HABS_DEL,2-CHRIS,1-_(sheet_2_of_4).png",
-   "https://tile.loc.gov/storage-services/master/pnp/habshaer/de/de0000/de0048/data/de0048data.pdf"
-  ],
-  "img": "img/r03.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Shannon_Hotel,_1_East_Main_Street,_Christiana,_New_Castle_County,_DE_HABS_DEL,2-CHRIS,1-_(sheet_2_of_4).png",
-  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
-  "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
- },
- {
-  "id": "r04",
   "key": "FLA_48_MAIT_1_2",
   "options": [
    "Commune leader and followers",
@@ -78,188 +57,168 @@
    "https://commons.wikimedia.org/wiki/File:Maitland_Art_Center,_231_West_Packwood_Avenue,_Maitland,_Orange_County,_FL_HABS_FLA,48-MAIT,1-_(sheet_2_of_26).png",
    "https://en.wikipedia.org/wiki/Maitland_Art_Center"
   ],
-  "img": "img/r04.jpg",
+  "img": "img/r03.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Maitland_Art_Center,_231_West_Packwood_Avenue,_Maitland,_Orange_County,_FL_HABS_FLA,48-MAIT,1-_(sheet_2_of_26).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r05",
+  "id": "r04",
   "key": "FLA_59_ALTSP_1_2",
   "options": [
-   "Cabinetmaker working from home",
    "Railroad station agent",
+   "Cabinetmaker working from home",
    "Citrus grower with a packing shed"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "CHISELED",
   "fact": "One of the earliest prefab houses in the U.S., it arrived by steamship and mule cart in 1873, with its frame on the outside and the finish inside, hence the nickname 'Inside-Outside House'. Retired sea captain Pierce ran a cabinet shop downstairs, lived upstairs, and later became a bank president.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Captain_Pierce_House,_Boston_Avenue,_Altamonte_Springs,_Seminole_County,_FL_HABS_FLA,59-ALTSP,1-_(sheet_2_of_7).png",
    "https://historiclongwood.com/inside-outside-house/"
   ],
-  "img": "img/r05.jpg",
+  "img": "img/r04.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Captain_Pierce_House,_Boston_Avenue,_Altamonte_Springs,_Seminole_County,_FL_HABS_FLA,59-ALTSP,1-_(sheet_2_of_7).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r06",
+  "id": "r05",
   "key": "ILL_16_CHIG_54_4",
   "options": [
-   "Banker with an art habit",
    "Meatpacking heir who entertains",
-   "Paranoid recluse with a strongroom"
+   "Paranoid recluse with a strongroom",
+   "Banker with an art habit"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "LOADED",
   "fact": "Banker Samuel Nickerson spent four years and $450,000 on this 'Marble Palace', reportedly Chicago's most expensive home when it was finished in 1883. Note the vault; the American College of Surgeons later took it over, and today it's the Driehaus Museum.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Samuel_M._Nickerson_House,_40_East_Erie_Street,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,54-_(sheet_4_of_6).tif",
    "https://en.wikipedia.org/wiki/Driehaus_Museum"
   ],
-  "img": "img/r06.jpg",
+  "img": "img/r05.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Samuel_M._Nickerson_House,_40_East_Erie_Street,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,54-_(sheet_4_of_6).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r07",
+  "id": "r06",
   "key": "NM_205_3",
   "options": [
+   "Killer family running a roadhouse",
    "Army post surgeon and family",
-   "Plaza trader, store out front",
-   "Stagecoach line agent"
+   "Plaza trader, store out front"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "TRADING",
   "fact": "Charles Reynolds bought this plaza store-and-home in 1903 and remodeled it on borrowed money, including a mortgage from the parish priest. In 1913 the priest foreclosed, moved in, taught catechism in the store, and later left the whole place to his housekeeper.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:First_and_Second_Floor_Plans_-_Barela-Reynolds_House,_Calle_Principal,_Mesilla,_Dona_Ana_County,_NM_HABS_NM-205_(sheet_3_of_8).png",
    "https://www.nmhistoricsites.dca.nm.gov/taylor-mesilla/history/"
   ],
-  "img": "img/r07.jpg",
+  "img": "img/r06.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:First_and_Second_Floor_Plans_-_Barela-Reynolds_House,_Calle_Principal,_Mesilla,_Dona_Ana_County,_NM_HABS_NM-205_(sheet_3_of_8).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r08",
+  "id": "r07",
   "key": "NY_60_HAST_2_3",
   "options": [
+   "Landscape painter",
    "Railroad lawyer with a big library",
-   "Commuting stockbroker",
-   "Landscape painter"
+   "Commuting stockbroker"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "BRUSHED",
   "fact": "Jasper Cropsey trained as an architect before going all-in on blazing autumn landscapes, and he even designed stations for New York's elevated railways. This was the Hudson River School painter's last home and studio.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Cropsey_House_and_Studio,_49_Washington_Avenue,_Hastings-on-Hudson,_Westchester_County,_NY_HABS_NY,60-HAST,2-_(sheet_3_of_11).png",
    "https://en.wikipedia.org/wiki/Jasper_Francis_Cropsey"
   ],
-  "img": "img/r08.jpg",
+  "img": "img/r07.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Cropsey_House_and_Studio,_49_Washington_Avenue,_Hastings-on-Hudson,_Westchester_County,_NY_HABS_NY,60-HAST,2-_(sheet_3_of_11).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r09",
-  "key": "RI_4_PAWT_1_i3",
-  "options": [
-   "Tavern keeper",
-   "Rum smuggler",
-   "Ship chandler"
-  ],
-  "answer": 0,
-  "stamp": "CHEERS",
-  "fact": "The Pidge house became a tavern in 1783. Tap room right next to the parlor.",
-  "sources": [
-   "https://commons.wikimedia.org/wiki/File:Pidge_Tavern,_586_Pawtucket_Avenue,_Pawtucket,_Providence_County,_RI_HABS_RI,4-PAWT,1-_(sheet_2_of_14).tif"
-  ],
-  "img": "img/r09.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Pidge_Tavern,_586_Pawtucket_Avenue,_Pawtucket,_Providence_County,_RI_HABS_RI,4-PAWT,1-_(sheet_2_of_14).tif",
-  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
-  "license": "Public domain (U.S. government work)",
-  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
- },
- {
-  "id": "r10",
+  "id": "r08",
   "key": "RI_4_PROV_17_i3",
   "options": [
-   "Printer and postmaster",
+   "Merchant sea captain",
    "Rum distiller",
-   "Merchant sea captain"
+   "Printer and postmaster"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "PRESSED",
   "fact": "John Carter learned printing as an apprentice to Benjamin Franklin, then ran the Providence Gazette 'at the sign of Shakespeare's Head' and the post office from this house. His reporting on the Gaspee Affair got him arrested for libel.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:John_Carter_House,_21_Meeting_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,17-_(sheet_2_of_15).png",
    "https://en.wikipedia.org/wiki/John_Carter_(printer)"
   ],
-  "img": "img/r10.jpg",
+  "img": "img/r08.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:John_Carter_House,_21_Meeting_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,17-_(sheet_2_of_15).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r11",
+  "id": "r09",
   "key": "RI_4_PROV_190_i2",
   "options": [
+   "Jewelry manufacturer",
    "Painter who built studios",
-   "Piano teacher with pupils",
-   "Jewelry manufacturer"
+   "Piano teacher with pupils"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "ARTSY",
   "fact": "Painter Sydney Burleigh built this studio building in 1885, and artists still work in it. H. P. Lovecraft made it the home of the young sculptor in 'The Call of Cthulhu'; when an editor who'd once lived there jokingly vowed to send a ghost at 3 a.m., Lovecraft wrote a poem at 3 a.m. that night.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Fleur_De_Lys_Studio,_7_Thomas_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,190-_(sheet_2_of_5).png",
    "https://en.wikipedia.org/wiki/Fleur-de-lys_Studios"
   ],
-  "img": "img/r11.jpg",
+  "img": "img/r09.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Fleur_De_Lys_Studio,_7_Thomas_Street,_Providence,_Providence_County,_RI_HABS_RI,4-PROV,190-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r12",
+  "id": "r10",
   "key": "TEX_152_LUBBO_7_i2",
   "options": [
-   "Ranch bosses doing paperwork",
+   "Line-camp cowhands in winter",
    "Chuck-wagon cook and helper",
-   "Line-camp cowhands in winter"
+   "Ranch bosses doing paperwork"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "LEDGERS",
   "fact": "In 1882 investors from Dundee, Scotland bought this Texas ranch for $1.25 million and ran it for seven decades. Their guest house was nicknamed the 'Scotsman's Dive', and by about 1925 it held the offices of the ranch manager and bookkeeper.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Matador_Guest_House_and_Office,_National_Ranching_Heritage_Center_(moved_from_TX_Route_70_vicinity,_Matador,_Motley_County,_TX),_Lubbock,_Lubbock_County,_TX_HABS_TEX,152-LUBBO,7-_(sheet_2_of_4).tif",
    "https://matadorranch.com/about/"
   ],
-  "img": "img/r12.jpg",
+  "img": "img/r10.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Matador_Guest_House_and_Office,_National_Ranching_Heritage_Center_(moved_from_TX_Route_70_vicinity,_Matador,_Motley_County,_TX),_Lubbock,_Lubbock_County,_TX_HABS_TEX,152-LUBBO,7-_(sheet_2_of_4).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r13",
+  "id": "r11",
   "key": "TEX_220_FOWOR_2_3",
   "options": [
-   "Society couple built for parties",
    "Retired general with a war museum",
+   "Society couple built for parties",
    "Bachelor scientist, rarely home"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "FANCY",
   "fact": "Cattle-ranch heiress Electra Waggoner met her husband while traveling in the Himalayas, and this mansion was built for the couple in 1903-04. A Texas town was named after her; the Whartons sold the house in 1911 to another cattle baron.",
   "sources": [
@@ -267,18 +226,18 @@
    "https://en.wikipedia.org/wiki/Electra_Waggoner",
    "https://en.wikipedia.org/wiki/Wharton%E2%80%93Scott_House"
   ],
-  "img": "img/r13.jpg",
+  "img": "img/r11.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Wharton-Scott_House,_1509_Pennsylvania_Street,_Fort_Worth,_Tarrant_County,_TX_HABS_TEX,220-FOWOR,2-_(sheet_3_of_19).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r14",
+  "id": "r12",
   "key": "TEX_31_BROWN_9_i3",
   "options": [
-   "Customs inspector and clerk",
    "Border smuggler",
+   "Customs inspector and clerk",
    "Border-town merchant"
   ],
   "answer": 2,
@@ -288,40 +247,40 @@
    "https://commons.wikimedia.org/wiki/File:Field-Pacheco_Complex,_1049_East_Monroe_Street,_Brownsville,_Cameron_County,_TX_HABS_TEX,31-BROWN,9-_(sheet_3_of_7).png",
    "https://tile.loc.gov/storage-services/master/pnp/habshaer/tx/tx0100/tx0101/data/tx0101data.pdf"
   ],
-  "img": "img/r14.jpg",
+  "img": "img/r12.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Field-Pacheco_Complex,_1049_East_Monroe_Street,_Brownsville,_Cameron_County,_TX_HABS_TEX,31-BROWN,9-_(sheet_3_of_7).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r15",
+  "id": "r13",
   "key": "TEX_46_NEBRA_5_2",
   "options": [
+   "German schoolmaster and boarders",
    "Quack with a cure-all",
-   "Botanist printing the local paper",
-   "German schoolmaster and boarders"
+   "Botanist printing the local paper"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "INKED",
   "fact": "Ferdinand Lindheimer fled Germany after a failed 1833 uprising, was shipwrecked, and reached Texas the day after the battle of San Jacinto. The 'Father of Texas Botany' also edited the town's German-language newspaper, printed right here in his house.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Ferdinand_Lindheimer_House,_491_South_Comal_Avenue,_New_Braunfels,_Comal_County,_TX_HABS_TEX,46-NEBRA,5-_(sheet_2_of_5).png",
    "https://en.wikipedia.org/wiki/Ferdinand_Lindheimer"
   ],
-  "img": "img/r15.jpg",
+  "img": "img/r13.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_Lindheimer_House,_491_South_Comal_Avenue,_New_Braunfels,_Comal_County,_TX_HABS_TEX,46-NEBRA,5-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r16",
+  "id": "r14",
   "key": "UTAH_18_SALCI_27_2",
   "options": [
    "Mogul with big family and staff",
-   "Wealthy widow living alone",
-   "Bachelor mine owner, lives at club"
+   "Bachelor mine owner, lives at club",
+   "Wealthy widow living alone"
   ],
   "answer": 0,
   "stamp": "STAFFED",
@@ -330,188 +289,168 @@
    "https://commons.wikimedia.org/wiki/File:Alfred_W._McCune_House,_200_North_Main_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,27-_(sheet_2_of_8).png",
    "https://en.wikipedia.org/wiki/Alfred_McCune_Home"
   ],
-  "img": "img/r16.jpg",
+  "img": "img/r14.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Alfred_W._McCune_House,_200_North_Main_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,27-_(sheet_2_of_8).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r17",
+  "id": "r15",
   "key": "WYO_20_MOOS_V_4_1",
   "options": [
-   "Seasonal park ranger couple",
    "Painter who ended up a grocer",
+   "Seasonal park ranger couple",
    "Dude-ranch wrangler and cook"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "PIVOT",
   "fact": "Harrison Crandall served as Grand Teton's official park photographer, selling prints and postcards of the peaks to visitors. He built this studio cabin in 1925-26, then tacked on a bedroom and a grocery store.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Floor_Plan_-_Harrison_Crandall_Studio,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS.V,4-_(sheet_1_of_3).png",
    "https://www.nps.gov/grte/planyourvisit/jlvc.htm"
   ],
-  "img": "img/r17.jpg",
+  "img": "img/r15.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Floor_Plan_-_Harrison_Crandall_Studio,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS.V,4-_(sheet_1_of_3).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r18",
+  "id": "r16",
   "key": "loc_il0741_03",
   "options": [
-   "Retired schoolteacher",
-   "Suburban banker",
-   "Landscape designer"
+   "Landscape designer",
+   "Suburban bank manager",
+   "Retired schoolteacher"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "GREEN",
   "fact": "Chicago's park bosses ousted Jens Jensen in 1900 for refusing to go along with graft, and he came back to run the whole West Park system. The 'dean of the Prairie style' of landscape design used this kitchen as his drafting studio.",
   "sources": [
    "https://www.loc.gov/pictures/item/il0741/",
    "https://en.wikipedia.org/wiki/Jens_Jensen_(landscape_architect)"
   ],
-  "img": "img/r18.jpg",
+  "img": "img/r16.jpg",
   "page": "https://www.loc.gov/pictures/item/il0741/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r19",
+  "id": "r17",
   "key": "loc_il1023_03",
   "options": [
-   "Suburban dentist",
    "Modernist architect",
+   "Suburban dentist",
    "Advertising executive"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "ZEN",
   "fact": "Modernist Paul Schweikher built this as his own home and studio from 1938, complete with a Zen garden and a solar dressing room. He went on to chair the Yale School of Architecture.",
   "sources": [
    "https://www.loc.gov/pictures/item/il1023/",
    "https://en.wikipedia.org/wiki/Paul_Schweikher"
   ],
-  "img": "img/r19.jpg",
+  "img": "img/r17.jpg",
   "page": "https://www.loc.gov/pictures/item/il1023/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r20",
+  "id": "r18",
   "key": "loc_mo0340_02",
   "options": [
-   "Counterfeiter with a press",
    "Barrel-making cooper",
-   "Printer who added a winery"
+   "Printer who added a winery",
+   "Counterfeiter with a press"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "VINTAGE",
   "fact": "A radical free-thinker, anti-slavery journal was printed here, and its voice helped keep Missouri's Germans with the Union. Then Carl Strehly went into wine: cellar, tavern, and an upstairs dance hall.",
   "sources": [
    "https://www.loc.gov/pictures/item/mo0340/",
    "https://www.hmdb.org/m.asp?m=63260"
   ],
-  "img": "img/r20.jpg",
+  "img": "img/r18.jpg",
   "page": "https://www.loc.gov/pictures/item/mo0340/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r21",
+  "id": "r19",
   "key": "loc_pa0171_02",
   "options": [
-   "Tobacco farmer and big family",
    "Grocer with a lunch counter",
+   "Tobacco farmer and big family",
    "One-room schoolteacher"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "LUNCH",
   "fact": "Fancy Victorian brackets outside, but inside it's the old three-room Pennsylvania German plan with separate doors for parlor and kitchen; a rear addition held a luncheonette and grocery until about 1950. In 1977 the Army Corps of Engineers demolished it for a reservoir project.",
   "sources": [
    "https://www.loc.gov/pictures/item/pa0171/",
    "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa0100/pa0171/data/pa0171data.pdf"
   ],
-  "img": "img/r21.jpg",
+  "img": "img/r19.jpg",
   "page": "https://www.loc.gov/pictures/item/pa0171/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r22",
-  "key": "loc_tx0160_01",
-  "options": [
-   "Army quartermaster's depot",
-   "Shopkeeper, gaming room upstairs",
-   "Family of killers with a store"
-  ],
-  "answer": 1,
-  "stamp": "ALL-IN",
-  "fact": "Francis Louis des Mazieres store building and house, 1853. Store below, 'Gaming Room' above. The Library of Congress files it under saloons.",
-  "sources": [
-   "https://www.loc.gov/pictures/item/tx0160/"
-  ],
-  "img": "img/r22.jpg",
-  "page": "https://www.loc.gov/pictures/item/tx0160/",
-  "credit": "HABS, National Park Service · via Library of Congress",
-  "license": "Public domain (U.S. government work)",
-  "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
- },
- {
-  "id": "r23",
+  "id": "r20",
   "key": "loc_tx0242_01",
   "options": [
    "Sea captain between voyages",
-   "Customs collector",
-   "Port-town storekeeper"
+   "Port-town storekeeper",
+   "Customs collector"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "SHOPPED",
   "fact": "Swiss merchant Conrad Meuly hauled $1,600 of goods on the Texan Santa Fe Expedition, was taken prisoner, and lost it all. He started over as a Corpus Christi baker and grocer and built this house and store with concrete-brick walls.",
   "sources": [
    "https://www.loc.gov/pictures/item/tx0242/",
    "https://www.tshaonline.org/handbook/entries/meuly-conrad"
   ],
-  "img": "img/r23.jpg",
+  "img": "img/r20.jpg",
   "page": "https://www.loc.gov/pictures/item/tx0242/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r24",
+  "id": "r21",
   "key": "loc_tx0446_02",
   "options": [
+   "Railroad surveyor's family",
    "Rancher who founded a town",
-   "County judge with a farm",
-   "Railroad surveyor's family"
+   "County judge with a farm"
   ],
-  "answer": 0,
+  "answer": 1,
   "stamp": "YEEHAW",
   "fact": "Joseph Barton bet a railroad was coming, founded a town named after himself, and bought this house's plans for $45 from a magazine. The railroad never came through, and his showpiece, meat-and-milk cooler and all, ended up anchoring a town that faded away.",
   "sources": [
    "https://www.loc.gov/pictures/item/tx0446/",
    "https://ranchingheritage.org/explore/outdoor-historical-park/barton-house/"
   ],
-  "img": "img/r24.jpg",
+  "img": "img/r21.jpg",
   "page": "https://www.loc.gov/pictures/item/tx0446/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r25",
+  "id": "r22",
   "key": "FLA_6_FOLAU_1A_i1",
   "options": [
    "Yacht broker with a lookout",
-   "Artist with a seaside studio",
-   "Citrus heir's guest cottage"
+   "Citrus heir's guest cottage",
+   "Artist with a seaside studio"
   ],
-  "answer": 1,
+  "answer": 2,
   "stamp": "DRAMATIC",
   "fact": "Artist Frederic Bartlett got this beachfront land as a wedding gift from his father-in-law and designed the whole estate himself with no architecture training. His widow Evelyn, ex-wife of Eli Lilly, kept wintering here until 1997; giving it away was the largest single private donation in Florida history.",
   "sources": [
@@ -519,21 +458,21 @@
    "https://www.bonnethouse.org/history/",
    "https://en.wikipedia.org/wiki/Bonnet_House"
   ],
-  "img": "img/r25.jpg",
+  "img": "img/r22.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Bonnet_House,_Art_Studio_and_Tower,_900_North_Birch_Road,_Fort_Lauderdale,_Broward_County,_FL_HABS_FLA,6-FOLAU,1A-_(sheet_1_of_3).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r26",
+  "id": "r23",
   "key": "ORE_15_JACVI_3_2",
   "options": [
+   "Frontier photographer",
    "Séance-holding medium",
-   "Gold-rush assayer",
-   "Frontier photographer"
+   "Gold-rush assayer"
   ],
-  "answer": 2,
+  "answer": 0,
   "stamp": "SNAP",
   "fact": "Peter Britt hauled 300 pounds of camera gear down the Oregon Trail, until his own wagon train split over it, and reached the gold camp with five dollars. Note the skylit studio: his Crater Lake photos helped get it made a national park.",
   "sources": [
@@ -541,14 +480,14 @@
    "https://www.historicjacksonville.org/stop26/",
    "https://en.wikipedia.org/wiki/Peter_Britt"
   ],
-  "img": "img/r26.jpg",
+  "img": "img/r23.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Britt_House,_201_South_First_Street,_Jacksonville,_Jackson_County,_OR_HABS_ORE,15,JACVI,3-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r27",
+  "id": "r24",
   "key": "WI_376_A_i1",
   "options": [
    "Lake freighter captain ashore",
@@ -563,21 +502,21 @@
    "https://www.lighthousefriends.com/light.asp?ID=259",
    "https://en.wikipedia.org/wiki/Cana_Island_Light"
   ],
-  "img": "img/r27.jpg",
+  "img": "img/r24.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Keeper%27s_Residence_and_Light_Tower_Floor_Plans_-_Cana_island_Light_Station,_Keeper%27s_Residence_and_Light_Tower,_Cana_Island_Road,_Baileys_Harbor,_Door_County,_WI_HABS_WI-376-A_(sheet_1_of_4)_(cropped).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r28",
+  "id": "r25",
   "key": "loc_wi0311_01",
   "options": [
    "Fishing-camp boss",
-   "Island farmer and family",
-   "Island lighthouse keeper"
+   "Island lighthouse keeper",
+   "Island farmer and his family"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "ISOLATED",
   "fact": "Keeper Emmanuel Luick's wife Ella turned the official logbook into her personal diary. When he fell ill for three weeks in 1901, she nursed him by day and kept the light burning by night.",
   "sources": [
@@ -585,19 +524,19 @@
    "https://www.nps.gov/apis/learn/historyculture/sand-light.htm",
    "https://en.wikipedia.org/wiki/Sand_Island_Light_(Wisconsin)"
   ],
-  "img": "img/r28.jpg",
+  "img": "img/r25.jpg",
   "page": "https://www.loc.gov/pictures/item/wi0311/",
   "credit": "HABS, National Park Service · via Library of Congress",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://www.loc.gov/rr/print/res/114_habs.html"
  },
  {
-  "id": "r29",
+  "id": "r26",
   "key": "x_TEX_15_SANT_43_2",
   "options": [
-   "Brewery foreman and boarders",
+   "Railroad brakeman's family",
    "Ex-chef turned corner grocer",
-   "Railroad brakeman's family"
+   "Brewery foreman and boarders"
   ],
   "answer": 1,
   "stamp": "SEASONED",
@@ -606,40 +545,40 @@
    "https://commons.wikimedia.org/wiki/File:Jacob_Wohlfarth_Store_and_Residence,_823_West_Laurel,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,43-_(sheet_2_of_5).png",
    "https://scholarworks.sfasu.edu/ita/vol2015/iss1/138/"
   ],
-  "img": "img/r29.jpg",
+  "img": "img/r26.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Jacob_Wohlfarth_Store_and_Residence,_823_West_Laurel,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,43-_(sheet_2_of_5).png",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r30",
+  "id": "r27",
   "key": "x_WYO_20_MOOS_2_fp",
   "options": [
-   "Serial killer hiding out",
    "Homesteader with a store",
-   "Forest ranger and wife"
+   "Forest ranger and wife",
+   "Serial killer hiding out"
   ],
-  "answer": 1,
+  "answer": 0,
   "stamp": "SCRAPPY",
   "fact": "Bill Menor homesteaded alone on the Snake River in 1892, ran a ferry, and tacked a store onto the east end of his cabin. When his brother Holiday moved in across the river in 1905, the two didn't speak for two years, yet Bill made his whitewash from Holiday's lime pit.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif",
    "https://en.wikipedia.org/wiki/Menor's_Ferry"
   ],
-  "img": "img/r30.jpg",
+  "img": "img/r27.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Main_Building_Floor_Plan_-_Menor%27s_Ferry_(Museum),_Snake_River,_Moose,_Teton_County,_WY_HABS_WYO,20-MOOS,2-_(sheet_8_of_12).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r31",
+  "id": "r28",
   "key": "n_eph2",
   "options": [
    "Celibate cloister sisters",
-   "Poorhouse keeper and paupers",
-   "Colonial orphanage matron"
+   "Colonial orphanage matron",
+   "Poorhouse keeper and paupers"
   ],
   "answer": 0,
   "stamp": "CLOISTERED",
@@ -648,49 +587,49 @@
    "https://commons.wikimedia.org/wiki/File:The_Cloisters,_Ephrata,_Lancaster_County,_PA_HABS_PA,36-EPH,1-_(sheet_2_of_60).tif",
    "https://en.wikipedia.org/wiki/Ephrata_Cloister"
   ],
-  "img": "img/r31.jpg",
+  "img": "img/r28.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:The_Cloisters,_Ephrata,_Lancaster_County,_PA_HABS_PA,36-EPH,1-_(sheet_2_of_60).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r32",
+  "id": "r29",
   "key": "n_shk2",
   "options": [
-   "Séance-holding medium",
    "Boarding-school headmaster",
-   "Celibate Shaker family"
+   "Celibate Shaker family",
+   "Séance-holding medium"
   ],
-  "answer": 2,
+  "answer": 1,
   "stamp": "MIRRORED",
   "fact": "At Watervliet, the first Shaker community, brothers and sisters got their own halves and staircases and sat on opposite sides of the shared meeting room. These celibate believers were also the first to sell seeds in little paper envelopes.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Shaker_South_Family_Dwelling_House,_Watervliet_Shaker_Road,_Colonie_Township,_Watervliet,_Albany_County,_NY_HABS_NY,1-COL,14-_(sheet_2_of_13).tif",
    "https://en.wikipedia.org/wiki/Watervliet_Shaker_Historic_District"
   ],
-  "img": "img/r32.jpg",
+  "img": "img/r29.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Shaker_South_Family_Dwelling_House,_Watervliet_Shaker_Road,_Colonie_Township,_Watervliet,_Albany_County,_NY_HABS_NY,1-COL,14-_(sheet_2_of_13).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r33",
+  "id": "r30",
   "key": "n_milf2",
   "options": [
-   "County jailer",
+   "Quack running a sanitarium",
    "Poorhouse keeper",
-   "Quack running a sanitarium"
+   "County jailer"
   ],
-  "answer": 0,
+  "answer": 2,
   "stamp": "LOCKED",
   "fact": "This stone courthouse, finished in 1815, later served as the county jail. Before the town had a bell, the sheriff climbed the cupola and blew a huge tin horn to call court.",
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Milford_Jail,_Broad_and_High_Streets,_Milford,_Pike_County,_PA_HABS_PA,52-MILF,1-_(sheet_2_of_7).tif",
    "https://livingplaces.com/PA/Pike_County.html"
   ],
-  "img": "img/r33.jpg",
+  "img": "img/r30.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Milford_Jail,_Broad_and_High_Streets,_Milford,_Pike_County,_PA_HABS_PA,52-MILF,1-_(sheet_2_of_7).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
@@ -698,7 +637,7 @@
   "q": "WHO RUNS THIS PLACE?"
  },
  {
-  "id": "r34",
+  "id": "r31",
   "key": "n_swj1",
   "options": [
    "Assay-office clerk",
@@ -711,7 +650,7 @@
   "sources": [
    "https://commons.wikimedia.org/wiki/File:West_and_South_Elevations_and_Plan_-_Sweetwater_County_Jail,_Grant_Street,_South_Pass_City,_Fremont_County,_WY_HABS_WYO,7-SOPAC,23-_(sheet_1_of_2).tif"
   ],
-  "img": "img/r34.jpg",
+  "img": "img/r31.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:West_and_South_Elevations_and_Plan_-_Sweetwater_County_Jail,_Grant_Street,_South_Pass_City,_Fremont_County,_WY_HABS_WYO,7-SOPAC,23-_(sheet_1_of_2).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
@@ -719,7 +658,7 @@
   "q": "WHO RUNS THIS PLACE?"
  },
  {
-  "id": "r35",
+  "id": "r32",
   "key": "n_sqd",
   "options": [
    "Gold Rush convicts",
@@ -732,7 +671,7 @@
   "sources": [
    "https://commons.wikimedia.org/wiki/File:Building_A-_Dungeon_and_Road_Level_Plans_-_San_Quentin_State_Prison,_Building_22,_Point_San_Quentin,_San_Quentin,_Marin_County,_CA_HABS_CA-2804-A_(sheet_9_of_55).tif"
   ],
-  "img": "img/r35.jpg",
+  "img": "img/r32.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Building_A-_Dungeon_and_Road_Level_Plans_-_San_Quentin_State_Prison,_Building_22,_Point_San_Quentin,_San_Quentin,_Marin_County,_CA_HABS_CA-2804-A_(sheet_9_of_55).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
@@ -740,7 +679,7 @@
   "q": "WHO DID TIME HERE?"
  },
  {
-  "id": "r36",
+  "id": "r33",
   "key": "n_fug1",
   "options": [
    "Bakers sleeping by the ovens",
@@ -754,19 +693,19 @@
    "https://commons.wikimedia.org/wiki/File:Fort_Union,_Guardhouse,_Bakery_and_Laundresses%27_Quarters,_State_Highway_No._161,_Watrous,_Mora_County,_NM_HABS_NM-164-O_(sheet_1_of_2).tif",
    "https://www.hmdb.org/m.asp?m=153213"
   ],
-  "img": "img/r36.jpg",
+  "img": "img/r33.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Fort_Union,_Guardhouse,_Bakery_and_Laundresses%27_Quarters,_State_Highway_No._161,_Watrous,_Mora_County,_NM_HABS_NM-164-O_(sheet_1_of_2).tif",
   "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
   "license": "Public domain (U.S. government work)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
  },
  {
-  "id": "r37",
+  "id": "r34",
   "key": "n_bender",
   "options": [
    "Family of killers running an inn",
-   "Homesteaders with a trading post",
-   "Stagecoach-stop keepers"
+   "Stagecoach-stop keepers",
+   "Homesteaders with a trading post"
   ],
   "answer": 0,
   "stamp": "FIENDS",
@@ -775,14 +714,14 @@
    "https://commons.wikimedia.org/wiki/File:House-diagram.jpg",
    "https://en.wikipedia.org/wiki/Bloody_Benders"
   ],
-  "img": "img/r37.jpg",
+  "img": "img/r34.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:House-diagram.jpg",
   "credit": "Wichita City Eagle, 1873 · via Wikimedia Commons (newspaper diagram)",
   "license": "Public domain (published before 1930)",
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired"
  },
  {
-  "id": "r38",
+  "id": "r35",
   "key": "n_holmes",
   "options": [
    "Gambling boss with hidden back rooms",
@@ -796,7 +735,7 @@
    "https://commons.wikimedia.org/wiki/File:World_newspaper.jpg",
    "https://en.wikipedia.org/wiki/H._H._Holmes"
   ],
-  "img": "img/r38.jpg",
+  "img": "img/r35.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:World_newspaper.jpg",
   "credit": "New York World, 1895 · via Wikimedia Commons (newspaper diagram; sensational labels and shading removed)",
   "license": "Public domain (published before 1930)",
