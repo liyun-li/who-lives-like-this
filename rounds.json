@@ -5,7 +5,7 @@
   "options": [
    "Retired film-set designer",
    "Self-taught furniture maker",
-   "Avocado rancher who hosts a lot"
+   "Avocado rancher with a hobby shop"
   ],
   "answer": 1,
   "stamp": "SAWDUST",
@@ -26,7 +26,7 @@
   "options": [
    "Shopkeepers who also run the hotel",
    "Killer posing as a hotelier",
-   "Silver-mine superintendent's family"
+   "Mine company's hotel manager"
   ],
   "answer": 0,
   "stamp": "HUSTLE",
@@ -47,7 +47,7 @@
   "key": "FLA_48_MAIT_1_2",
   "options": [
    "Commune leader and followers",
-   "Orange-grove baron with guests",
+   "Ceramics firm with a showroom",
    "Artist running his own colony"
   ],
   "answer": 2,
@@ -67,7 +67,7 @@
   "id": "r04",
   "key": "FLA_59_ALTSP_1_2",
   "options": [
-   "Railroad station agent",
+   "Boatwright with a home shop",
    "Cabinetmaker working from home",
    "Citrus grower with a packing shed"
   ],
@@ -110,7 +110,7 @@
   "key": "NM_205_3",
   "options": [
    "Killer family running a roadhouse",
-   "Army post surgeon and family",
+   "Freighter, depot out front",
    "Plaza trader, store out front"
   ],
   "answer": 2,
@@ -152,7 +152,7 @@
   "key": "RI_4_PROV_17_i3",
   "options": [
    "Merchant sea captain",
-   "Rum distiller",
+   "Newspaper editor-publisher",
    "Printer and postmaster"
   ],
   "answer": 2,
@@ -174,7 +174,7 @@
   "options": [
    "Jewelry manufacturer",
    "Painter who built studios",
-   "Piano teacher with pupils"
+   "Voice coach with studio pupils"
   ],
   "answer": 1,
   "stamp": "ARTSY",
@@ -194,7 +194,7 @@
   "key": "TEX_152_LUBBO_7_i2",
   "options": [
    "Line-camp cowhands in winter",
-   "Chuck-wagon cook and helper",
+   "Ranch bookkeeper and family",
    "Ranch bosses doing paperwork"
   ],
   "answer": 2,
@@ -216,7 +216,7 @@
   "options": [
    "Retired general with a war museum",
    "Society couple built for parties",
-   "Bachelor scientist, rarely home"
+   "Music teacher and her pupils"
   ],
   "answer": 1,
   "stamp": "FANCY",
@@ -258,7 +258,7 @@
   "key": "TEX_46_NEBRA_5_2",
   "options": [
    "German schoolmaster and boarders",
-   "Quack with a cure-all",
+   "Preacher printing gospel pamphlets",
    "Botanist printing the local paper"
   ],
   "answer": 2,
@@ -280,7 +280,7 @@
   "options": [
    "Mogul with big family and staff",
    "Bachelor mine owner, lives at club",
-   "Wealthy widow living alone"
+   "Wealthy widow and her servants"
   ],
   "answer": 0,
   "stamp": "STAFFED",
@@ -300,7 +300,7 @@
   "key": "WYO_20_MOOS_V_4_1",
   "options": [
    "Painter who ended up a grocer",
-   "Seasonal park ranger couple",
+   "Trading-post grocer and his wife",
    "Dude-ranch wrangler and cook"
   ],
   "answer": 0,
@@ -321,8 +321,8 @@
   "key": "loc_il0741_03",
   "options": [
    "Landscape designer",
-   "Suburban bank manager",
-   "Retired schoolteacher"
+   "Bank manager",
+   "Suburban doctor with an office"
   ],
   "answer": 0,
   "stamp": "GREEN",
@@ -385,7 +385,7 @@
   "options": [
    "Grocer with a lunch counter",
    "Tobacco farmer and big family",
-   "One-room schoolteacher"
+   "Farm-supply storekeeper"
   ],
   "answer": 0,
   "stamp": "LUNCH",
@@ -406,7 +406,7 @@
   "options": [
    "Sea captain between voyages",
    "Port-town storekeeper",
-   "Customs collector"
+   "Wharf warehouseman"
   ],
   "answer": 1,
   "stamp": "SHOPPED",
@@ -490,7 +490,7 @@
   "id": "r24",
   "key": "WI_376_A_i1",
   "options": [
-   "Lake freighter captain ashore",
+   "Lighthouse inspector",
    "Commercial fisherman's family",
    "Lighthouse keeper couple"
   ],
@@ -556,7 +556,7 @@
   "key": "x_WYO_20_MOOS_2_fp",
   "options": [
    "Homesteader with a store",
-   "Forest ranger and wife",
+   "Trading-post clerk and wife",
    "Serial killer hiding out"
   ],
   "answer": 0,
