@@ -4417,7 +4417,7 @@
   "options": [
    "It's a fake 'Ferrari' built for a hit movie",
    "It won its class at Le Mans",
-   "It was a Detroit sports-car prototype"
+   "A Detroit automaker's secret sports-car prototype"
   ],
   "answer": 0,
   "stamp": "SAVE FERRIS",
@@ -4438,7 +4438,7 @@
   "key": "pob2",
   "options": [
    "Stargazing",
-   "Watching for town fires",
+   "Watching for fires across the whole town",
    "Spotting incoming ships for merchants"
   ],
   "answer": 2,
@@ -4705,5 +4705,1249 @@
   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
   "labels": [],
   "q": "WHO SLEPT IN THESE CABINS AROUND 1927?"
+ },
+ {
+  "id": "n46",
+  "key": "ern7",
+  "options": [
+   "Prohibition rum-runners",
+   "New England whalers",
+   "Arctic expedition crews"
+  ],
+  "answer": 2,
+  "stamp": "COLD CALL",
+  "fact": "Schooner Ernestina, launched 1894 as the Effie M. Morrissey, is the oldest surviving Grand Banks fishing schooner. Captain Bob Bartlett took her on Arctic expeditions c. 1926-45. Later she carried Cape Verdean immigrants, and Cape Verde gifted her back to the U.S. in 1982.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ma1719/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ma/ma1700/ma1719/data/ma1719data.pdf"
+  ],
+  "img": "img/n46.jpg",
+  "page": "https://www.loc.gov/pictures/item/ma1719/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "MASTER'S CABIN",
+    "x": 0.5414,
+    "y": 0.5831
+   },
+   {
+    "t": "MACHINERY ROOM",
+    "x": 0.612,
+    "y": 0.355
+   },
+   {
+    "t": "LAZARETTE",
+    "x": 0.4691,
+    "y": 0.7788
+   },
+   {
+    "t": "MAIN MAST",
+    "x": 0.5759,
+    "y": 0.0881
+   },
+   {
+    "t": "2 BUNKS",
+    "x": 0.3253,
+    "y": 0.2031
+   },
+   {
+    "t": "2 BUNKS",
+    "x": 0.7711,
+    "y": 0.2013
+   },
+   {
+    "t": "2 BUNKS",
+    "x": 0.7751,
+    "y": 0.0762
+   },
+   {
+    "t": "BENCH",
+    "x": 0.4,
+    "y": 0.2494
+   },
+   {
+    "t": "BUNK",
+    "x": 0.3663,
+    "y": 0.5219
+   },
+   {
+    "t": "BUNK",
+    "x": 0.3759,
+    "y": 0.6438
+   },
+   {
+    "t": "BUNK",
+    "x": 0.7173,
+    "y": 0.6481
+   },
+   {
+    "t": "BUNK",
+    "x": 0.7269,
+    "y": 0.5212
+   }
+  ],
+  "q": "WHO SAILED THIS 1894 SCHOONER FOR ABOUT 20 YEARS?"
+ },
+ {
+  "id": "n47",
+  "key": "bfh2",
+  "options": [
+   "California's Supreme Court and the Pony Express",
+   "The state prison board and a riverside gambling hall",
+   "A gold assay office and a miners' hotel"
+  ],
+  "answer": 0,
+  "stamp": "SPEEDY APPEAL",
+  "fact": "Rebuilt after Sacramento's fire of Nov. 2, 1852, the B.F. Hastings Bank Building put the State Supreme Court, the attorney general and the state librarian upstairs. Wells, Fargo & Co. was here too, and from April 1860 it was Pony Express headquarters. Justice by court, mail by pony.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca0526/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ca/ca0500/ca0526/data/ca0526data.pdf"
+  ],
+  "img": "img/n47.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca0526/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHO SHARED THIS 1853 SACRAMENTO BANK BUILDING?"
+ },
+ {
+  "id": "n48",
+  "key": "fry3",
+  "options": [
+   "An ice-cream maker",
+   "Gold-rush meat sellers",
+   "A fur-pelt warehouse"
+  ],
+  "answer": 1,
+  "stamp": "BEEF RUSH",
+  "fact": "Seattle meatpackers Charles Frye and Charles Bruhn followed the Klondike stampede to Skagway. Selling meat to prospectors boosted their payroll from $6,000 to nearly $1 million a year in 1898. When the crowds left, grocer Tony Dortero bought it in 1919. Gold was the rush; steak was the business.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0545/"
+  ],
+  "img": "img/n48.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0545/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "REFRIGERATED STORAGE ROOM",
+    "x": 0.4811,
+    "y": 0.2781
+   },
+   {
+    "t": "REFRIGERATED STORAGE ROOM",
+    "x": 0.5888,
+    "y": 0.5969
+   },
+   {
+    "t": "HALLWAY & UTILITY SPACE",
+    "x": 0.294,
+    "y": 0.46
+   }
+  ],
+  "q": "WHO NEEDED THIS 1900 ALASKA COLD ROOM?"
+ },
+ {
+  "id": "n49",
+  "key": "fen5",
+  "options": [
+   "The building's live-in caretaker and his wife",
+   "A Harvard president and his family",
+   "An art collector over her own museum"
+  ],
+  "answer": 2,
+  "stamp": "DON'T TOUCH",
+  "fact": "Isabella Stewart Gardner built Fenway Court for her art, moved into the fourth floor in 1902 and opened the museum below on Jan. 1, 1903. Her will: move or add a single picture and everything goes to Harvard, to be sold in Paris. Her old floor is offices now.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ma1748/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ma/ma1700/ma1748/data/ma1748data.pdf"
+  ],
+  "img": "img/n49.jpg",
+  "page": "https://www.loc.gov/pictures/item/ma1748/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "REST ROOM",
+    "x": 0.4016,
+    "y": 0.2462
+   },
+   {
+    "t": "COURTYARD",
+    "x": 0.4699,
+    "y": 0.51
+   },
+   {
+    "t": "REST ROOM",
+    "x": 0.7205,
+    "y": 0.5962
+   },
+   {
+    "t": "REST ROOM",
+    "x": 0.2353,
+    "y": 0.6862
+   },
+   {
+    "t": "SECURITY",
+    "x": 0.7173,
+    "y": 0.3462
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.6072,
+    "y": 0.23
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.6273,
+    "y": 0.0938
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.702,
+    "y": 0.1088
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5631,
+    "y": 0.11
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3261,
+    "y": 0.1181
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4345,
+    "y": 0.1188
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5012,
+    "y": 0.1181
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2442,
+    "y": 0.3388
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2586,
+    "y": 0.4412
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2329,
+    "y": 0.535
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2265,
+    "y": 0.5913
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.7189,
+    "y": 0.7231
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2578,
+    "y": 0.785
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4747,
+    "y": 0.8712
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.649,
+    "y": 0.8719
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.29,
+    "y": 0.8806
+   }
+  ],
+  "q": "WHO LIVED ON THIS BOSTON TOP FLOOR FROM 1902?"
+ },
+ {
+  "id": "n50",
+  "key": "lum2",
+  "options": [
+   "A reporter who walked 3,000 miles to work",
+   "A retired railroad baron and his sons",
+   "A silent-film cowboy star and his trick horse"
+  ],
+  "answer": 0,
+  "stamp": "WALK THE TALK",
+  "fact": "Charles F. Lummis walked from Cincinnati to Los Angeles in 1884-85, filing weekly letters, and became the Times' first city editor. From 1896 he built El Alisal from arroyo stones and telephone poles 'wangled' from the Santa Fe Railroad. He never meant to finish it: it was his gym.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca0225/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ca/ca0200/ca0225/data/ca0225data.pdf"
+  ],
+  "img": "img/n50.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca0225/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BREAKFAST ROOM",
+    "x": 0.4249,
+    "y": 0.6362
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.5727,
+    "y": 0.7388
+   },
+   {
+    "t": "EVE'S ROOM",
+    "x": 0.736,
+    "y": 0.272
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.6442,
+    "y": 0.205
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.6442,
+    "y": 0.0988
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3213,
+    "y": 0.74
+   },
+   {
+    "t": "VERANDA",
+    "x": 0.608,
+    "y": 0.4462
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.4321,
+    "y": 0.7456
+   },
+   {
+    "t": "ZAGUAN",
+    "x": 0.7357,
+    "y": 0.4069
+   },
+   {
+    "t": "MUSEO",
+    "x": 0.7357,
+    "y": 0.5769
+   }
+  ],
+  "q": "WHO BUILT THIS L.A. STONE HOUSE WITH HIS OWN HANDS?"
+ },
+ {
+  "id": "n51",
+  "key": "wcc2",
+  "options": [
+   "A university rowing team",
+   "An Olympic pioneer canoe club",
+   "A harbor police boat unit"
+  ],
+  "answer": 1,
+  "stamp": "PADDLE POWER",
+  "fact": "The Washington Canoe Club, a 1905 Shingle-style boathouse in Georgetown, is one of only two historic boathouses left in D.C. Its members helped make flat-water racing an Olympic sport and represented the U.S. at the first Olympic canoeing contest, a demo event in Paris in 1924.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/dc1155/",
+   "https://cdn.loc.gov/master/pnp/habshaer/dc/dc1100/dc1155/data/dc1155data.pdf"
+  ],
+  "img": "img/n51.jpg",
+  "page": "https://www.loc.gov/pictures/item/dc1155/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BOAT STORAGE",
+    "x": 0.4819,
+    "y": 0.7338
+   },
+   {
+    "t": "BOAT STORAGE",
+    "x": 0.5317,
+    "y": 0.1744
+   },
+   {
+    "t": "WEIGHT ROOM",
+    "x": 0.4651,
+    "y": 0.28
+   },
+   {
+    "t": "GRILL ROOM",
+    "x": 0.5791,
+    "y": 0.4138
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.392,
+    "y": 0.48
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.4281,
+    "y": 0.3912
+   }
+  ],
+  "q": "WHO KEEPS THEIR BOATS HERE ON THE POTOMAC?"
+ },
+ {
+  "id": "n52",
+  "key": "men8",
+  "options": [
+   "Ferrying people across the river",
+   "A stagecoach relay station with a corral",
+   "A fur traders' winter post"
+  ],
+  "answer": 0,
+  "stamp": "CROSS PURPOSES",
+  "fact": "Bill Menor claimed land on the Snake River's west bank in 1892, built this cabin and a ferry, and added a store. The dangerous river split Jackson Hole's farmland from its forest, so his ferry, much of it hauling logs, was 'the heart of the economy of the valley.'",
+  "sources": [
+   "https://www.loc.gov/pictures/item/wy0036/",
+   "https://cdn.loc.gov/master/pnp/habshaer/wy/wy0000/wy0036/data/wy0036data.pdf"
+  ],
+  "img": "img/n52.jpg",
+  "page": "https://www.loc.gov/pictures/item/wy0036/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "ORIGINAL CABIN",
+    "x": 0.4996,
+    "y": 0.7312
+   },
+   {
+    "t": "STORE",
+    "x": 0.506,
+    "y": 0.2162
+   }
+  ],
+  "q": "WHAT PAID THE BILLS HERE IN 1890s WYOMING?"
+ },
+ {
+  "id": "n53",
+  "key": "lsu2",
+  "options": [
+   "Rodeo shows and roping",
+   "Indoor winter horse racing",
+   "Livestock judging classes"
+  ],
+  "answer": 2,
+  "stamp": "MOO-T COURT",
+  "fact": "LSU's Livestock Judging Pavilion cost $62,000 and was the first home of its College of Agriculture. Architect Theodore Link riveted its trusses like his St. Louis Union Station train shed, then died in Baton Rouge in Nov. 1923 while the campus was under construction.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/la0257/"
+  ],
+  "img": "img/n53.jpg",
+  "page": "https://www.loc.gov/pictures/item/la0257/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LABORATORY",
+    "x": 0.3073,
+    "y": 0.3369
+   },
+   {
+    "t": "LABORATORY",
+    "x": 0.3078,
+    "y": 0.6223
+   },
+   {
+    "t": "DIRT ARENA",
+    "x": 0.559,
+    "y": 0.4638
+   },
+   {
+    "t": "BLEACHERS",
+    "x": 0.3283,
+    "y": 0.5859
+   },
+   {
+    "t": "BLEACHERS",
+    "x": 0.3457,
+    "y": 0.3106
+   },
+   {
+    "t": "BLEACHERS",
+    "x": 0.727,
+    "y": 0.307
+   },
+   {
+    "t": "BLEACHERS",
+    "x": 0.728,
+    "y": 0.588
+   },
+   {
+    "t": "SLEEPING",
+    "x": 0.7992,
+    "y": 0.3312
+   },
+   {
+    "t": "ANTEROOM",
+    "x": 0.8169,
+    "y": 0.3739
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.7984,
+    "y": 0.2581
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.7992,
+    "y": 0.6119
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.7992,
+    "y": 0.54
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.8,
+    "y": 0.6844
+   },
+   {
+    "t": "ENTRY",
+    "x": 0.8265,
+    "y": 0.4669
+   },
+   {
+    "t": "HALL",
+    "x": 0.8169,
+    "y": 0.4136
+   }
+  ],
+  "q": "WHAT WAS THIS 1923 DIRT-FLOOR ARENA BUILT FOR?"
+ },
+ {
+  "id": "n54",
+  "key": "rbn3",
+  "options": [
+   "Army cavalry horses",
+   "University dairy cows",
+   "Prize-winning hogs"
+  ],
+  "answer": 1,
+  "stamp": "GOING IN CIRCLES",
+  "fact": "The University of Illinois built three round barns in 1908-12 for Professor Wilbur Fraser's dairy program. Stalls radiate around a central silo, shaped for cows' narrow shoulders and wide hips, and manure rode a bin on a ceiling track from stall to stall. Round meant fewer steps.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/il0900/"
+  ],
+  "img": "img/n54.jpg",
+  "page": "https://www.loc.gov/pictures/item/il0900/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "FEED ALLEY",
+    "x": 0.5028,
+    "y": 0.545
+   },
+   {
+    "t": "TACK ROOM",
+    "x": 0.1438,
+    "y": 0.4388
+   },
+   {
+    "t": "HAY CHUTE",
+    "x": 0.6032,
+    "y": 0.5519
+   },
+   {
+    "t": "GUTTER",
+    "x": 0.4,
+    "y": 0.6456
+   },
+   {
+    "t": "SILO",
+    "x": 0.5349,
+    "y": 0.4881
+   }
+  ],
+  "q": "WHO WAS THIS ROUND BARN DESIGNED AROUND?"
+ },
+ {
+  "id": "n55",
+  "key": "lcf2",
+  "options": [
+   "Navy sonar trainees",
+   "Two Air Force missile officers",
+   "Civil-defense emergency radio operators"
+  ],
+  "answer": 1,
+  "stamp": "KEYS TURNED",
+  "fact": "Delta-01 in South Dakota commanded ten Minuteman II missiles. Two officers sat 24-hour alerts down here; a curtained bed replaced their cot in 1991, and the escape tube was packed with sand they'd have to dig out. On the pale green paint, a 1964 crewman: 'a color we've learned to detest.'",
+  "sources": [
+   "https://www.loc.gov/pictures/item/sd0074/",
+   "https://cdn.loc.gov/master/pnp/habshaer/sd/sd0000/sd0074/data/sd0074data.pdf"
+  ],
+  "img": "img/n55.jpg",
+  "page": "https://www.loc.gov/pictures/item/sd0074/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "COMMANDER'S CONSOLE",
+    "x": 0.4161,
+    "y": 0.0869
+   },
+   {
+    "t": "DEPUTY'S CONSOLE",
+    "x": 0.6072,
+    "y": 0.3956
+   },
+   {
+    "t": "TUNNEL JUNCTION",
+    "x": 0.4602,
+    "y": 0.7981
+   },
+   {
+    "t": "LATRINE CURTAIN",
+    "x": 0.4803,
+    "y": 0.4356
+   },
+   {
+    "t": "ESCAPE HATCH",
+    "x": 0.6667,
+    "y": 0.1231
+   },
+   {
+    "t": "MODULAR BED",
+    "x": 0.3149,
+    "y": 0.3713
+   },
+   {
+    "t": "BLAST DOOR",
+    "x": 0.4482,
+    "y": 0.7362
+   },
+   {
+    "t": "FOOD PREP",
+    "x": 0.4442,
+    "y": 0.4637
+   },
+   {
+    "t": "ELEVATOR",
+    "x": 0.3494,
+    "y": 0.8512
+   },
+   {
+    "t": "ELEVATOR",
+    "x": 0.4779,
+    "y": 0.675
+   }
+  ],
+  "q": "WHO PULLED 24-HOUR SHIFTS IN THIS BURIED CAPSULE?"
+ },
+ {
+  "id": "n56",
+  "key": "wky2",
+  "options": [
+   "A keeper for the city's water line",
+   "A Hudson River ferry agent",
+   "A toll collector on the Albany post road"
+  ],
+  "answer": 0,
+  "stamp": "ON TAP",
+  "fact": "Near each waste weir on the Old Croton Aqueduct, which carried New York City's water, the city provided a house for the weir keeper. An overseer lived here too, in charge of inspecting and maintaining the line above and below the weir. Company housing with a very long driveway.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ny1170/"
+  ],
+  "img": "img/n56.jpg",
+  "page": "https://www.loc.gov/pictures/item/ny1170/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "FRONT PARLOR",
+    "x": 0.747,
+    "y": 0.7069
+   },
+   {
+    "t": "REAR PARLOR",
+    "x": 0.5141,
+    "y": 0.7113
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.4867,
+    "y": 0.2612
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.698,
+    "y": 0.2612
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.8241,
+    "y": 0.3738
+   },
+   {
+    "t": "PORCH",
+    "x": 0.9221,
+    "y": 0.7631
+   }
+  ],
+  "q": "WHO DID NEW YORK CITY HOUSE HERE, AROUND 1845?"
+ },
+ {
+  "id": "n57",
+  "key": "laz3",
+  "options": [
+   "A customs house for Philadelphia's port",
+   "A riverside inn for travelers",
+   "A quarantine hospital for ship arrivals"
+  ],
+  "answer": 2,
+  "stamp": "PLANE CHANGE",
+  "fact": "The Lazaretto, built 1799-1801 after Philadelphia's 1793 yellow fever epidemic, is the oldest surviving quarantine structure in the U.S., nearly a century before Ellis Island. After quarantine ended it became a gentlemen's athletic club, then a seaplane base until 2000.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/pa3813/",
+   "https://cdn.loc.gov/master/pnp/habshaer/pa/pa3800/pa3813/data/pa3813data.pdf"
+  ],
+  "img": "img/n57.jpg",
+  "page": "https://www.loc.gov/pictures/item/pa3813/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "OFFICES FOR SEAPLANE BASE",
+    "x": 0.5189,
+    "y": 0.6394
+   },
+   {
+    "t": "PARTS STORAGE",
+    "x": 0.5454,
+    "y": 0.5431
+   },
+   {
+    "t": "PARTS STORAGE",
+    "x": 0.5454,
+    "y": 0.4138
+   },
+   {
+    "t": "MACHINE SHOP",
+    "x": 0.5526,
+    "y": 0.21
+   },
+   {
+    "t": "LIVING ROOM",
+    "x": 0.4996,
+    "y": 0.85
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.5831,
+    "y": 0.855
+   },
+   {
+    "t": "LAUNDRY",
+    "x": 0.4996,
+    "y": 0.6931
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5092,
+    "y": 0.7869
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.5831,
+    "y": 0.8081
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4016,
+    "y": 0.54
+   },
+   {
+    "t": "PORCH",
+    "x": 0.6434,
+    "y": 0.6112
+   }
+  ],
+  "q": "WHAT WAS THIS 1801 RIVERSIDE BUILDING ORIGINALLY?"
+ },
+ {
+  "id": "n58",
+  "key": "slh3",
+  "options": [
+   "The harbor master's family",
+   "Soldiers attached to customs",
+   "Visiting sugar planters"
+  ],
+  "answer": 1,
+  "stamp": "WEIGH STATION",
+  "fact": "Christiansted's Scalehouse on St. Croix, then the Danish West Indies. Downstairs, a scale over a story high weighed sugar beside the weighmaster's office and a room for inspecting imports. Upstairs, two rooms housed soldiers attached to the Customs Department. Extras pushed the cost up about 64%.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/vi0063/",
+   "https://cdn.loc.gov/master/pnp/habshaer/vi/vi0000/vi0063/data/vi0063data.pdf"
+  ],
+  "img": "img/n58.jpg",
+  "page": "https://www.loc.gov/pictures/item/vi0063/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BUILT-IN CLOSET",
+    "x": 0.751,
+    "y": 0.485
+   },
+   {
+    "t": "COUNTER",
+    "x": 0.4964,
+    "y": 0.3162
+   }
+  ],
+  "q": "WHO SLEPT UPSTAIRS IN THIS 1856 CARIBBEAN WHARF BUILDING?"
+ },
+ {
+  "id": "n59",
+  "key": "cav1",
+  "options": [
+   "Bat-guano miners",
+   "Cave tour guides",
+   "Oil wildcatters"
+  ],
+  "answer": 1,
+  "stamp": "GOING UNDERGROUND",
+  "fact": "At New Mexico's Carlsbad Caverns, archival evidence says cave guides designed and built houses like this one for themselves in 1927-29, though legend credits the first superintendent. Early tourists got into the cave the hard way: in a guano-mining bucket lowered down the entrance.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/nm0385/",
+   "https://cdn.loc.gov/master/pnp/habshaer/nm/nm0300/nm0385/data/nm0385data.pdf"
+  ],
+  "img": "img/n59.jpg",
+  "page": "https://www.loc.gov/pictures/item/nm0385/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LIVING ROOM",
+    "x": 0.6329,
+    "y": 0.6838
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.2369,
+    "y": 0.585
+   },
+   {
+    "t": "CORRIDOR",
+    "x": 0.347,
+    "y": 0.585
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.3116,
+    "y": 0.4212
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3141,
+    "y": 0.7462
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.6337,
+    "y": 0.4262
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.4233,
+    "y": 0.5838
+   }
+  ],
+  "q": "WHO BUILT THIS LATE-1920s STONE HOUSE FOR THEMSELVES?"
+ },
+ {
+  "id": "n60",
+  "key": "her3",
+  "options": [
+   "Ferry commuters across the bay",
+   "Hunt fur seals off the Alaska coast",
+   "Haul lumber rafts and broken ships"
+  ],
+  "answer": 2,
+  "stamp": "PULLING WEIGHT",
+  "fact": "Steam tug Hercules began by towing her own sister, Goliah, from the East Coast to San Francisco around the Strait of Magellan. She hauled Columbia River lumber rafts and disabled steamers, towed Panama Canal lock gates, then pushed railroad car floats around the Bay until 1962.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca1507/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ca/ca1500/ca1507/data/ca1507data.pdf"
+  ],
+  "img": "img/n60.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca1507/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "ANCHOR WINDLASS",
+    "x": 0.4241,
+    "y": 0.0938
+   },
+   {
+    "t": "CREW'S MESS",
+    "x": 0.4893,
+    "y": 0.4319
+   },
+   {
+    "t": "STATEROOM",
+    "x": 0.482,
+    "y": 0.513
+   },
+   {
+    "t": "STATEROOM",
+    "x": 0.4778,
+    "y": 0.4706
+   },
+   {
+    "t": "STATEROOM",
+    "x": 0.5655,
+    "y": 0.4581
+   },
+   {
+    "t": "CAPSTAN",
+    "x": 0.4602,
+    "y": 0.7069
+   },
+   {
+    "t": "GALLEY",
+    "x": 0.396,
+    "y": 0.2975
+   },
+   {
+    "t": "RUDDER",
+    "x": 0.4964,
+    "y": 0.8206
+   },
+   {
+    "t": "STOVE",
+    "x": 0.553,
+    "y": 0.303
+   }
+  ],
+  "q": "WHAT DID THIS 1907 STEAMER DO FOR A LIVING?"
+ },
+ {
+  "id": "n61",
+  "key": "mun3",
+  "options": [
+   "A silver miners' union",
+   "Mine owners and their bankers",
+   "A cattle ranchers' association"
+  ],
+  "answer": 0,
+  "stamp": "BOOM & BUST",
+  "fact": "Granite, Montana's 'Silver Queen City': no water wells or graves were dug on the mountain, and water came up by the barrel. The Miners Union Hall (1890) had a maple spring dance floor. On Aug. 1, 1893 the mines shut down, and within 24 hours the town was almost deserted.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/mt0010/",
+   "https://cdn.loc.gov/master/pnp/habshaer/mt/mt0000/mt0010/data/mt0010data.pdf"
+  ],
+  "img": "img/n61.jpg",
+  "page": "https://www.loc.gov/pictures/item/mt0010/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LODGE HALL",
+    "x": 0.5518,
+    "y": 0.5913
+   },
+   {
+    "t": "STAIRWAY",
+    "x": 0.2321,
+    "y": 0.77
+   },
+   {
+    "t": "STAGE",
+    "x": 0.5526,
+    "y": 0.8538
+   },
+   {
+    "t": "ENTRY",
+    "x": 0.8321,
+    "y": 0.5712
+   }
+  ],
+  "q": "WHO DANCED IN THIS HALL, 2,000 FEET UP A MONTANA MOUNTAIN?"
+ },
+ {
+  "id": "n62",
+  "key": "uso2",
+  "options": [
+   "Gold-dredge crews",
+   "Off-duty soldiers",
+   "University students"
+  ],
+  "answer": 1,
+  "stamp": "SILVER MEDAL",
+  "fact": "Army engineers in Alaska raced to finish the first federally owned USO club, pouring heated concrete in subarctic winter and keeping the forms warm 48 to 72 hours. A brutally cold January 1942 halted the work, and Fayetteville, N.C. finished first in April. Close, but frozen.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0214/"
+  ],
+  "img": "img/n62.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0214/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LETTER WRITING ROOM",
+    "x": 0.5108,
+    "y": 0.0756
+   },
+   {
+    "t": "SOCIAL HALL (DANCE)",
+    "x": 0.625,
+    "y": 0.275
+   },
+   {
+    "t": "WOMEN TOILET ROOM",
+    "x": 0.6241,
+    "y": 0.0738
+   },
+   {
+    "t": "MEETING ROOM",
+    "x": 0.3703,
+    "y": 0.6112
+   },
+   {
+    "t": "MEETING ROOM",
+    "x": 0.3703,
+    "y": 0.5612
+   },
+   {
+    "t": "MEETING ROOM",
+    "x": 0.4442,
+    "y": 0.1388
+   },
+   {
+    "t": "MEETING ROOM",
+    "x": 0.4522,
+    "y": 0.6119
+   },
+   {
+    "t": "SOCIAL HALL",
+    "x": 0.3952,
+    "y": 0.3488
+   },
+   {
+    "t": "POWDER ROOM",
+    "x": 0.6803,
+    "y": 0.0738
+   },
+   {
+    "t": "MUSIC ROOM",
+    "x": 0.3687,
+    "y": 0.1088
+   },
+   {
+    "t": "HOBBY SHOP",
+    "x": 0.509,
+    "y": 0.6131
+   },
+   {
+    "t": "RECEPTION",
+    "x": 0.6169,
+    "y": 0.1244
+   },
+   {
+    "t": "DORMITORY",
+    "x": 0.641,
+    "y": 0.7113
+   },
+   {
+    "t": "DORMITORY",
+    "x": 0.6466,
+    "y": 0.8131
+   },
+   {
+    "t": "DARKROOM",
+    "x": 0.5593,
+    "y": 0.6131
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.56,
+    "y": 0.7782
+   },
+   {
+    "t": "UTILITY",
+    "x": 0.6314,
+    "y": 0.6129
+   },
+   {
+    "t": "LATRINE",
+    "x": 0.645,
+    "y": 0.55
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.6795,
+    "y": 0.5996
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5116,
+    "y": 0.1381
+   },
+   {
+    "t": "SHOWER",
+    "x": 0.5422,
+    "y": 0.8394
+   },
+   {
+    "t": "STOR.",
+    "x": 0.4956,
+    "y": 0.5481
+   },
+   {
+    "t": "MECH.",
+    "x": 0.596,
+    "y": 0.8419
+   },
+   {
+    "t": "ROOM",
+    "x": 0.3406,
+    "y": 0.8426
+   },
+   {
+    "t": "ROOM",
+    "x": 0.3584,
+    "y": 0.7769
+   },
+   {
+    "t": "ROOM",
+    "x": 0.3913,
+    "y": 0.8427
+   },
+   {
+    "t": "ROOM",
+    "x": 0.4085,
+    "y": 0.7734
+   },
+   {
+    "t": "ROOM",
+    "x": 0.442,
+    "y": 0.8376
+   },
+   {
+    "t": "ROOM",
+    "x": 0.4596,
+    "y": 0.7755
+   },
+   {
+    "t": "ROOM",
+    "x": 0.492,
+    "y": 0.844
+   },
+   {
+    "t": "ROOM",
+    "x": 0.5099,
+    "y": 0.7741
+   }
+  ],
+  "q": "WHO WAS THIS 1942 FAIRBANKS CLUB BUILT FOR?"
+ },
+ {
+  "id": "n63",
+  "key": "hpi2",
+  "options": [
+   "Sugar and rum for whaling ships",
+   "Rope and sleeping mats from native fibers",
+   "Schoolbooks, maps and paper money"
+  ],
+  "answer": 2,
+  "stamp": "PRINT MONEY",
+  "fact": "Hale Pa'i was the printing house of Lahainaluna Seminary from 1838 to 1846, turning out textbooks, tracts and laws, mostly in Hawaiian. Students also engraved copper plates of scenery, portraits, maps and some paper money. The school's press had launched Ka Lama Hawaii, the first Hawaiian newspaper.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/hi0010/",
+   "https://cdn.loc.gov/master/pnp/habshaer/hi/hi0000/hi0010/data/hi0010data.pdf"
+  ],
+  "img": "img/n63.jpg",
+  "page": "https://www.loc.gov/pictures/item/hi0010/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "CONCRETE PLATFORM",
+    "x": 0.8546,
+    "y": 0.7788
+   },
+   {
+    "t": "CONCRETE FLOOR",
+    "x": 0.7044,
+    "y": 0.6931
+   },
+   {
+    "t": "WOOD POST",
+    "x": 0.3309,
+    "y": 0.6931
+   },
+   {
+    "t": "WOOD BEAM",
+    "x": 0.4056,
+    "y": 0.69
+   },
+   {
+    "t": "DRAIN",
+    "x": 0.5647,
+    "y": 0.7887
+   }
+  ],
+  "q": "WHAT WAS MADE IN THIS 1837 MAUI STONE HOUSE?"
+ },
+ {
+  "id": "n64",
+  "key": "lkt1",
+  "options": [
+   "Forest fire lookouts",
+   "Weather Bureau observers",
+   "Revenue agents hunting moonshine stills"
+  ],
+  "answer": 0,
+  "stamp": "SMOKE SIGNALS",
+  "fact": "White Rock Lookout Tower, built 1937-39 by the Civilian Conservation Corps from rock quarried on the mountain below. It straddles the Tennessee-North Carolina line just off the Appalachian Trail. Lookouts lived in isolation, watching the Smokies daily and ready to move when lightning hit.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/tn0443/",
+   "https://cdn.loc.gov/master/pnp/habshaer/tn/tn0400/tn0443/data/tn0443data.pdf"
+  ],
+  "img": "img/n64.jpg",
+  "page": "https://www.loc.gov/pictures/item/tn0443/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHO SPENT SUNRISE TO SUNSET IN THIS EIGHT-SIDED ROOM?"
  }
 ]
