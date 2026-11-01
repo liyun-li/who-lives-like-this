@@ -335,7 +335,7 @@
   "key": "NM_205_3",
   "options": [
    "Killer family running a roadhouse",
-   "Freighter, depot out front",
+   "Mining-camp storekeeper",
    "Plaza trader, store out front"
   ],
   "answer": 2,
@@ -575,9 +575,9 @@
   "id": "r08",
   "key": "RI_4_PROV_17_i3",
   "options": [
-   "Merchant sea captain",
-   "Newspaper editor-publisher",
-   "Printer and postmaster"
+   "Bookbinder and stationer",
+   "Tavern keeper holding the mail",
+   "Newspaperman who ran the mail"
   ],
   "answer": 2,
   "stamp": "PRESSED",
@@ -1484,8 +1484,8 @@
   "key": "FLA_6_FOLAU_1A_i1",
   "options": [
    "Yacht broker with a lookout",
-   "Citrus heir's guest cottage",
-   "Artist with a seaside studio"
+   "Art-collecting heir",
+   "Artist wintering by the sea"
   ],
   "answer": 2,
   "stamp": "DRAMATIC",
@@ -1529,7 +1529,7 @@
   "options": [
    "Frontier photographer",
    "Séance-holding medium",
-   "Gold-rush assayer"
+   "Gold-camp portrait painter"
   ],
   "answer": 0,
   "stamp": "SNAP",
@@ -1561,7 +1561,7 @@
     "y": 0.8719
    },
    {
-    "t": "PHOTO STUDIO",
+    "t": "STUDIO",
     "x": 0.4904,
     "y": 0.1762
    },
@@ -1962,8 +1962,8 @@
   "id": "r27",
   "key": "x_WYO_20_MOOS_2_fp",
   "options": [
-   "Homesteader with a store",
-   "Trading-post clerk and wife",
+   "Homesteader whose cabin grew",
+   "Trading-post storekeeper and wife",
    "Serial killer hiding out"
   ],
   "answer": 0,
