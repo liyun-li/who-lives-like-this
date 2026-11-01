@@ -4,7 +4,7 @@
   "key": "CAL_36_RANCU_3_2",
   "options": [
    "Retired film-set designer",
-   "Self-taught furniture maker",
+   "Self-taught wood-furniture maker",
    "Avocado rancher with a hobby shop"
   ],
   "answer": 1,
@@ -181,8 +181,8 @@
   "key": "FLA_59_ALTSP_1_2",
   "options": [
    "Boatwright with a home shop",
-   "Cabinetmaker working from home",
-   "Citrus grower with a packing shed"
+   "Sea captain making cabinets",
+   "Citrus grower's packing shed"
   ],
   "answer": 1,
   "stamp": "CHISELED",
@@ -316,7 +316,7 @@
   "id": "r06",
   "key": "NM_205_3",
   "options": [
-   "Killer family running a roadhouse",
+   "Killer family with a guest room",
    "Mining-camp storekeeper",
    "Plaza trader, store out front"
   ],
@@ -558,7 +558,7 @@
   "key": "RI_4_PROV_17_i3",
   "options": [
    "Bookbinder and stationer",
-   "Tavern keeper holding the mail",
+   "Tavern keeper with the mail",
    "Newspaperman who ran the mail"
   ],
   "answer": 2,
@@ -595,7 +595,7 @@
   "id": "r09",
   "key": "RI_4_PROV_190_i2c",
   "options": [
-   "Jewelry manufacturer",
+   "Jeweler with a studio shop",
    "Painter who built studios",
    "Voice coach with studio pupils"
   ],
@@ -703,8 +703,8 @@
   "id": "r11",
   "key": "TEX_220_FOWOR_2_3",
   "options": [
-   "Retired general with a war museum",
-   "Society couple built for parties",
+   "General with a war museum",
+   "Society couple with a music room",
    "Music teacher and her pupils"
   ],
   "answer": 1,
@@ -805,9 +805,9 @@
   "id": "r13",
   "key": "TEX_46_NEBRA_5_2",
   "options": [
-   "Newspaper office, nobody lives here",
+   "Print shop, nobody lives here",
    "Preacher printing gospel pamphlets",
-   "Botanist editing the paper at home"
+   "Botanist printing the paper at home"
   ],
   "answer": 2,
   "stamp": "INKED",
@@ -866,8 +866,8 @@
   "id": "r14",
   "key": "UTAH_18_SALCI_27_2",
   "options": [
-   "Mogul with big family and staff",
-   "Bachelor mine owner, lives at club",
+   "Mogul with big brood and butler",
+   "Bachelor mine owner with a library",
    "Wealthy widow and her servants"
   ],
   "answer": 0,
@@ -954,7 +954,7 @@
   "options": [
    "Painter who ended up a grocer",
    "Trading-post grocer and his wife",
-   "Dude-ranch wrangler and cook"
+   "Dude-ranch cook with a food stand"
   ],
   "answer": 0,
   "stamp": "PIVOT",
@@ -1000,7 +1000,7 @@
   "id": "r16",
   "key": "loc_il0741_03",
   "options": [
-   "Landscape designer",
+   "Landscaper with a studio",
    "Bank manager",
    "Suburban doctor with an office"
   ],
@@ -1132,8 +1132,8 @@
   "key": "loc_mo0340_02",
   "options": [
    "Barrel-making cooper",
-   "Printer who added a winery",
-   "Counterfeiter with a press"
+   "Radical printer turned vintner",
+   "Forger with a print press"
   ],
   "answer": 1,
   "stamp": "VINTAGE",
@@ -1184,8 +1184,8 @@
   "id": "r19",
   "key": "loc_pa0171_02",
   "options": [
-   "Grocer with a lunch counter",
-   "Tobacco farmer and big family",
+   "Diner-and-grocery keepers",
+   "Tobacco farmer with a tool shed",
    "Farm-supply storekeeper"
   ],
   "answer": 0,
@@ -1257,7 +1257,7 @@
   "id": "r20",
   "key": "loc_tx0242_01",
   "options": [
-   "Sea captain between voyages",
+   "Sea captain living ashore",
    "Port-town storekeeper",
    "Wharf warehouseman"
   ],
@@ -1472,7 +1472,7 @@
   "id": "r23",
   "key": "ORE_15_JACVI_3_2",
   "options": [
-   "Frontier photographer",
+   "Frontier landscape photographer",
    "Séance-holding medium",
    "Gold-camp portrait painter"
   ],
@@ -1556,8 +1556,8 @@
   "key": "WI_376_A_i1",
   "options": [
    "Lighthouse inspector",
-   "Commercial fisherman's family",
-   "Lighthouse keeper couple"
+   "Fish dealer's home and office",
+   "Husband-and-wife lighthouse keepers"
   ],
   "answer": 2,
   "stamp": "BEAMING",
@@ -1798,7 +1798,7 @@
   "options": [
    "Homesteader whose cabin grew",
    "Trading-post storekeeper and wife",
-   "Serial killer hiding out"
+   "Serial killer's cabin hideout"
   ],
   "answer": 0,
   "stamp": "SCRAPPY",
@@ -2255,7 +2255,7 @@
   "id": "r35",
   "key": "n_holmes",
   "options": [
-   "Gambling boss with hidden back rooms",
+   "Gambler with hidden back rooms",
    "Patent-medicine maker's offices",
    "Con-man killer posing as a hotelier"
   ],
