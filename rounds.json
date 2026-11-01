@@ -4381,5 +4381,329 @@
    }
   ],
   "q": "WHAT IS THIS GARDEN TEA HOUSE REALLY FOR?"
+ },
+ {
+  "id": "n36",
+  "key": "sub6",
+  "options": [
+   "Lay telegraph cable on the seabed",
+   "Harvest pearls from the sea floor",
+   "Salvage gold from shipwrecks"
+  ],
+  "answer": 1,
+  "stamp": "DEEP REGRET",
+  "fact": "Sub Marine Explorer, designed by Julius Kroehl and shipped to Panama's Pearl Islands, let divers walk out through hatches in its floor to gather pearl oysters. The beds were already fished out, and the crew's 'fevers' were probably decompression sickness. Abandoned in 1869.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/cz0044/",
+   "https://cdn.loc.gov/master/pnp/habshaer/cz/cz0000/cz0044/data/cz0044data.pdf"
+  ],
+  "img": "img/n36.jpg",
+  "page": "https://www.loc.gov/pictures/item/cz0044/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BOTTOM HATCHES",
+    "x": 0.667,
+    "y": 0.483
+   }
+  ],
+  "q": "WHAT WAS THIS 1865 IRON VESSEL BUILT TO DO?"
+ },
+ {
+  "id": "n37",
+  "key": "mod2",
+  "options": [
+   "It's a fake 'Ferrari' built for a hit movie",
+   "It won its class at Le Mans",
+   "It was a Detroit sports-car prototype"
+  ],
+  "answer": 0,
+  "stamp": "SAVE FERRIS",
+  "fact": "A 1985 replica of a Ferrari 250 GT California Spyder by Mark Goyette and Neil Glassmoyer. John Hughes couldn't afford a real one for Ferris Bueller's Day Off, so the studio ordered three copies: one to drive, one for close-ups, and a shell to launch into a tree.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/md2198/"
+  ],
+  "img": "img/n37.jpg",
+  "page": "https://www.loc.gov/pictures/item/md2198/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHY DID THE GOVERNMENT MEASURE THIS CAR?"
+ },
+ {
+  "id": "n38",
+  "key": "pob2",
+  "options": [
+   "Stargazing",
+   "Watching for town fires",
+   "Spotting incoming ships for merchants"
+  ],
+  "answer": 2,
+  "stamp": "SHIP AHOY",
+  "fact": "The Portland Observatory in Maine: an 86-foot octagonal signal tower built by sea captain-turned-entrepreneur Lemuel Moody. He spotted vessels entering Casco Bay and flagged the news to merchants. Despite the name, no telescope astronomy; 122 tons of stone rubble keep it from blowing over.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/me0024/"
+  ],
+  "img": "img/n38.jpg",
+  "page": "https://www.loc.gov/pictures/item/me0024/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "FLAGPOLE BRACKET",
+    "x": 0.2289,
+    "y": 0.3488
+   },
+   {
+    "t": "FLAGPOLE BRACKET",
+    "x": 0.2313,
+    "y": 0.6431
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.2458,
+    "y": 0.4988
+   },
+   {
+    "t": "SEAT",
+    "x": 0.3486,
+    "y": 0.8019
+   }
+  ],
+  "q": "WHAT WAS THIS 1807 TOWER FOR?"
+ },
+ {
+  "id": "n39",
+  "key": "car1",
+  "options": [
+   "The project's resident manager",
+   "A future U.S. president's family",
+   "A peanut warehouse foreman"
+  ],
+  "answer": 1,
+  "stamp": "HUMBLE START",
+  "fact": "Unit 9A of a 1953 federal housing project in Plains, Georgia. After his father died, Jimmy Carter left the Navy to run the family peanut business; with no assured income, he wrote, the family applied for and got this apartment. Utilitarian is putting it kindly.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ga0581/"
+  ],
+  "img": "img/n39.jpg",
+  "page": "https://www.loc.gov/pictures/item/ga0581/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHO MOVED INTO THIS 1953 APARTMENT?"
+ },
+ {
+  "id": "n40",
+  "key": "glo3",
+  "options": [
+   "German gymnastics club",
+   "State land office",
+   "State treasury"
+  ],
+  "answer": 1,
+  "stamp": "MAPPED OUT",
+  "fact": "Austin's old General Land Office, the city's oldest known public building, in German Romanesque style. William Sydney Porter (O. Henry) worked here as a draftsman from 1887 to 1891 and later set a murder story inside it. HABS notes he found it 'cold in the summer and warm in the winter.'",
+  "sources": [
+   "https://www.loc.gov/pictures/item/tx0393/",
+   "https://cdn.loc.gov/master/pnp/habshaer/tx/tx0300/tx0393/data/tx0393data.pdf"
+  ],
+  "img": "img/n40.jpg",
+  "page": "https://www.loc.gov/pictures/item/tx0393/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHAT WAS THIS 1857 TEXAS BUILDING?"
+ },
+ {
+  "id": "n41",
+  "key": "rdr1",
+  "options": [
+   "Railroad construction workers",
+   "Salmon cannery owners",
+   "Gold-rush gamblers"
+  ],
+  "answer": 0,
+  "stamp": "FULL SCHEDULE",
+  "fact": "The Red Dragon in Cordova, Alaska, opened July 14, 1908 as a social hall for the hundreds of men building the Copper River & Northwestern Railway. It hosted dances, plays, ice cream socials and boxing matches, then church services on Sundays. Busy room.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0596/"
+  ],
+  "img": "img/n41.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0596/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BATHROOM",
+    "x": 0.1984,
+    "y": 0.3919
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.241,
+    "y": 0.6162
+   },
+   {
+    "t": "RAMP",
+    "x": 0.3799,
+    "y": 0.8762
+   }
+  ],
+  "q": "WHO WAS THIS 1908 CLUBHOUSE BUILT FOR?"
+ },
+ {
+  "id": "n42",
+  "key": "igl2",
+  "options": [
+   "A roadhouse post office",
+   "A trading post",
+   "A saloon"
+  ],
+  "answer": 2,
+  "stamp": "LAST CALL",
+  "fact": "In Wiseman, on Alaska's Koyukuk River, this cabin was the Siverly and Bowker Saloon when it was mortgaged in 1913. In 1914 it was sold to Igloo No. 8 of the Pioneers of Alaska, a lodge; by 1986 someone was living in it year-round. Drinks first, meetings later.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0059/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ak/ak0000/ak0059/data/ak0059data.pdf"
+  ],
+  "img": "img/n42.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0059/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "KITCHEN",
+    "x": 0.4791,
+    "y": 0.6781
+   },
+   {
+    "t": "HALL",
+    "x": 0.5128,
+    "y": 0.4019
+   }
+  ],
+  "q": "WHAT WAS THIS ALASKA LOG CABIN BY 1913?"
+ },
+ {
+  "id": "n43",
+  "key": "cat2",
+  "options": [
+   "A volunteer fire company",
+   "A cotton-gin co-op",
+   "Texas's oldest farm society"
+  ],
+  "answer": 2,
+  "stamp": "SOW & SWING",
+  "fact": "The Cat Spring Agricultural Society, founded in 1856 by the local German community and the oldest agricultural society in Texas, built this twelve-sided pavilion in 1902 as its dance and meeting hall. Members raised it themselves from drawings by Joch Hintz.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/tx0514/"
+  ],
+  "img": "img/n43.jpg",
+  "page": "https://www.loc.gov/pictures/item/tx0514/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "TICKET BOOTH",
+    "x": 0.8474,
+    "y": 0.4906
+   },
+   {
+    "t": "DANCE FLOOR",
+    "x": 0.5663,
+    "y": 0.5619
+   },
+   {
+    "t": "RESTROOMS",
+    "x": 0.1888,
+    "y": 0.5888
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.139,
+    "y": 0.4462
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.2908,
+    "y": 0.7412
+   },
+   {
+    "t": "SEATING",
+    "x": 0.6851,
+    "y": 0.2062
+   },
+   {
+    "t": "STAGE",
+    "x": 0.1767,
+    "y": 0.3012
+   },
+   {
+    "t": "BAR",
+    "x": 0.461,
+    "y": 0.7638
+   }
+  ],
+  "q": "WHO BUILT THIS 12-SIDED DANCE HALL?"
+ },
+ {
+  "id": "n44",
+  "key": "gec2",
+  "options": [
+   "A carousel",
+   "A roller-skating rink",
+   "A revolving bandstand"
+  ],
+  "answer": 0,
+  "stamp": "ROUND & ROUND",
+  "fact": "Glen Echo Park's 1921 Dentzel carousel in Maryland, one of only 16 of about 200 American carousels still on their original site. Several horses are by master carver Daniel C. Muller, and it may be the first of the fancy 'jester head' models.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/md1366/"
+  ],
+  "img": "img/n44.jpg",
+  "page": "https://www.loc.gov/pictures/item/md1366/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "RESTROOMS",
+    "x": 0.0738,
+    "y": 0.2757
+   }
+  ],
+  "q": "WHAT SPINS UNDER THIS ROOF?"
+ },
+ {
+  "id": "n45",
+  "key": "lil2",
+  "options": [
+   "Cannery workers",
+   "Road-tripping motorists",
+   "Railroad section crews"
+  ],
+  "answer": 1,
+  "stamp": "NO VACANCY",
+  "fact": "Lilly's Auto Camp in Gilroy, California, on the main road between San Francisco and Los Angeles, run by Allen and Alice Lilly about 1927-1932. A forerunner of the motel: fifteen cabins, each with a double bed, a table, a metered gas stove and a small toilet, with a garage beside it.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca0920/"
+  ],
+  "img": "img/n45.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca0920/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHO SLEPT IN THESE CABINS AROUND 1927?"
  }
 ]
