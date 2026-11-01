@@ -2372,5 +2372,2014 @@
    0,
    2
   ]
+ },
+ {
+  "id": "n01",
+  "key": "eldorado",
+  "options": [
+   "Immigrant cigar rollers",
+   "Railroad crews between shifts",
+   "Sailors on shore leave"
+  ],
+  "answer": 0,
+  "stamp": "SMOKY",
+  "fact": "Built as a rooming house for cigar workers from Spain and Cuba in Tampa's Ybor City. In the 1920s and '30s the café downstairs became a gambling den known for roulette, blackjack and underworld figures, and in the 1920s the upstairs worked as a bordello for the casino's customers. Busy building.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:El_Dorado_Hotel,_1804_Fourteenth_Street,_Tampa,_Hillsborough_County,_FL_HABS_FLA,29-TAMP,10-_(sheet_2_of_3).tif",
+   "https://commons.wikimedia.org/wiki/File:El_Dorado_Hotel,_1804_Fourteenth_Street,_Tampa,_Hillsborough_County,_FL_HABS_FLA,29-TAMP,10-_(sheet_1_of_3).tif"
+  ],
+  "img": "img/n01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:El_Dorado_Hotel,_1804_Fourteenth_Street,_Tampa,_Hillsborough_County,_FL_HABS_FLA,29-TAMP,10-_(sheet_2_of_3).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LIGHT WELL",
+    "x": 0.2921,
+    "y": 0.3362
+   },
+   {
+    "t": "LIGHT WELL",
+    "x": 0.2978,
+    "y": 0.6131
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.748,
+    "y": 0.5431
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.748,
+    "y": 0.4219
+   },
+   {
+    "t": "GALLERY",
+    "x": 0.9149,
+    "y": 0.4919
+   },
+   {
+    "t": "BATH",
+    "x": 0.1597,
+    "y": 0.7312
+   },
+   {
+    "t": "BATH",
+    "x": 0.1613,
+    "y": 0.2469
+   }
+  ]
+ },
+ {
+  "id": "n02",
+  "key": "caffey",
+  "options": [
+   "Ferry keeper and family",
+   "Oyster-cannery crew",
+   "Lifesaving surfmen"
+  ],
+  "answer": 2,
+  "stamp": "RESCUED",
+  "fact": "Caffey's Inlet was one of seven U.S. Life-Saving Service stations put on North Carolina's Outer Banks in 1874, off the 'Graveyard of the Atlantic'. The crew of this 1897–98 rebuild kept watch from the tower and hauled rescue boats and carts out to wrecks. It closed in 1964 and is now a beach-resort restaurant.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Caffey's_Inlet,_Life-Saving_Station,_State_Route_1200,_Duck,_Dare_County,_NC_HABS_NC,27-DUCK.V,1-_(sheet_2_of_9).tif",
+   "https://npgallery.nps.gov/AssetDetail/NRIS/78001942",
+   "https://nara-media.s3.amazonaws.com/electronic-records/rg-079/NPS_NC/78001942.pdf",
+   "https://www.hmdb.org/m.asp?m=181032",
+   "https://uslife-savingservice.org/station-sites/caffeys-inlet/"
+  ],
+  "img": "img/n02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Caffey's_Inlet,_Life-Saving_Station,_State_Route_1200,_Duck,_Dare_County,_NC_HABS_NC,27-DUCK.V,1-_(sheet_2_of_9).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "CHIEF'S QTRS.",
+    "x": 0.3606,
+    "y": 0.7125
+   },
+   {
+    "t": "CEILING HATCH",
+    "x": 0.4964,
+    "y": 0.25
+   },
+   {
+    "t": "BOAT ROOM",
+    "x": 0.7671,
+    "y": 0.3231
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.143,
+    "y": 0.765
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4739,
+    "y": 0.53
+   },
+   {
+    "t": "TOILET",
+    "x": 0.7687,
+    "y": 0.8031
+   },
+   {
+    "t": "LOBBY",
+    "x": 0.7687,
+    "y": 0.6412
+   }
+  ]
+ },
+ {
+  "id": "n03",
+  "key": "engine27",
+  "options": [
+   "Mounted police patrol",
+   "Firefighters on call",
+   "Streetcar repair crew"
+  ],
+  "answer": 1,
+  "stamp": "ON CALL",
+  "fact": "Milwaukee's Engine House 27 (1903) was designed by Sebastian Brand, a German immigrant who joined the fire department in 1872 and fought more than 5,000 blazes before leaving it in 1903. The crew slept upstairs in the dormitory; the engine waited downstairs for the alarm.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Milwaukee_Fire_Department,_Engine_House_Number_27,_2647_North_Bartlett_Avenue,_Milwaukee,_Milwaukee_County,_WI_HABS_WIS,40-MILWA,45-_(sheet_2_of_4).tif",
+   "https://commons.wikimedia.org/wiki/File:Milwaukee_Fire_Department,_Engine_House_Number_27,_2647_North_Bartlett_Avenue,_Milwaukee,_Milwaukee_County,_WI_HABS_WIS,40-MILWA,45-_(sheet_1_of_4).tif"
+  ],
+  "img": "img/n03.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Milwaukee_Fire_Department,_Engine_House_Number_27,_2647_North_Bartlett_Avenue,_Milwaukee,_Milwaukee_County,_WI_HABS_WIS,40-MILWA,45-_(sheet_2_of_4).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "OFFICER'S QUARTERS",
+    "x": 0.2793,
+    "y": 0.305
+   },
+   {
+    "t": "OFFICER'S TOILET",
+    "x": 0.2022,
+    "y": 0.3081
+   },
+   {
+    "t": "APPARATUS ROOM",
+    "x": 0.6878,
+    "y": 0.7462
+   },
+   {
+    "t": "RECREATION",
+    "x": 0.1637,
+    "y": 0.7731
+   },
+   {
+    "t": "RECREATION",
+    "x": 0.4623,
+    "y": 0.3069
+   },
+   {
+    "t": "DORMITORY",
+    "x": 0.6862,
+    "y": 0.24
+   },
+   {
+    "t": "LAVATORY",
+    "x": 0.1966,
+    "y": 0.1769
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.1621,
+    "y": 0.6419
+   },
+   {
+    "t": "LOCKERS",
+    "x": 0.2737,
+    "y": 0.1644
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.2713,
+    "y": 0.22
+   },
+   {
+    "t": "DINING",
+    "x": 0.2769,
+    "y": 0.645
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.2769,
+    "y": 0.815
+   },
+   {
+    "t": "ALARM",
+    "x": 0.2769,
+    "y": 0.7488
+   },
+   {
+    "t": "STUDY",
+    "x": 0.5257,
+    "y": 0.1905
+   },
+   {
+    "t": "STUDY",
+    "x": 0.5257,
+    "y": 0.1507
+   }
+  ]
+ },
+ {
+  "id": "n04",
+  "key": "villa1",
+  "options": [
+   "Touring pianist who wrote books",
+   "Opera-house impresario",
+   "Railroad lawyer with a book habit"
+  ],
+  "answer": 0,
+  "stamp": "ENCORE",
+  "fact": "Villa Montezuma (San Diego, 1887) was built for Jesse Shepard, a flamboyant, eccentric pianist and singer with worldwide fame. His longest-lasting fame came as an author under the pen name Francis Grierson. The stained glass was just the opening act.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca0614/"
+  ],
+  "img": "img/n04.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca0614/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "RECEPTION ROOM",
+    "x": 0.5309,
+    "y": 0.345
+   },
+   {
+    "t": "DRAWING ROOM",
+    "x": 0.6273,
+    "y": 0.395
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.3598,
+    "y": 0.6088
+   },
+   {
+    "t": "ENTRY HALL",
+    "x": 0.3213,
+    "y": 0.4644
+   },
+   {
+    "t": "MUSIC ROOM",
+    "x": 0.7807,
+    "y": 0.1662
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.4201,
+    "y": 0.81
+   },
+   {
+    "t": "LIBRARY",
+    "x": 0.7791,
+    "y": 0.8931
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.7791,
+    "y": 0.5788
+   }
+  ]
+ },
+ {
+  "id": "n05",
+  "key": "hod",
+  "options": [
+   "A retired streetcar",
+   "An 1853 ship's deckhouse",
+   "A moved one-room schoolhouse"
+  ],
+  "answer": 1,
+  "stamp": "SHIPSHAPE",
+  "fact": "In 1928 a 'main room' was built onto a 'hod': the mid-ship deckhouse of the barque AMAZON, built in Baltimore in 1853 and set on the shore at Oxford, Maryland. The old deckhouse became the bedroom, one step down from the rest of the house. The house was demolished after 2007.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/md1811/"
+  ],
+  "img": "img/n05.jpg",
+  "page": "https://www.loc.gov/pictures/item/md1811/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LOFT LADDER",
+    "x": 0.625,
+    "y": 0.5313
+   },
+   {
+    "t": "MAIN ROOM",
+    "x": 0.6637,
+    "y": 0.2131
+   },
+   {
+    "t": "MAIN ROOM",
+    "x": 0.6669,
+    "y": 0.601
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.2262,
+    "y": 0.1177
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2912,
+    "y": 0.5982
+   },
+   {
+    "t": "BATH",
+    "x": 0.19,
+    "y": 0.4011
+   }
+  ],
+  "q": "WHAT WAS THE BEDROOM?"
+ },
+ {
+  "id": "n06",
+  "key": "octagon",
+  "options": [
+   "Retired whaling captain",
+   "Traveling phrenology lecturer",
+   "Eccentric young lawyer"
+  ],
+  "answer": 2,
+  "stamp": "ANGLED",
+  "fact": "Edward Elderkin, a young lawyer from the eastern states, arrived in Elkhorn, Wisconsin, in 1839 and built this octagon in 1851. The 1930s HABS write-up calls him 'an eccentric' and says many Wisconsin towns had one of these 'freak houses'. Government paperwork with no chill.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Octagonal_House,_East_South_Street,_Elkhorn,_Walworth_County,_WI_HABS_WIS,64-ELK,1-_(sheet_2_of_6).tif",
+   "https://commons.wikimedia.org/wiki/File:Octagonal_House,_East_South_Street,_Elkhorn,_Walworth_County,_WI_HABS_WIS,64-ELK,1-_(sheet_1_of_6).tif"
+  ],
+  "img": "img/n06.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Octagonal_House,_East_South_Street,_Elkhorn,_Walworth_County,_WI_HABS_WIS,64-ELK,1-_(sheet_2_of_6).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "DINING ROOM",
+    "x": 0.1839,
+    "y": 0.5262
+   },
+   {
+    "t": "LIVING ROOM",
+    "x": 0.5719,
+    "y": 0.53
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3606,
+    "y": 0.315
+   },
+   {
+    "t": "CLOSET",
+    "x": 0.1189,
+    "y": 0.3612
+   },
+   {
+    "t": "ALCOVE",
+    "x": 0.5719,
+    "y": 0.3238
+   },
+   {
+    "t": "PORCH",
+    "x": 0.8867,
+    "y": 0.52
+   }
+  ]
+ },
+ {
+  "id": "n07",
+  "key": "lundberg",
+  "options": [
+   "Candy maker with a soda fountain",
+   "Bread baker by the Capitol",
+   "Glassblower with a showroom"
+  ],
+  "answer": 1,
+  "stamp": "KNEADED",
+  "fact": "Charles Lundberg's bakery (1875–76) stood one block from both the Texas Capitol and the Governor's Mansion, and stayed a bakery until 1937. Living quarters upstairs, ovens out back: the shortest commute in Austin.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Lundberg_Bakery,_1006_Congress_Avenue,_Austin,_Travis_County,_TX_HABS_TEX,227-AUST,19-_(sheet_2_of_5).tif",
+   "https://commons.wikimedia.org/wiki/File:Lundberg_Bakery,_1006_Congress_Avenue,_Austin,_Travis_County,_TX_HABS_TEX,227-AUST,19-_(sheet_1_of_5).tif"
+  ],
+  "img": "img/n07.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lundberg_Bakery,_1006_Congress_Avenue,_Austin,_Travis_County,_TX_HABS_TEX,227-AUST,19-_(sheet_2_of_5).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "ICE CREAM PARLOR & SALES",
+    "x": 0.7952,
+    "y": 0.3088
+   },
+   {
+    "t": "LIVING QUARTERS",
+    "x": 0.3888,
+    "y": 0.3831
+   },
+   {
+    "t": "WORK AREA",
+    "x": 0.7952,
+    "y": 0.6088
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.3767,
+    "y": 0.8
+   },
+   {
+    "t": "WOMEN",
+    "x": 0.6498,
+    "y": 0.3225
+   },
+   {
+    "t": "OVENS",
+    "x": 0.7679,
+    "y": 0.84
+   },
+   {
+    "t": "MEN",
+    "x": 0.645,
+    "y": 0.415
+   }
+  ]
+ },
+ {
+  "id": "n08",
+  "key": "swann",
+  "options": [
+   "Druggist, with a doctor's office",
+   "Saloon keeper living behind the bar",
+   "Postmaster's family"
+  ],
+  "answer": 0,
+  "stamp": "DOSED",
+  "fact": "Built in the 1870s at Niobrara's original townsite, it was moved after the 1881 flood. From 1886 it was the drugstore and doctor's office, with living quarters behind the shop; in 1905 it became the office of the Niobrara Tribune.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Swann's_Drugstore,_Fifth_Avenue_and_Elm_Street,_Niobrara,_Knox_County,_NE_HABS_NEB,54-NIOB,11-_(sheet_2_of_3).tif",
+   "https://commons.wikimedia.org/wiki/File:Swann's_Drugstore,_Fifth_Avenue_and_Elm_Street,_Niobrara,_Knox_County,_NE_HABS_NEB,54-NIOB,11-_(sheet_1_of_3).tif"
+  ],
+  "img": "img/n08.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Swann's_Drugstore,_Fifth_Avenue_and_Elm_Street,_Niobrara,_Knox_County,_NE_HABS_NEB,54-NIOB,11-_(sheet_2_of_3).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "DINING ROOM",
+    "x": 0.3928,
+    "y": 0.62
+   },
+   {
+    "t": "LIVING ROOM",
+    "x": 0.3944,
+    "y": 0.8119
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.3928,
+    "y": 0.495
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.5751,
+    "y": 0.5962
+   },
+   {
+    "t": "COUNTER",
+    "x": 0.5751,
+    "y": 0.4881
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5759,
+    "y": 0.8431
+   },
+   {
+    "t": "STORE",
+    "x": 0.4538,
+    "y": 0.215
+   },
+   {
+    "t": "BATH",
+    "x": 0.6161,
+    "y": 0.7175
+   }
+  ]
+ },
+ {
+  "id": "n09",
+  "key": "dvr2",
+  "options": [
+   "The gold prospector it's named after",
+   "A silent-film cowboy star",
+   "A Chicago insurance millionaire"
+  ],
+  "answer": 2,
+  "stamp": "BANKROLLED",
+  "fact": "Everyone calls it Scotty's Castle, and 'Death Valley Scotty' told reporters his secret gold mine paid for it. It was really the vacation home of Chicago insurance magnate Albert Johnson, who had invested in Scotty's mine (it didn't exist) and told the press he was just 'Scotty's banker'.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Death_Valley_Ranch,_Main_House,_Death_Valley_Junction,_Inyo_County,_CA_HABS_CAL,14-DVNM,1-A-_(sheet_2_of_17).tif",
+   "https://www.nps.gov/deva/learn/historyculture/building-scottys-castle.htm",
+   "https://www.nps.gov/deva/learn/historyculture/death-valley-scotty.htm",
+   "https://home.nps.gov/museum/exhibits/death_valley/scottys_castle.html"
+  ],
+  "img": "img/n09.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Death_Valley_Ranch,_Main_House,_Death_Valley_Junction,_Inyo_County,_CA_HABS_CAL,14-DVNM,1-A-_(sheet_2_of_17).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LOWER MUSIC ROOM",
+    "x": 0.593,
+    "y": 0.623
+   },
+   {
+    "t": "LIVING HALL",
+    "x": 0.53,
+    "y": 0.411
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.594,
+    "y": 0.197
+   },
+   {
+    "t": "SOLARIUM",
+    "x": 0.657,
+    "y": 0.76
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.466,
+    "y": 0.622
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.467,
+    "y": 0.191
+   },
+   {
+    "t": "PATIO",
+    "x": 0.287,
+    "y": 0.405
+   },
+   {
+    "t": "PORCH",
+    "x": 0.492,
+    "y": 0.077
+   },
+   {
+    "t": "PORCH",
+    "x": 0.498,
+    "y": 0.737
+   },
+   {
+    "t": "PORCH",
+    "x": 0.706,
+    "y": 0.407
+   }
+  ],
+  "q": "WHO PAID FOR THIS HOUSE?"
+ },
+ {
+  "id": "n10",
+  "key": "gkbunk",
+  "options": [
+   "Stagecoach-stop travelers",
+   "Cattle-ranch cowboys",
+   "Railroad section crew"
+  ],
+  "answer": 1,
+  "stamp": "SADDLED",
+  "fact": "The core of this bunkhouse row is two log cabins Johnny Grant built in the early 1860s, joined by an open, roofed dog trot. Conrad Kohrs and John Bielenberg walled in the gap between 1884 and 1890, making a bunk room for about five cowboys. The horses got stalls under the same roof.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:First_Floor_Plan_and_Second_Floor_Plan_-_Grant-Kohrs_Ranch,_Bunkhouse,_Highway_10,_Deer_Lodge,_Powell_County,_MT_HABS_MONT,39-DELO,1-B-_(sheet_1_of_4).tif",
+   "https://www.nps.gov/places/bunkhouse-bedroom.htm",
+   "https://nps.gov/grko/planyourvisit/text-only-park-brochure.htm"
+  ],
+  "img": "img/n10.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:First_Floor_Plan_and_Second_Floor_Plan_-_Grant-Kohrs_Ranch,_Bunkhouse,_Highway_10,_Deer_Lodge,_Powell_County,_MT_HABS_MONT,39-DELO,1-B-_(sheet_1_of_4).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "SITTING ROOM",
+    "x": 0.7247,
+    "y": 0.5688
+   },
+   {
+    "t": "WARMING ROOM",
+    "x": 0.2929,
+    "y": 0.6419
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.7247,
+    "y": 0.4331
+   },
+   {
+    "t": "BUGGY SHED",
+    "x": 0.3876,
+    "y": 0.805
+   },
+   {
+    "t": "BUNK ROOM",
+    "x": 0.7263,
+    "y": 0.7
+   },
+   {
+    "t": "WOODSHED",
+    "x": 0.7223,
+    "y": 0.1338
+   },
+   {
+    "t": "WASHROOM",
+    "x": 0.6661,
+    "y": 0.2388
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.4213,
+    "y": 0.258
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.7231,
+    "y": 0.33
+   },
+   {
+    "t": "SHOWER",
+    "x": 0.7857,
+    "y": 0.2281
+   },
+   {
+    "t": "STABLE",
+    "x": 0.386,
+    "y": 0.5412
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.7271,
+    "y": 0.8381
+   },
+   {
+    "t": "STALL",
+    "x": 0.2408,
+    "y": 0.4688
+   },
+   {
+    "t": "STALL",
+    "x": 0.4141,
+    "y": 0.4688
+   },
+   {
+    "t": "STALL",
+    "x": 0.3571,
+    "y": 0.47
+   },
+   {
+    "t": "STALL",
+    "x": 0.2978,
+    "y": 0.4688
+   },
+   {
+    "t": "STALL",
+    "x": 0.3868,
+    "y": 0.6412
+   },
+   {
+    "t": "LOFT",
+    "x": 0.2897,
+    "y": 0.1737
+   },
+   {
+    "t": "OAT",
+    "x": 0.4213,
+    "y": 0.2182
+   }
+  ]
+ },
+ {
+  "id": "n11",
+  "key": "teach2",
+  "options": [
+   "Railroad section boss's family",
+   "Mining company doctor",
+   "The town's schoolteachers"
+  ],
+  "answer": 2,
+  "stamp": "SCHOOLED",
+  "fact": "Skykomish, a small mountain town in Washington's Cascades, built this Craftsman house for the teachers of the school next door. It has housed teachers and school staff ever since; today the superintendent and family live here. Homework, delivered next door.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:First_and_second_floor_plans_-_Teacherage,_117Sixth_Street_North,_Skykomish,_King_County,_WA_HABS_WA-242_(sheet_2_of_4).tif",
+   "https://commons.wikimedia.org/wiki/File:Cover_sheet_with_vicinity_map,_site_plan,_and_historical_notes_-_Teacherage,_117Sixth_Street_North,_Skykomish,_King_County,_WA_HABS_WA-242_(sheet_1_of_4).tif"
+  ],
+  "img": "img/n11.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:First_and_second_floor_plans_-_Teacherage,_117Sixth_Street_North,_Skykomish,_King_County,_WA_HABS_WA-242_(sheet_2_of_4).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "DINING ROOM",
+    "x": 0.308,
+    "y": 0.173
+   },
+   {
+    "t": "BEDROOM #1",
+    "x": 0.309,
+    "y": 0.765
+   },
+   {
+    "t": "BEDROOM #2",
+    "x": 0.462,
+    "y": 0.619
+   },
+   {
+    "t": "BEDROOM #3",
+    "x": 0.599,
+    "y": 0.764
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.604,
+    "y": 0.2362
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3076,
+    "y": 0.2988
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.462,
+    "y": 0.879
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.4072,
+    "y": 0.3
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.599,
+    "y": 0.178
+   },
+   {
+    "t": "PORCH",
+    "x": 0.4072,
+    "y": 0.3731
+   },
+   {
+    "t": "PORCH",
+    "x": 0.462,
+    "y": 0.078
+   },
+   {
+    "t": "HALL",
+    "x": 0.4867,
+    "y": 0.18
+   }
+  ]
+ },
+ {
+  "id": "n12",
+  "key": "pearl5",
+  "options": [
+   "Summering amateur musicians",
+   "Fire-lookout ranger",
+   "Ski-lodge caretaker and family"
+  ],
+  "answer": 0,
+  "stamp": "IN TUNE",
+  "fact": "John Lautner designed this 1957 cabin in the Idyllwild art colony for accomplished amateur musicians who summered there. The heart of it is one round room for music, sitting, cooking and sleeping. Practice, dinner and bedtime: same room.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca3942/"
+  ],
+  "img": "img/n12.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca3942/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "BEDROOM / STORAGE",
+    "x": 0.1968,
+    "y": 0.4381
+   },
+   {
+    "t": "OPEN LIVING AREA",
+    "x": 0.5888,
+    "y": 0.505
+   },
+   {
+    "t": "VESTIBULE",
+    "x": 0.5823,
+    "y": 0.23
+   },
+   {
+    "t": "BATHROOM",
+    "x": 0.3839,
+    "y": 0.4931
+   },
+   {
+    "t": "HALLWAY",
+    "x": 0.5181,
+    "y": 0.23
+   },
+   {
+    "t": "DECK",
+    "x": 0.5912,
+    "y": 0.7113
+   }
+  ]
+ },
+ {
+  "id": "n14",
+  "key": "chesh2",
+  "options": [
+   "Single textile-mill workers",
+   "Granite quarry crew and cook",
+   "Lake-resort summer guests"
+  ],
+  "answer": 0,
+  "stamp": "SPUN",
+  "fact": "Around 1860 the Cheshire Mills in Harrisville, New Hampshire, built this boarding house for its single mill workers, closely copying the boarding houses of Lowell, Massachusetts. It kept doing that job until 1965. Room, board and a factory whistle.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Cheshire_Mills_Company_Boarding_House,_Main_Street,_Harrisville,_Cheshire_County,_NH_HABS_NH,3-HAR,4-_(sheet_2_of_3).tif",
+   "https://commons.wikimedia.org/wiki/File:Cheshire_Mills_Company_Boarding_House,_Main_Street,_Harrisville,_Cheshire_County,_NH_HABS_NH,3-HAR,4-_(sheet_1_of_3).tif"
+  ],
+  "img": "img/n14.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cheshire_Mills_Company_Boarding_House,_Main_Street,_Harrisville,_Cheshire_County,_NH_HABS_NH,3-HAR,4-_(sheet_2_of_3).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "TENANTS' LOUNGE",
+    "x": 0.2924,
+    "y": 0.7163
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.4217,
+    "y": 0.4538
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.29,
+    "y": 0.2131
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.547,
+    "y": 0.2512
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.7518,
+    "y": 0.3069
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2884,
+    "y": 0.3137
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5478,
+    "y": 0.6269
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5494,
+    "y": 0.7781
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.5992,
+    "y": 0.37
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.547,
+    "y": 0.5438
+   },
+   {
+    "t": "BATH",
+    "x": 0.4016,
+    "y": 0.3538
+   }
+  ]
+ },
+ {
+  "id": "n15",
+  "key": "lock2",
+  "options": [
+   "Army powder-magazine guard",
+   "Canal lock keeper",
+   "Potomac ferry pilot"
+  ],
+  "answer": 1,
+  "stamp": "LOCKED",
+  "fact": "This c.1832 stone house on Washington's National Mall served the lock joining the C&O Canal to the Washington City Canal, which later became an open sewer. Then came a squatters' tenement, a Park Police post with a holding cell, and after WWII a public toilet. Quite a career.",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Lock_Keeper's_House,_Seventeenth_Street_and_Constitution_Avenue,_Northwest,_Washington,_District_of_Columbia,_DC_HABS_DC,WASH,12-_(sheet_2_of_5).tif",
+   "https://commons.wikimedia.org/wiki/File:Lock_Keeper's_House,_Seventeenth_Street_and_Constitution_Avenue,_Northwest,_Washington,_District_of_Columbia,_DC_HABS_DC,WASH,12-_(sheet_1_of_5).tif"
+  ],
+  "img": "img/n15.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lock_Keeper's_House,_Seventeenth_Street_and_Constitution_Avenue,_Northwest,_Washington,_District_of_Columbia,_DC_HABS_DC,WASH,12-_(sheet_2_of_5).tif",
+  "credit": "HABS/HAER/HALS, National Park Service · via Wikimedia Commons",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": []
+ },
+ {
+  "id": "n16",
+  "key": "desmaz1",
+  "options": [
+   "Texas Ranger captain and his men",
+   "Cattle-drive banker",
+   "Army general before the Civil War"
+  ],
+  "answer": 2,
+  "stamp": "SURRENDERED",
+  "fact": "French merchant F. L. des Mazières built this San Antonio store in 1853; upstairs soon became a gaming room. HABS says Gen. David Twiggs used the place as headquarters, the store as his office. In February 1861 Twiggs handed U.S. Army property in Texas to secessionists without a shot fired.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/tx0160/",
+   "https://cdn.loc.gov/master/pnp/habshaer/tx/tx0100/tx0160/data/tx0160data.pdf",
+   "https://www.tshaonline.org/handbook/entries/twiggs-david-emanuel"
+  ],
+  "img": "img/n16.jpg",
+  "page": "https://www.loc.gov/pictures/item/tx0160/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "GAMING ROOM",
+    "x": 0.2072,
+    "y": 0.6931
+   },
+   {
+    "t": "STORE ROOM",
+    "x": 0.7189,
+    "y": 0.7019
+   },
+   {
+    "t": "RESIDENCE",
+    "x": 0.3807,
+    "y": 0.2631
+   },
+   {
+    "t": "RESIDENCE",
+    "x": 0.9108,
+    "y": 0.265
+   },
+   {
+    "t": "CHAMBER",
+    "x": 0.155,
+    "y": 0.1788
+   },
+   {
+    "t": "CHAMBER",
+    "x": 0.1566,
+    "y": 0.3312
+   },
+   {
+    "t": "GALLERY",
+    "x": 0.3221,
+    "y": 0.6612
+   },
+   {
+    "t": "PORCH",
+    "x": 0.4964,
+    "y": 0.26
+   },
+   {
+    "t": "STORE",
+    "x": 0.9108,
+    "y": 0.7038
+   },
+   {
+    "t": "ROOM",
+    "x": 0.7309,
+    "y": 0.3388
+   },
+   {
+    "t": "ROOM",
+    "x": 0.7309,
+    "y": 0.19
+   }
+  ],
+  "q": "WHO USED THE STORE AS HIS OFFICE?"
+ },
+ {
+  "id": "n17",
+  "key": "toll2",
+  "options": [
+   "Bridge toll collector",
+   "Canal lock tender and family",
+   "Timber-raft pilot"
+  ],
+  "answer": 0,
+  "stamp": "PAY UP",
+  "fact": "In 1908 Charles Spruks bought John Roebling's defunct Delaware Aqueduct, a canal bridge, to reach his timber customers in Pennsylvania, and opened it to the public for a fee. This tollhouse was office and home for the collectors until the 1950s. Tolls ran until 1979.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ny1611/"
+  ],
+  "img": "img/n17.jpg",
+  "page": "https://www.loc.gov/pictures/item/ny1611/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "KITCHEN",
+    "x": 0.5333,
+    "y": 0.745
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3767,
+    "y": 0.7438
+   }
+  ]
+ },
+ {
+  "id": "n18",
+  "key": "dkq2",
+  "options": [
+   "Two harbor pilots' families",
+   "Two lighthouse keepers",
+   "Two customs inspectors"
+  ],
+  "answer": 1,
+  "stamp": "BEAMING",
+  "fact": "Built in 1854 as two mirror-image units, each with a parlor downstairs and two bedrooms upstairs around one shared chimney. A third keeper came by 1860 and a fourth by 1883. In 1999 the house was moved about half a mile with the lighthouse to escape the eroding shore.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/nc0476/"
+  ],
+  "img": "img/n18.jpg",
+  "page": "https://www.loc.gov/pictures/item/nc0476/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "CISTERN",
+    "x": 0.5706,
+    "y": 0.9038
+   },
+   {
+    "t": "CISTERN",
+    "x": 0.6822,
+    "y": 0.1381
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.555,
+    "y": 0.538
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.555,
+    "y": 0.359
+   },
+   {
+    "t": "PORCH",
+    "x": 0.4,
+    "y": 0.275
+   },
+   {
+    "t": "HALL",
+    "x": 0.4021,
+    "y": 0.62
+   },
+   {
+    "t": "HALL",
+    "x": 0.61,
+    "y": 0.623
+   },
+   {
+    "t": "HALL",
+    "x": 0.61,
+    "y": 0.264
+   }
+  ],
+  "q": "WHO SHARED THIS DUPLEX IN 1854?"
+ },
+ {
+  "id": "n19",
+  "key": "duch3",
+  "options": [
+   "Great Lakes brewing-fortune heir",
+   "Steamship line owner",
+   "Waldorf-Astoria's manager"
+  ],
+  "answer": 2,
+  "stamp": "CHECKED IN",
+  "fact": "This 1903 floating summer house in the Thousand Islands was built for George Boldt, manager of New York's Waldorf-Astoria. Too big to pass under the canal bridges, it was built in sections, shipped by rail and assembled at his island estate. Dancing deck upstairs, servants below.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ny2035/"
+  ],
+  "img": "img/n19.jpg",
+  "page": "https://www.loc.gov/pictures/item/ny2035/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "SERVANTS' ROOMS",
+    "x": 0.6418,
+    "y": 0.7638
+   },
+   {
+    "t": "DANCING DECK",
+    "x": 0.3373,
+    "y": 0.26
+   },
+   {
+    "t": "SMOKING ROOM",
+    "x": 0.3984,
+    "y": 0.7938
+   },
+   {
+    "t": "STAFF DINING",
+    "x": 0.6241,
+    "y": 0.835
+   },
+   {
+    "t": "MAID'S ROOM",
+    "x": 0.6153,
+    "y": 0.4362
+   },
+   {
+    "t": "DINING ROOM",
+    "x": 0.6932,
+    "y": 0.5481
+   },
+   {
+    "t": "FAMILY ROOM",
+    "x": 0.747,
+    "y": 0.3238
+   },
+   {
+    "t": "FAMILY ROOM",
+    "x": 0.759,
+    "y": 0.1812
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.6193,
+    "y": 0.3725
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.6201,
+    "y": 0.3181
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.6297,
+    "y": 0.18
+   },
+   {
+    "t": "GUEST ROOM",
+    "x": 0.747,
+    "y": 0.4038
+   },
+   {
+    "t": "WINE ROOM",
+    "x": 0.5687,
+    "y": 0.6825
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.2548,
+    "y": 0.72
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.7478,
+    "y": 0.7512
+   },
+   {
+    "t": "PARLOR",
+    "x": 0.3357,
+    "y": 0.5069
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.7631,
+    "y": 0.6587
+   },
+   {
+    "t": "BAR",
+    "x": 0.3059,
+    "y": 0.72
+   },
+   {
+    "t": "DEN",
+    "x": 0.29,
+    "y": 0.8
+   }
+  ]
+ },
+ {
+  "id": "n20",
+  "key": "web2",
+  "options": [
+   "Seal-harvest overseer",
+   "Weather station observer",
+   "Gold-rush claim recorder"
+  ],
+  "answer": 0,
+  "stamp": "SEALED",
+  "fact": "In 1870 the Alaska Commercial Company got an exclusive 20-year U.S. lease to run the seal harvest on the Pribilof Islands. The original Webster House on St. Paul Island housed the overseer at the Northeast Point rookery, and Kipling name-checked it in 'The White Seal' (1894).",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0515/"
+  ],
+  "img": "img/n20.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0515/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "KITCHEN",
+    "x": 0.396,
+    "y": 0.6231
+   }
+  ]
+ },
+ {
+  "id": "n21",
+  "key": "rep3",
+  "options": [
+   "Medical-school lab animals",
+   "Pet-shop wholesaler",
+   "Zoo reptiles"
+  ],
+  "answer": 2,
+  "stamp": "COLD-BLOODED",
+  "fact": "The basement of the National Zoo's Reptile House in Washington, opened Feb. 27, 1931, under director William Mann; municipal architect Albert Harris gave it a church-like Romanesque look, gargoyles included. 'Brumation' is reptile hibernation. Even the cellar has a dress code.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/dc1016/",
+   "https://cdn.loc.gov/master/pnp/habshaer/dc/dc1000/dc1016/data/dc1016data.pdf"
+  ],
+  "img": "img/n21.jpg",
+  "page": "https://www.loc.gov/pictures/item/dc1016/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "MECHANICAL ROOM",
+    "x": 0.3984,
+    "y": 0.1081
+   },
+   {
+    "t": "MECHANICAL ROOM",
+    "x": 0.5213,
+    "y": 0.8438
+   },
+   {
+    "t": "ANIMAL HOLDING",
+    "x": 0.5277,
+    "y": 0.2469
+   },
+   {
+    "t": "ANIMAL HOLDING",
+    "x": 0.6129,
+    "y": 0.175
+   },
+   {
+    "t": "ANIMAL HOLDING",
+    "x": 0.7365,
+    "y": 0.5512
+   },
+   {
+    "t": "ANIMAL HOLDING",
+    "x": 0.7502,
+    "y": 0.5106
+   },
+   {
+    "t": "ANIMAL HOLDING",
+    "x": 0.7582,
+    "y": 0.4525
+   },
+   {
+    "t": "ELECTRICAL",
+    "x": 0.6779,
+    "y": 0.7812
+   },
+   {
+    "t": "BRUMATION",
+    "x": 0.6426,
+    "y": 0.4956
+   },
+   {
+    "t": "FEED ROOM",
+    "x": 0.7494,
+    "y": 0.2444
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.751,
+    "y": 0.6662
+   },
+   {
+    "t": "TOILET",
+    "x": 0.3357,
+    "y": 0.245
+   }
+  ]
+ },
+ {
+  "id": "n22",
+  "key": "mck1",
+  "options": [
+   "A national park's first HQ",
+   "Gold-rush roadhouse",
+   "Fur trapper's trading post"
+  ],
+  "answer": 0,
+  "stamp": "PROMOTED",
+  "fact": "Built in 1926 of peeled logs, about 20 by 19 feet, this was the first administration building of Mount McKinley (now Denali) National Park. In 1941 staff left the 'dilapidated one room building'; it became a naturalist's museum, was moved twice, and ended up a staff house.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ak0129/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ak/ak0100/ak0129/data/ak0129data.pdf"
+  ],
+  "img": "img/n22.jpg",
+  "page": "https://www.loc.gov/pictures/item/ak0129/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LIVING / DINING",
+    "x": 0.5984,
+    "y": 0.5619
+   },
+   {
+    "t": "BEDROOM",
+    "x": 0.5149,
+    "y": 0.2681
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.3012,
+    "y": 0.6481
+   },
+   {
+    "t": "BATH",
+    "x": 0.2771,
+    "y": 0.4462
+   }
+  ],
+  "q": "WHAT WAS THIS CABIN BUILT AS?"
+ },
+ {
+  "id": "n23",
+  "key": "fink2",
+  "options": [
+   "Silent-film studio and backlot",
+   "A city's founding architect",
+   "Cigar-rolling workshop"
+  ],
+  "answer": 1,
+  "stamp": "DRAWN UP",
+  "fact": "Built in 1925 for $35,000 as the home office and studio of H. George Fink, an architect of George Merrick's new Coral Gables, Florida. The roof once carried an Arab riding-camel weathervane. Fink worked here until 1932, sharing it with the Tropical Sales Corporation.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/fl0870/",
+   "https://cdn.loc.gov/master/pnp/habshaer/fl/fl0800/fl0870/data/fl0870data.pdf"
+  ],
+  "img": "img/n23.jpg",
+  "page": "https://www.loc.gov/pictures/item/fl0870/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "PRIVATE OFFICE",
+    "x": 0.6867,
+    "y": 0.7038
+   },
+   {
+    "t": "PRIVATE OFFICE",
+    "x": 0.4405,
+    "y": 0.8035
+   },
+   {
+    "t": "FILE ROOM",
+    "x": 0.4217,
+    "y": 0.6
+   },
+   {
+    "t": "SECRETARY",
+    "x": 0.5679,
+    "y": 0.6512
+   },
+   {
+    "t": "RECEPTION",
+    "x": 0.4317,
+    "y": 0.7644
+   },
+   {
+    "t": "FIREPLACE",
+    "x": 0.3809,
+    "y": 0.7665
+   },
+   {
+    "t": "MUD ROOM",
+    "x": 0.494,
+    "y": 0.12
+   },
+   {
+    "t": "STORAGE",
+    "x": 0.6562,
+    "y": 0.115
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3213,
+    "y": 0.1769
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.6859,
+    "y": 0.2981
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4691,
+    "y": 0.4469
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.3213,
+    "y": 0.4819
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.6924,
+    "y": 0.5831
+   },
+   {
+    "t": "HALL",
+    "x": 0.441,
+    "y": 0.3669
+   },
+   {
+    "t": "HALL",
+    "x": 0.6378,
+    "y": 0.4331
+   },
+   {
+    "t": "HALL",
+    "x": 0.5815,
+    "y": 0.4788
+   }
+  ]
+ },
+ {
+  "id": "n24",
+  "key": "tack1",
+  "options": [
+   "Railroad water-stop tank",
+   "Winery fermenting vat",
+   "Gold mine's cyanide tank"
+  ],
+  "answer": 2,
+  "stamp": "RECYCLED",
+  "fact": "On Bill Keys' Desert Queen Ranch in today's Joshua Tree National Park, this round tack house began life as a cyanide tank used to process gold ore. Now it holds bridles and harnesses. Desert ranchers waste nothing, not even the poison tank.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca1896/"
+  ],
+  "img": "img/n24.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca1896/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [],
+  "q": "WHAT WAS THIS ROUND SHED FIRST?"
+ },
+ {
+  "id": "n25",
+  "key": "sad3",
+  "options": [
+   "Keeper of a rock lighthouse",
+   "Granite-quarry powder store",
+   "Harbor customs lookout"
+  ],
+  "answer": 0,
+  "stamp": "SURROUNDED",
+  "fact": "Saddleback Ledge Light, Maine, 1839: a granite tower on a bare rock 6 miles by boat from Vinalhaven, cost $15,000. An 1842 report called it the only one in New England by an 'architect and engineer', then noted it had nowhere to collect fresh water or secure the boat.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/me0064/",
+   "https://cdn.loc.gov/master/pnp/habshaer/me/me0000/me0064/data/me0064data.pdf"
+  ],
+  "img": "img/n25.jpg",
+  "page": "https://www.loc.gov/pictures/item/me0064/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "METAL PLATFORM",
+    "x": 0.68,
+    "y": 0.322
+   },
+   {
+    "t": "BRICK CHIMNEY",
+    "x": 0.3631,
+    "y": 0.7119
+   },
+   {
+    "t": "WOOD PLATFORM",
+    "x": 0.4008,
+    "y": 0.8619
+   },
+   {
+    "t": "GRANITE WALL",
+    "x": 0.4216,
+    "y": 0.327
+   },
+   {
+    "t": "IRON LADDER",
+    "x": 0.5211,
+    "y": 0.3281
+   },
+   {
+    "t": "TRAP DOOR",
+    "x": 0.763,
+    "y": 0.33
+   },
+   {
+    "t": "STACK",
+    "x": 0.2104,
+    "y": 0.3488
+   },
+   {
+    "t": "STACK",
+    "x": 0.5022,
+    "y": 0.365
+   }
+  ]
+ },
+ {
+  "id": "n26",
+  "key": "doc2",
+  "options": [
+   "Moonshiner's still house",
+   "Country doctor",
+   "Ozark dairy farmer"
+  ],
+  "answer": 1,
+  "stamp": "HOUSE CALL",
+  "fact": "Office of Dr. John C. Carter in Springdale, Arkansas, built over a spring. Carter went to California in 1854 to seek his fortune, came home and apprenticed as a physician, bought the property in 1871, yet the 1870 census calls him a 'merchant'. His store across the street ran until he died in 1886.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ar0122/"
+  ],
+  "img": "img/n26.jpg",
+  "page": "https://www.loc.gov/pictures/item/ar0122/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "OFFICE",
+    "x": 0.266,
+    "y": 0.156
+   },
+   {
+    "t": "SPRING",
+    "x": 0.784,
+    "y": 0.132
+   }
+  ],
+  "dark": [
+   0
+  ]
+ },
+ {
+  "id": "n27",
+  "key": "lin1",
+  "options": [
+   "Racing pigeons",
+   "Silkworms",
+   "Potted palms"
+  ],
+  "answer": 2,
+  "stamp": "FRONDS",
+  "fact": "The Linnaean House at the Missouri Botanical Garden, built 1881-82 as an orangery for a collection of tubbed palm trees. Remodeled in 1919 for camellias and azaleas, it is called probably the oldest greenhouse of its type in continuous use west of the Mississippi.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/mo0388/",
+   "https://cdn.loc.gov/master/pnp/habshaer/mo/mo0300/mo0388/data/mo0388data.pdf"
+  ],
+  "img": "img/n27.jpg",
+  "page": "https://www.loc.gov/pictures/item/mo0388/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": []
+ },
+ {
+  "id": "n28",
+  "key": "arm2",
+  "options": [
+   "New York tea importer",
+   "Phrenologist lecturer",
+   "Hudson River steamboat captain"
+  ],
+  "answer": 0,
+  "stamp": "STEEPED",
+  "fact": "Financier Paul J. Armour built this octagon in Irvington, NY, in 1859-60. In 1872 Joseph Stiner, a New York City tea importer, bought it for $27,000 and added the dome, the cupola and a veranda that reportedly cost $26,000 by itself. It is one of two domed octagonal houses in the U.S.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ny1158/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ny/ny1100/ny1158/data/ny1158data.pdf"
+  ],
+  "img": "img/n28.jpg",
+  "page": "https://www.loc.gov/pictures/item/ny1158/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LAVATORY",
+    "x": 0.5558,
+    "y": 0.6581
+   },
+   {
+    "t": "LIBRARY",
+    "x": 0.2811,
+    "y": 0.4525
+   },
+   {
+    "t": "KITCHEN",
+    "x": 0.4273,
+    "y": 0.45
+   },
+   {
+    "t": "PANTRY",
+    "x": 0.5486,
+    "y": 0.4406
+   },
+   {
+    "t": "DINING",
+    "x": 0.5542,
+    "y": 0.5481
+   },
+   {
+    "t": "LIVING",
+    "x": 0.4257,
+    "y": 0.6481
+   },
+   {
+    "t": "MUSIC",
+    "x": 0.2932,
+    "y": 0.6488
+   }
+  ],
+  "q": "WHO PUT A DOME ON THIS OCTAGON?"
+ },
+ {
+  "id": "n29",
+  "key": "oys3",
+  "options": [
+   "Mother-of-pearl button makers",
+   "Oyster packers",
+   "Blue-crab pickers"
+  ],
+  "answer": 1,
+  "stamp": "SHUCKED",
+  "fact": "J.C. Lore & Sons in Solomons, Maryland, packed oysters from 1888 to 1978, the longest run of any Patuxent River company; this building dates from 1934. Lore was among the first to ship oysters by parcel post. Shuckers' output went up on a tally board.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/md1696/",
+   "https://cdn.loc.gov/master/pnp/habshaer/md/md1600/md1696/data/md1696data.pdf"
+  ],
+  "img": "img/n29.jpg",
+  "page": "https://www.loc.gov/pictures/item/md1696/",
+  "credit": "HAER, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "SHELL STOCK ROOM",
+    "x": 0.6257,
+    "y": 0.5662
+   },
+   {
+    "t": "PROCESSING ROOM",
+    "x": 0.7888,
+    "y": 0.455
+   },
+   {
+    "t": "SHIPPING ROOM",
+    "x": 0.7679,
+    "y": 0.5888
+   },
+   {
+    "t": "WOOD STOVE",
+    "x": 0.7438,
+    "y": 0.2988
+   },
+   {
+    "t": "COLD ROOM",
+    "x": 0.6948,
+    "y": 0.72
+   },
+   {
+    "t": "COLD ROOM",
+    "x": 0.8498,
+    "y": 0.7212
+   },
+   {
+    "t": "PIER",
+    "x": 0.0249,
+    "y": 0.4481
+   }
+  ]
+ },
+ {
+  "id": "n30",
+  "key": "cand2",
+  "options": [
+   "Sperm-whale candle makers",
+   "Cider pressers with an orchard",
+   "Cranberry growers"
+  ],
+  "answer": 0,
+  "stamp": "WICKED",
+  "fact": "Built in 1847 on Nantucket as a brick oil and candle factory; in 1849 oil merchants William Hadwen and Nathaniel Barney bought it to make sperm candles. Their spermaceti candle press still stands inside: since June 15, 1930 the building has been the island's Whaling Museum.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ma0340/",
+   "https://cdn.loc.gov/master/pnp/habshaer/ma/ma0300/ma0340/data/ma0340data.pdf"
+  ],
+  "img": "img/n30.jpg",
+  "page": "https://www.loc.gov/pictures/item/ma0340/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "PRESS FOUNDATION",
+    "x": 0.3804,
+    "y": 0.2588
+   },
+   {
+    "t": "MASONRY PLATFORM",
+    "x": 0.4197,
+    "y": 0.3713
+   },
+   {
+    "t": "UNKNOWN VOID",
+    "x": 0.5249,
+    "y": 0.7181
+   }
+  ]
+ },
+ {
+  "id": "n31",
+  "key": "hop2",
+  "options": [
+   "Quaker meetinghouse",
+   "Ironworks office and store",
+   "Canal toll collector's house"
+  ],
+  "answer": 1,
+  "stamp": "FORGED",
+  "fact": "Hopewell Furnace's office-store, Pennsylvania, believed built around 1784: the center of an iron-making village, the furnace's general office and the shop that supplied everything the workers needed. The drawing notes it was probably meant to be heated by stoves, the furnace's major product.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/pa0189/"
+  ],
+  "img": "img/n31.jpg",
+  "page": "https://www.loc.gov/pictures/item/pa0189/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "EARTH FLOOR",
+    "x": 0.2402,
+    "y": 0.7712
+   },
+   {
+    "t": "EARTH FLOOR",
+    "x": 0.8394,
+    "y": 0.3392
+   },
+   {
+    "t": "STOVE PIPE",
+    "x": 0.4835,
+    "y": 0.2431
+   },
+   {
+    "t": "FIREPLACE",
+    "x": 0.2884,
+    "y": 0.7181
+   },
+   {
+    "t": "WALL SAFE",
+    "x": 0.6594,
+    "y": 0.2269
+   },
+   {
+    "t": "BASEMENT",
+    "x": 0.8394,
+    "y": 0.3789
+   },
+   {
+    "t": "BASEMENT",
+    "x": 0.8996,
+    "y": 0.7662
+   }
+  ],
+  "q": "WHAT WAS THIS BUILDING?"
+ },
+ {
+  "id": "n32",
+  "key": "jud1",
+  "options": [
+   "Sanitarium patients",
+   "Arroyo hotel guests",
+   "Art-school students"
+  ],
+  "answer": 2,
+  "stamp": "ARTSY",
+  "fact": "Built in 1911 on the Arroyo Seco in Los Angeles for USC's College of Fine Arts, after a fire destroyed the school's first building. Its dean was painter William Lees Judson. When USC moved the art school in 1920, it became Judson Studios, a stained-glass firm still run by the family.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca4338/",
+   "https://en.wikipedia.org/wiki/Judson_Studios"
+  ],
+  "img": "img/n32.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca4338/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "LUNCH ROOM",
+    "x": 0.4807,
+    "y": 0.5831
+   },
+   {
+    "t": "ARCHIVE",
+    "x": 0.7709,
+    "y": 0.3362
+   },
+   {
+    "t": "BALCONY",
+    "x": 0.8384,
+    "y": 0.335
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4807,
+    "y": 0.4719
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.4807,
+    "y": 0.2612
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.7106,
+    "y": 0.4369
+   },
+   {
+    "t": "LIVING",
+    "x": 0.7106,
+    "y": 0.2531
+   },
+   {
+    "t": "BED",
+    "x": 0.4646,
+    "y": 0.1762
+   },
+   {
+    "t": "BED",
+    "x": 0.7082,
+    "y": 0.1762
+   }
+  ],
+  "q": "WHO WAS THIS BUILT FOR?"
+ },
+ {
+  "id": "n33",
+  "key": "fue1",
+  "options": [
+   "Weather Bureau station",
+   "Student stargazers",
+   "Agricultural extension office"
+  ],
+  "answer": 1,
+  "stamp": "LOOKING UP",
+  "fact": "Fuertes Observatory at Cornell, completed 1917 to a design by architecture professor L.P. Burnham, with a 24-foot steel dome over a 12-inch refracting telescope. Generations of students got their first look at the sky here; today light pollution from new dorms nearby dims the view.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ny2393/"
+  ],
+  "img": "img/n33.jpg",
+  "page": "https://www.loc.gov/pictures/item/ny2393/",
+  "credit": "HABS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "EQUIPMENT STORAGE",
+    "x": 0.5297,
+    "y": 0.735
+   },
+   {
+    "t": "DISPLAY CASE",
+    "x": 0.5056,
+    "y": 0.4412
+   },
+   {
+    "t": "BLACKBOARD",
+    "x": 0.5923,
+    "y": 0.3288
+   },
+   {
+    "t": "CLASSROOM",
+    "x": 0.5289,
+    "y": 0.2488
+   },
+   {
+    "t": "LAVATORY",
+    "x": 0.427,
+    "y": 0.5925
+   },
+   {
+    "t": "OFFICE",
+    "x": 0.5923,
+    "y": 0.51
+   }
+  ]
+ },
+ {
+  "id": "n34",
+  "key": "tea1",
+  "options": [
+   "Formal tea ceremonies",
+   "Meditation retreat",
+   "Pool changing room"
+  ],
+  "answer": 2,
+  "stamp": "POOLSIDE",
+  "fact": "In 1985 a couple in Montecito, California, wanted a small building by their pool to entertain friends, change clothes and shower. Landscape architect Isabelle Greene proposed a 'folly' shaped like a Japanese tea house instead of a stucco box; local architect Andy Neumann did the interiors.",
+  "sources": [
+   "https://www.loc.gov/pictures/item/ca4251/"
+  ],
+  "img": "img/n34.jpg",
+  "page": "https://www.loc.gov/pictures/item/ca4251/",
+  "credit": "HALS, National Park Service · via Library of Congress",
+  "license": "Public domain (U.S. government work)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "labels": [
+   {
+    "t": "WOOD BENCH",
+    "x": 0.4305,
+    "y": 0.2738
+   },
+   {
+    "t": "TEA ROOM",
+    "x": 0.3703,
+    "y": 0.5112
+   },
+   {
+    "t": "SAUNA",
+    "x": 0.4691,
+    "y": 0.7569
+   },
+   {
+    "t": "BATH",
+    "x": 0.351,
+    "y": 0.7325
+   },
+   {
+    "t": "HALL",
+    "x": 0.351,
+    "y": 0.6519
+   }
+  ],
+  "q": "WHAT IS THIS GARDEN TEA HOUSE REALLY FOR?"
  }
 ]
